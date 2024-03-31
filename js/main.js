@@ -5,10 +5,12 @@ const renderItems = (data) => {
 
     // Loop through each item in the data array
     data.forEach((item) => {
-        
+
         // Make a template literal as we have before, inserting your data
         let listItem = `
             <li>
+                <h1>${item.Year}</h1> 
+                <h2>${item.Week}</h2>
                 <h2>${item.Title}</h2>
                 <img src="${item.Image}">
                 <p>Captured on <time>${item.Date}</time></p>
