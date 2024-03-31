@@ -7,6 +7,10 @@ const renderItems = (data) => {
     data.forEach((item) => {
         let conditionalClass = ''; 
 
+        if (item.Date.startsWith("2024")) {
+            conditionalClass = 'special';
+        }
+
         // Make a template literal as we have before, inserting your data (and maybe the class)
         let listItem = `
             <li class="${conditionalClass}">
