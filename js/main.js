@@ -5,15 +5,10 @@ const renderItems = (data) => {
 
     // Loop through each item in the data array
     data.forEach((item) => {
-        let conditionalClass = ''; 
-
-        if (item.Date.startsWith("2024")) {
-            conditionalClass = 'special';
-        }
-
-        // Make a template literal as we have before, inserting your data (and maybe the class)
+        
+        // Make a template literal as we have before, inserting your data
         let listItem = `
-            <li class="${conditionalClass}">
+            <li>
                 <h2>${item.Title}</h2>
                 <img src="${item.Image}">
                 <p>Captured on <time>${item.Date}</time></p>
@@ -21,6 +16,7 @@ const renderItems = (data) => {
                 <p>${item.Description}</p>
             </li>
         `;
+
 
         dataList.insertAdjacentHTML('beforeend', listItem); // Add it to the `ul`!
     });
