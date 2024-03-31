@@ -1,0 +1,10 @@
+ul {
+	display: grid;
+	gap: calc(4 * var(--spacing));
+	margin-top: calc(4 * var(--spacing));
+}
+
+li {
+	display: grid;
+	gap: var(--spacing);
+}
