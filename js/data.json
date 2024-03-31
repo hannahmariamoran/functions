@@ -1,0 +1,28 @@
+{
+  "2022": {
+    "Week": "Week 01",
+    "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27285447/original_6325dd421a06d0417e09da3f39a9d7d5.jpg?1711892124?bc=0",
+    "Date": "2024-03-01T05:00:00.000Z",
+    "Location": "Stockholm",
+    "Title": "Abba",
+    "Description": "A visit to the Abba museum with Mom, so Swedish!"
+  },
+  "2023": {
+    "Week": "Week 01",
+    "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27280196/original_5345b8c763c486cca9f88dbc7e87f6ef.jpg?1711842619?bc=0",
+    "Date": "2024-07-01T04:00:00.000Z",
+    "Location": "Stockholm",
+    "Title": "Bloom",
+    "Description": "Some pretty flowers for sale."
+  },
+  "2024": {
+    "Week": "Week 01",
+    "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27278754/original_fb34fb983be1e19d7895ecd7e0ae29fd.jpg?1711832971?bc=0",
+    "Date": "2024-05-01T04:00:00.000Z",
+    "Location": "Stockholm",
+    "Title": "Stadshuset",
+    "Description": "Stockholm City Hall in snow, where my parents got married 25 years ago.",
+    "Alt Text": "A large city hall building with a tall tower on the water which is frozen over."
+  },
+  "": {}
+}
