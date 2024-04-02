@@ -1,10 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    border: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 ul {
     display: grid;
-    gap: calc(4 * var(--spacing));
-    margin-top: calc(4 * var(--spacing));
+    grid-column: 2 / span 3; 
+    width: 100%;
+    height: 100%;
+    gap: 80px;
 }
 
 li {
     display: grid;
-    gap: var(--spacing);
+    max-width: 350px;
 }
+
+
+h1 {
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 12px;
+    border: solid 1px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+p{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
