@@ -9,14 +9,20 @@ const renderItems = (data) => {
         // Make a template literal as we have before, inserting your data
         let listItem = `
             <li>
-                <h3>${item.Week}</h3>
-                <img src="${item.Image}">
-                <div class="item-details">
-                    <h4>${item.Date}</h4>
-                    <h4>${item.Location}</h4>
+                <div class="content-blocks">
+                    <div class="week">
+                        <h3>${item.Week}</h3>
+                    </div>
+                    <div class="image-content">
+                        <img src="${item.Image}">
+                        <div class="item-details">
+                            <h4>${item.Date}</h4>
+                            <h4>${item.Location}</h4>
+                        </div>
+                        <h2>${item.Title}</h2>
+                        <p>${item.Description}</p>
+                    </div>
                 </div>
-                <h1>${item.Title}</h1>
-                <p>${item.Description}</p>
             </li>
         `;
 
