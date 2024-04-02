@@ -9,7 +9,6 @@ const renderItems = (data) => {
         // Make a template literal as we have before, inserting your data
         let listItem = `
             <li>
-                <h2>${item.Year}</h2> 
                 <h3>${item.Week}</h3>
                 <img src="${item.Image}">
                 <div class="item-details">

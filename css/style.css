@@ -1,58 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-body{
-    border: 20px;
+/* ========= text variables ========= */
+:root {
+    --h1: 20px;
+    --h1-line-height: 22px;
+    --h3: 14px;
+    --h3-line-height: 14px;
+    --h4: 12px;
+    --h4-line-height: 12px;
+    --p: 12px;
+    --p-line-height: 16px;
 }
 
-main{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-ul {
-    display: grid;
-    grid-column: 2 / span 3; 
-    width: 100%;
-    height: 100%;
-    gap: 80px;
-}
-
-li {
-    display: grid;
-    max-width: 350px;
-}
-
-
+/* ========== text styling ========== */
 h1 {
     font-family: Inter;
-    font-size: 20px;
-    line-height: 22px;
-}
+    font-size: var(--h1);
+    line-height: var(--h1-line-height);
+    margin-bottom: 12px;
 
+}
 h3 {
     font-family: Inter;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: var(--h3);
+    line-height: var(--h3-line-height);
 }
-
 h4 {
     font-family: Inter;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: var(--h4);
+    line-height: var(--h4-line-height);
     border: solid 1px;
     padding: 6px;
     border-radius: 5px;
 }
-
-p{
-    font-family: Inter;
-    font-size: 12px;
-    line-height: 16px;
-}
-
 .item-details {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+p{
+    font-family: Inter;
+    font-size: var(--p);
+    line-height: var(--p-line-height);
 }
 
+/* ========= layout styling ========= */
+body{
+    border: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+ul {
+    grid-column: 2 / span 3; 
+    width: 100%;
+    height: 100%;
+}
+li {
+    max-width: 350px;
+}
+
+/* ================================== tablet media query ================================== */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* ========= text variables ========= */
+    :root {
+        --h1: ;
+        --h1-line-height: ;
+        --h3: ;
+        --h3-line-height: ;
+        --h4: ;
+        --h4-line-height: ;
+        --p: ;
+        --p-line-height: ;
+    }
+  }
+
+  /* ================================ desktop media query ================================= */
+@media (min-width: 1024px) {
+    /* ========= text variables ========= */
+    :root {
+        --h1: ;
+        --h1-line-height: ;
+        --h3: ;
+        --h3-line-height: ;
+        --h4: ;
+        --h4-line-height: ;
+        --p: ;
+        --p-line-height: ;
+    }
+}
