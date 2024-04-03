@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* ========= text variables ========= */
 :root {
-    --h1: 20px;
-    --h1-line-height: 22px;
+    --h1: 110px;
+    --h1-line-height: 100px;
     --h2: 20px;
     --h2-line-height: 22px;
     --h3: 14px;
@@ -20,9 +21,10 @@
 
 /* ========== text styling ========== */
 h1 {
-    font-family: Inter;
+    font-family: "Bebas Neue";
     font-size: var(--h1);
     line-height: var(--h1-line-height);
+    font-weight: 500;
 }
 h2 {
     font-family: Inter;
@@ -42,6 +44,10 @@ h4 {
     border: solid 1px;
     padding: 6px;
     border-radius: 5px;
+}
+h5 {
+    font-family: "Bebas Neue";
+    font-size: 32px;
 }
 .item-details {
     display: flex;
@@ -71,10 +77,32 @@ a {
     padding-right: 12px;
     border-radius: 5px;
 }
-
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+button {
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    display: flex;
+    width: 167px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
 /* ========= layout styling ========= */
-body{
-    border: 20px;
+body {
+    margin: 20px; 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .tabs{
     display: flex;
