@@ -49,6 +49,7 @@ h5 {
     font-family: "Inter";
     font-size: var(--h5);
     line-height: var(--h5-line-height);
+    font-weight: 500;
     margin-bottom: 16px;
 }
 h6 {
