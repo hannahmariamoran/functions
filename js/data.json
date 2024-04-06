@@ -57,7 +57,7 @@
         "Date": "26 Feb",
         "Location": "New York",
         "Title": "Talea",
-        "Description": "A cute little women-owned brewery with a bar in the West Village (right next to L'industrie..)",
+        "Description": "A cute little women-owned brewery with a bar in the West Village (right next to L'industrie..).",
         "Alt Text": "A bar with orange tiling and decor."
     },
     {
@@ -87,7 +87,7 @@
         "Date": "06 Feb",
         "Location": "New York",
         "Title": "Natural History",
-        "Description": "A sunday visit to the Natural History Musuem (hoping everyhting comes alive!)",
+        "Description": "A sunday visit to the Natural History Musuem (hoping everyhting comes alive!).",
         "Alt Text": "Stone building with small windows."
     },
     {
@@ -157,7 +157,7 @@
         "Date": "20 Dec",
         "Location": "Dublin",
         "Title": "12 Pubs",
-        "Description": "Stop 3 of our 12 pubs (an Irish christmas tradition of visiting 12 pubs and having a drink in each)",
+        "Description": "Stop 3 of our 12 pubs (an Irish christmas tradition of visiting 12 pubs and having a drink in each).",
         "Alt Text": null
     },
     {
@@ -167,7 +167,7 @@
         "Date": "16 Dec",
         "Location": "New York",
         "Title": "Rockerfellar Tree",
-        "Description": "The famous tree, really felt like I was living in Home Alone 2",
+        "Description": "The famous tree, really felt like I was living in Home Alone 2.",
         "Alt Text": null
     },
     {
@@ -187,7 +187,7 @@
         "Date": "2 Dec",
         "Location": "New York",
         "Title": "Brooklyn Mirage",
-        "Description": "Loud music and bright lights at Brooklyn Mirage",
+        "Description": "Loud music and bright lights at Brooklyn Mirage.",
         "Alt Text": null
     },
     {
@@ -217,7 +217,7 @@
         "Date": "9 Nov",
         "Location": "Boston",
         "Title": "Boston Treat",
-        "Description": "As recommended by multiple people, a visit to Tatte Bakery in Boston",
+        "Description": "As recommended by multiple people, a visit to Tatte Bakery in Boston.",
         "Alt Text": null
     },
     {
@@ -237,7 +237,7 @@
         "Date": "25 Oct",
         "Location": "New York",
         "Title": "Perry & Hudson",
-        "Description": "Cute restaraunt in the West Village ready for Halloween",
+        "Description": "Cute restaraunt in the West Village ready for Halloween.",
         "Alt Text": null
     },
     {
@@ -247,7 +247,7 @@
         "Date": "21 Oct",
         "Location": "New York",
         "Title": "Dog Dress Up",
-        "Description": "A dog on it's way to the Tompkin's Square Park Dog Parage",
+        "Description": "A dog on it's way to the Tompkin's Square Park Dog Parage.",
         "Alt Text": null
     },
     {
@@ -256,8 +256,8 @@
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27280211/original_c7c6baef33649db37ccc1f9198677e0b.jpg?1711842636?bc=0",
         "Date": "11 Oct",
         "Location": "New York",
-        "Title": "Sunset from the Room Pt.2",
-        "Description": "Another sunset view from my room (never gets old)",
+        "Title": "Sunset from the Roof (2)",
+        "Description": "Another sunset view from my room (never gets old).",
         "Alt Text": null
     },
     {
@@ -277,7 +277,7 @@
         "Date": "30 Sep",
         "Location": "New York",
         "Title": "Iseult's Rooftop",
-        "Description": "Pic of me on a rooftop in Williamsburg",
+        "Description": "Pic of me on a rooftop in Brooklyn.",
         "Alt Text": null
     },
     {
@@ -287,7 +287,7 @@
         "Date": "23 Sep",
         "Location": "New York",
         "Title": "HP on Broadway",
-        "Description": "First of many Broadway shows (I hope)",
+        "Description": "First of many Broadway shows (I hope).",
         "Alt Text": null
     },
     {
@@ -296,8 +296,8 @@
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27280213/original_1075b03780e407a44310b4a0cabbe686.jpg?1711842639?bc=0",
         "Date": "15 Sep",
         "Location": "New York",
-        "Title": "Sunset from the Room Pt.1",
-        "Description": "A sunset view from my room",
+        "Title": "Sunset from the Roof (1)",
+        "Description": "A sunset view from my room.",
         "Alt Text": null
     },
     {
@@ -317,7 +317,7 @@
         "Date": "03 Sep",
         "Location": "New York",
         "Title": "MoMA",
-        "Description": "Couldn't get over this mesmorising piece at the MoMA",
+        "Description": "Couldn't get over this mesmorising piece at the MoMA.",
         "Alt Text": null
     },
     {
@@ -327,7 +327,7 @@
         "Date": "26 Aug",
         "Location": "New York",
         "Title": "A Highline building",
-        "Description": "One of the many cool buildings seen from the Highline",
+        "Description": "One of the many cool buildings seen from the Highline.",
         "Alt Text": null
     },
     {
@@ -337,7 +337,7 @@
         "Date": "20 Aug",
         "Location": "New York",
         "Title": "WTC",
-        "Description": "One World Trade Centre and the Occulus in FiDi",
+        "Description": "One World Trade Centre and the Occulus in FiDi.",
         "Alt Text": null
     },
     {
@@ -357,7 +357,7 @@
         "Date": "31 Jul",
         "Location": "Lake Bled",
         "Title": "Zipline",
-        "Description": "Ziplining across a gorge in Lake Bled (Europe's longest Zipline)",
+        "Description": "Ziplining across a gorge in Lake Bled (Europe's longest Zipline).",
         "Alt Text": null
     },
     {
@@ -377,7 +377,7 @@
         "Date": "17 Jul",
         "Location": "Prague",
         "Title": "I'm in a boat",
-        "Description": "Pedalling around Vltava River in Prague with Elsa and Rachel",
+        "Description": "Pedalling around Vltava River in Prague with Elsa and Rachel.",
         "Alt Text": null
     },
     {
@@ -737,7 +737,7 @@
         "Date": "10 Apr",
         "Location": "Dubai",
         "Title": "Burj Khalifa",
-        "Description": "The worlds tallest building in all its glory",
+        "Description": "The worlds tallest building in all its glory.",
         "Alt Text": null
     },
     {
