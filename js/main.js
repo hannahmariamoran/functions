@@ -68,7 +68,7 @@ function closeCodeBox() {
 
 document.addEventListener('DOMContentLoaded', function() {
     var codeButton = document.querySelector('.buttons button:nth-of-type(2)'); 
-    var closeButton = document.getElementById('closeBtn');
+    var closeButton = document.getElementById('codecloseBtn');
 
     codeButton.addEventListener('click', function() {
         openCodeBox();
