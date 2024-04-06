@@ -31,6 +31,29 @@ const renderItems = (data) => {
     });
 };
 
+// function to open and close 'code' button pop over that leads ppl to github
+function openCodeBox() {
+    var codeBox = document.getElementById('code-box');
+    codeBox.style.display = 'flex';
+}
+
+function closeCodeBox() {
+    var codeBox = document.getElementById('code-box');
+    codeBox.style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var codeButton = document.querySelector('.buttons button:nth-of-type(2)'); 
+    var closeButton = document.getElementById('closeBtn');
+
+    codeButton.addEventListener('click', function() {
+        openCodeBox();
+    });
+
+    closeButton.addEventListener('click', function() {
+        closeCodeBox();
+    });
+});
 
 // Fetch gets your (local) JSON file…
 fetch('js/data.json')
