@@ -11,6 +11,10 @@ const renderItems = (data) => {
             <li>
                 <div class="content-blocks">
                     <div class="week">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="68" height="9" viewBox="0 0 68 9" fill="none">
+                        <line y1="4.5" x2="59" y2="4.5" stroke="black"/>
+                        <circle cx="63.5" cy="4.5" r="4.5" fill="black"/>
+                        </svg>
                         <p class="week-text">${item.Week}</p>
                     </div>
                     <div class="image-content">
@@ -30,6 +34,7 @@ const renderItems = (data) => {
         dataList.insertAdjacentHTML('beforeend', listItem); // Add it to the `ul`!
     });
 };
+
 
 // Fetch gets your (local) JSON file…
 fetch('js/data.json')

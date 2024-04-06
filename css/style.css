@@ -64,16 +64,7 @@ h6 {
     font-family: "Inter";
     font-size: var(--h6);
     line-height: var(--h6-line-height);
-}
-.item-details {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    margin-top: 12px;
-    margin-bottom: 16px;
-}
-.detail-tab {
-    border: 1px solid black;
+    margin-top: 8px;
 }
 blockquote{
     font-family: "Inter";
@@ -95,6 +86,22 @@ a {
     padding-left: 12px;
     padding-right: 12px;
     border-radius: 5px;
+}
+/* ========= layout styling ========= */
+body {
+    margin: 20px; 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ========= header styling ========= */
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 104px;
+    margin-bottom: 56px;
 }
 /* == button, arrow + tab styling === */
 button {
@@ -137,28 +144,13 @@ button {
 .tabs a:last-child {
     margin-right: 0; 
 }
-
-/* ========= layout styling ========= */
-body {
-    margin: 20px; 
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.title{
-    display: flex;
-    flex-direction: column;
-    margin-top: 104px;
-    margin-bottom: 56px;
-}
+/* ==== list and content styling ==== */
 ul {
     width: 100%;
 }
 li {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .content-blocks{
     display: grid;
@@ -167,42 +159,32 @@ li {
 }
 .week{
     grid-column: 1 / span 1; 
+    margin-top: -10px;
+}
+.item-details {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.detail-tab {
+    border: 1px solid black;
 }
 .image-content{
     grid-column: 2 / span 3; 
+}
+hr {
+    margin-bottom: 12px;
+    height: 1px;
+    background-color: black; 
 }
 
 
 /* ================================== tablet media query ================================== */
 @media (min-width: 768px) and (max-width: 1023px) {
-    /* ========= text variables ========= */
-    :root {
-        --h1: ;
-        --h1-line-height: ;
-        --h2: ;
-        --h2-line-height: ;
-        --h3: ;
-        --h3-line-height: ;
-        --h4: ;
-        --h4-line-height: ;
-        --p: ;
-        --p-line-height: ;
-    }
   }
 
   /* ================================ desktop media query ================================= */
 @media (min-width: 1024px) {
-    /* ========= text variables ========= */
-    :root {
-        --h1: ;
-        --h1-line-height: ;
-        --h2: ;
-        --h2-line-height: ;
-        --h3: ;
-        --h3-line-height: ;
-        --h4: ;
-        --h4-line-height: ;
-        --p: ;
-        --p-line-height: ;
-    }
 }
