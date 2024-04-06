@@ -64,7 +64,6 @@ h6 {
     font-family: "Inter";
     font-size: var(--h6);
     line-height: var(--h6-line-height);
-    margin-top: 8px;
 }
 blockquote{
     font-family: "Inter";
@@ -159,7 +158,6 @@ li {
 }
 .week{
     grid-column: 1 / span 1; 
-    margin-top: -10px;
 }
 .item-details {
     display: flex;
