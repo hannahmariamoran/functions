@@ -11,15 +11,15 @@ const renderItems = (data) => {
             <li>
                 <div class="content-blocks">
                     <div class="week">
-                        <h3>${item.Week}</h3>
+                        <h6>${item.Week}</h6>
                     </div>
                     <div class="image-content">
                         <img src="${item.Image}">
                         <div class="item-details">
-                            <h4>${item.Date}</h4>
-                            <h4>${item.Location}</h4>
+                            <h6>${item.Date}</h6>
+                            <h6>${item.Location}</h6>
                         </div>
-                        <h2>${item.Title}</h2>
+                        <h5>${item.Title}</h5>
                         <p>${item.Description}</p>
                     </div>
                 </div>
