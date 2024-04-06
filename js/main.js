@@ -31,7 +31,31 @@ const renderItems = (data) => {
     });
 };
 
-// function to open and close 'code' button pop over that leads ppl to github
+// function to open and close the 'about' button popover that tells users about the project
+function openAboutBox() {
+    var aboutBox = document.getElementById('about-box');
+    aboutBox.style.display = 'flex';
+}
+
+function closeAboutBox() {
+    var aboutBox = document.getElementById('about-box');
+    aboutBox.style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var aboutButton = document.querySelector('.buttons button:nth-of-type(1)'); 
+    var closeButton = document.getElementById('closeBtn'); 
+
+    aboutButton.addEventListener('click', function() {
+        openAboutBox();
+    });
+
+    closeButton.addEventListener('click', function() {
+        closeAboutBox();
+    });
+});
+
+// function to open and close 'code' button pop over that leads users to github
 function openCodeBox() {
     var codeBox = document.getElementById('code-box');
     codeBox.style.display = 'flex';
