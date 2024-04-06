@@ -13,6 +13,8 @@
     --h4-line-height: 20px;
     --h5: 20px;
     --h5-line-height: 20px;
+    --h6: 14px;
+    --h6-line-height: 14px;
     --blockquote: 16px;
     --blockquote-line-height: 20px;
     --p: 12px;
@@ -48,12 +50,22 @@ h5 {
     font-size: var(--h5);
     line-height: var(--h5-line-height);
 }
+h6 {
+    font-family: "Inter";
+    font-size: var(--h6);
+    line-height: var(--h6-line-height);
+    border: 1px solid black;
+    padding: 8px 12px;
+}
 .item-details {
     display: flex;
     flex-direction: row;
     gap: 12px;
     margin-top: 12px;
     margin-bottom: 16px;
+}
+.detail-tab {
+    border: 1px solid black;
 }
 blockquote{
     font-family: Inter;
@@ -110,11 +122,11 @@ button {
     margin-bottom: 104px;
 }
 .tabs a {
-    padding: 8px 16px; /* Adjust as needed */
-    border: 1px solid black; /* Optional: Add a border around each tab */
+    padding: 8px 16px;
+    border: 1px solid black; 
 }
 .tabs a:last-child {
-    margin-right: 0; /* Remove margin from the last tab to prevent unnecessary spacing */
+    margin-right: 0; 
 }
 
 /* ========= layout styling ========= */
