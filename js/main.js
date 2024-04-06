@@ -11,7 +11,7 @@ const renderItems = (data) => {
             <li>
                 <div class="content-blocks">
                     <div class="week">
-                        <caption>${item.Week}</caption>
+                        <p class="week-text">${item.Week}</p>
                     </div>
                     <div class="image-content">
                         <img src="${item.Image}">

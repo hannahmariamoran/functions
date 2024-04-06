@@ -49,6 +49,7 @@ h5 {
     font-family: "Inter";
     font-size: var(--h5);
     line-height: var(--h5-line-height);
+    margin-bottom: 16px;
 }
 h6 {
     font-family: "Inter";
@@ -56,6 +57,12 @@ h6 {
     line-height: var(--h6-line-height);
     border: 1px solid black;
     padding: 8px 12px;
+    border-radius: 6px;
+}
+.week-text{
+    font-family: "Inter";
+    font-size: var(--h6);
+    line-height: var(--h6-line-height);
 }
 .item-details {
     display: flex;
@@ -68,17 +75,17 @@ h6 {
     border: 1px solid black;
 }
 blockquote{
-    font-family: Inter;
+    font-family: "Inter";
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
 }
 p{
-    font-family: Inter;
+    font-family: "Inter";
     font-size: var(--p);
     line-height: var(--p-line-height);
 }
 a {
-    font-family: Inter;
+    font-family: "Inter";
     font-size: var(--a);
     line-height: var(--a-line-height);
     border: solid 1px;
@@ -124,6 +131,7 @@ button {
 .tabs a {
     padding: 8px 16px;
     border: 1px solid black; 
+    border-radius: 6px;
 }
 .tabs a:last-child {
     margin-right: 0; 
