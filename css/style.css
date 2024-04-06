@@ -5,8 +5,8 @@
 :root {
     --h1: 110px;
     --h1-line-height: 90px;
-    --h2: 56px;
-    --h2-line-height: 56px;
+    --h2: 64px;
+    --h2-line-height: 64px;
     --h3: 32px;
     --h3-line-height: 38px;
     --h4: 20px;
@@ -22,7 +22,6 @@
     --a: 14px;
     --a-line-height: 14px;
 }
-
 /* ========== text styling ========== */
 h1 {
     font-family: "Bebas Neue";
@@ -87,8 +86,13 @@ a {
     border-radius: 5px;
 }
 /* ========= layout styling ========= */
-body {
+main {
     margin: 20px; 
+}
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 nav{
     display: flex;
@@ -238,6 +242,133 @@ li {
 
 /* ================================== tablet media query ================================== */
 @media (min-width: 768px) and (max-width: 1023px) {
+    /* ========= text variables ========= */
+    :root {
+        --h1: 120px;
+        --h1-line-height:106px;
+        --h2: 64px;
+        --h2-line-height: 64px;
+        --h3: 40px;
+        --h3-line-height: 40px;
+        --h4: 24px;
+        --h4-line-height: 24px;
+        --h5: 24px;
+        --h5-line-height: 24px;
+        --h6: 16px;
+        --h6-line-height: 16px;
+        --blockquote: 18px;
+        --blockquote-line-height: 22px;
+        --p: 16px;
+        --p-line-height: 20px;
+        --a: 16px;
+        --a-line-height: 16px;
+    }
+    /* ========== text styling ========== */
+    h5 {
+        margin-bottom: 24px;
+    }
+    .week-text{
+        font-size: var(--p);
+        line-height: var(--p-line-height);
+    }
+    a {
+        border: solid 1px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    /* ========= layout styling ========= */
+    main {
+        margin-left: 32px; 
+        margin-right: 32px; 
+        margin-top: 20px; 
+    }
+    header{
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 32px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* ========= header styling ========= */
+    .title{
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: flex-start;
+        margin-top: 120px;
+        margin-bottom: 64px;
+    }
+    .blockquote-position{
+        width: 430px;
+    }
+    .header-info{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .horizontal-line {
+        width: 100%; 
+        height: 1px; 
+        background-color: #000; 
+        margin-top: 140px;
+    }    
+    /* == button, arrow + tab styling === */
+    button {
+        display: flex;
+        width: 206px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #000;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: flex-end;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .down-arrow{
+        display: none;
+    }
+    .tabs{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 104px;
+    }
+    /* ==== list and content styling ==== */
+    ul {
+        width: 100%; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        margin-left: 10%;
+    }
+    li {
+        display: inline-block; 
+        margin-top: 0; 
+        margin-right: 64px;
+        width: 50%;
+    }
+    .content-blocks{
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-details {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
   }
 
   /* ================================ desktop media query ================================= */
