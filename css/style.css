@@ -88,6 +88,10 @@ a {
     padding-right: 12px;
     border-radius: 5px;
 }
+.no-a-style{
+    border: none;
+    padding: none;
+}
 /* ========= layout styling ========= */
 main {
     margin: 20px; 
