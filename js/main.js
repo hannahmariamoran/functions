@@ -26,9 +26,12 @@ const renderItems = (data) => {
             </li>
         `;
 
-
         dataList.insertAdjacentHTML('beforeend', listItem); // Add it to the `ul`!
     });
+
+    // adding an id tag to the last ul item so when 'end' button is clicked, it scrolls to the end of the list
+    const lastUlitem = dataList.lastElementChild; 
+    lastUlitem.id = 'last-item'; 
 };
 
 // function to open and close the 'about' button popover that tells users about the project

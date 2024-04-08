@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 /* ========= text variables ========= */
 :root {
     --h1: 110px;
@@ -129,6 +132,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.button-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .tabs{
     display: flex;
