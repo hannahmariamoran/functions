@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+/* ========= text variables ========= */
+:root {
+    --h1: 110px;
+    --h1-line-height: 90px;
+    --h2: 64px;
+    --h2-line-height: 64px;
+    --h3: 32px;
+    --h3-line-height: 38px;
+    --h4: 20px;
+    --h4-line-height: 20px;
+    --h5: 20px;
+    --h5-line-height: 20px;
+    --h6: 14px;
+    --h6-line-height: 14px;
+    --blockquote: 16px;
+    --blockquote-line-height: 20px;
+    --p: 14px;
+    --p-line-height: 18px;
+    --a: 14px;
+    --a-line-height: 14px;
+}
+/* ========== text styling ========== */
+h4 {
+    font-family: "Bebas Neue";
+    font-size: var(--h4);
+    line-height: var(--h4-line-height);
+}
+/* ========= button styling ========= */
+button {
+    display: flex;
+    width: 167px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+/* ================================== tablet media query ================================== */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* ========= text variables ========= */
+    :root {
+        --h1: 120px;
+        --h1-line-height:106px;
+        --h2: 64px;
+        --h2-line-height: 64px;
+        --h3: 40px;
+        --h3-line-height: 40px;
+        --h4: 24px;
+        --h4-line-height: 24px;
+        --h5: 24px;
+        --h5-line-height: 24px;
+        --h6: 16px;
+        --h6-line-height: 16px;
+        --blockquote: 18px;
+        --blockquote-line-height: 22px;
+        --p: 16px;
+        --p-line-height: 20px;
+        --a: 16px;
+        --a-line-height: 16px;
+    }
+    /* ======== button styling ========== */
+    button {
+        display: flex;
+        width: 206px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #000;
+    }
+  }
+
+/* ================================ desktop media query ================================= */
+@media (min-width: 1024px) {
+    /* ========= text variables ========= */
+    :root {
+        --h1: 200px;
+        --h1-line-height:170px;
+        --h2: 80px;
+        --h2-line-height: 80px;
+        --h3: 40px;
+        --h3-line-height: 40px;
+        --h4: 24px;
+        --h4-line-height: 24px;
+        --h5: 24px;
+        --h5-line-height: 24px;
+        --h6: 16px;
+        --h6-line-height: 16px;
+        --blockquote: 18px;
+        --blockquote-line-height: 22px;
+        --p: 16px;
+        --p-line-height: 20px;
+        --a: 16px;
+        --a-line-height: 16px;
+    }  
+    /* ========= button styling ========= */  
+    button {
+        width: 250px;
+        padding: 8px;
+    }
+}
