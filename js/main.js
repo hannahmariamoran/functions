@@ -5,10 +5,11 @@ const renderItems = (data) => {
 
     // Loop through each item in the data array
     data.forEach((item) => {
+        let year = item.Year; 
 
         // Make a template literal as we have before, inserting your data
         let listItem = `
-            <li>
+            <li class="item-${year}"> 
                 <div class="content-blocks">
                     <div class="week">
                         <p class="week-text">${item.Week}</p>
