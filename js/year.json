@@ -1,0 +1,18 @@
+[
+    {
+        "Year": "2024",
+        "Description": "View the momentos captured in 2024"
+    },
+    {
+        "Year": "2023",
+        "Description": "View the momentos captured in 2023"
+    },
+    {
+        "Year": "2022",
+        "Description": "View the momentos captured in 2022"
+    },
+    {
+        "Year": "All",
+        "Description": "View all of the momentos captured."
+    }
+]
