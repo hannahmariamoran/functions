@@ -366,16 +366,25 @@ footer{
         margin-bottom: 104px;
     }
     /* ==== list and content styling ==== */
-    ul {
+    .scroll-container {
         width: 100%; 
+        overflow-x: auto;
+    }
+    .scroll-container ul {
+        white-space: nowrap;
+        padding-left: 25%;
+        margin-right: 0;
+    }
+    ul {
+        width: 100vw; 
         overflow-x: auto; 
         white-space: nowrap; 
-        margin-left: 10%;
+        padding-left: 10%;
     }
     li {
         display: inline-block; 
         margin-top: 0; 
-        margin-right: 64px;
+        margin-right: 100px;
         width: 50%;
     }
     .content-blocks{
@@ -511,16 +520,26 @@ footer{
         margin-top: 40px;
     }
     /* ==== list and content styling ==== */
-    ul {
+    .scroll-container {
         width: 100%; 
+        overflow-x: auto;
+    }
+    .scroll-container ul {
+        white-space: nowrap;
+        padding-left: 25%;
+        margin-right: 0;
+    }
+    ul {
+        width: 100vw; 
         overflow-x: auto; 
         white-space: nowrap; 
-        margin-left: 25%;
+        padding-left: 25%;
+        margin-right: 0;
     }
     li {
         display: inline-block; 
         margin-top: 0; 
-        margin-right: 80px;
+        margin-right: 120px;
         width: 25%;
     }
     .content-blocks{
