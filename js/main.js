@@ -35,111 +35,6 @@ const renderItems = (data) => {
     lastUlitem.id = 'last-item'; 
 };
 
-// Function to render items with 2024
-const render2024Items = (data) => {
-    const dataList = document.getElementById('2024-data-list');
-
-    data.forEach((item) => {
-        let year = item.Year;
-
-        if (year === 2024) {
-            let listItem = `
-                <li class="item-${year}"> 
-                    <div class="content-blocks">
-                        <div class="week">
-                            <p class="week-text">${item.Week}</p>
-                        </div>
-                        <div class="image-content">
-                            <img src="${item.Image}">
-                            <div class="item-details">
-                                <h6>${item.Date}</h6>
-                                <h6>${item.Location}</h6>
-                            </div>
-                            <h5>${item.Title}</h5>
-                            <p>${item.Description}</p>
-                        </div>
-                    </div>
-                </li>
-            `;
-
-            dataList.insertAdjacentHTML('beforeend', listItem);
-        }
-    });
-
-    const lastUlitem = dataList.lastElementChild; 
-    lastUlitem.id = 'last-item'; 
-};
-
-// Function to render items with 2023
-const render2023Items = (data) => {
-    const dataList = document.getElementById('2023-data-list');
-
-    data.forEach((item) => {
-        let year = item.Year;
-
-        if (year === 2023) {
-            let listItem = `
-                <li class="item-${year}"> 
-                    <div class="content-blocks">
-                        <div class="week">
-                            <p class="week-text">${item.Week}</p>
-                        </div>
-                        <div class="image-content">
-                            <img src="${item.Image}">
-                            <div class="item-details">
-                                <h6>${item.Date}</h6>
-                                <h6>${item.Location}</h6>
-                            </div>
-                            <h5>${item.Title}</h5>
-                            <p>${item.Description}</p>
-                        </div>
-                    </div>
-                </li>
-            `;
-
-            dataList.insertAdjacentHTML('beforeend', listItem);
-        }
-    });
-
-    const lastUlitem = dataList.lastElementChild; 
-    lastUlitem.id = 'last-item'; 
-};
-
-// Function to render items with 2023
-const render2022Items = (data) => {
-    const dataList = document.getElementById('2022-data-list');
-
-    data.forEach((item) => {
-        let year = item.Year;
-
-        if (year === 2022) {
-            let listItem = `
-                <li class="item-${year}"> 
-                    <div class="content-blocks">
-                        <div class="week">
-                            <p class="week-text">${item.Week}</p>
-                        </div>
-                        <div class="image-content">
-                            <img src="${item.Image}">
-                            <div class="item-details">
-                                <h6>${item.Date}</h6>
-                                <h6>${item.Location}</h6>
-                            </div>
-                            <h5>${item.Title}</h5>
-                            <p>${item.Description}</p>
-                        </div>
-                    </div>
-                </li>
-            `;
-
-            dataList.insertAdjacentHTML('beforeend', listItem);
-        }
-    });
-
-    const lastUlitem = dataList.lastElementChild; 
-    lastUlitem.id = 'last-item'; 
-};
-
 // function to open and close the 'about' button popover that tells users about the project
 function openAboutBox() {
     var aboutBox = document.getElementById('about-box');
@@ -228,3 +123,5 @@ fetch('js/data.json')
     .catch(error => {
         console.error('Error fetching JSON data:', error);
     });
+
+    
