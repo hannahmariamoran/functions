@@ -423,6 +423,9 @@ footer{
         margin-top: 20px;
         margin-bottom: 32px;
     }
+    .image-content{
+        grid-column: none;
+    }
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
@@ -567,8 +570,8 @@ footer{
     li {
         display: inline-block; 
         margin-top: 0; 
-        margin-right: 120px;
-        width: 25%;
+        width: 35%;
+        margin-right: 120px; 
     }
     .content-blocks{
         gap: 40px;
@@ -581,6 +584,9 @@ footer{
         gap: 12px;
         margin-top: 20px;
         margin-bottom: 32px;
+    }
+    .image-content{
+        grid-column: none;
     }
     /* ====== about button popover ======= */
     .about-box {
