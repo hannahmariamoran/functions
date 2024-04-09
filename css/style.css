@@ -41,6 +41,9 @@ h1 {
     line-height: var(--h1-line-height);
     font-weight: 500;
 }
+.weight-light{
+    font-weight: 200;
+}
 h2 {
     font-family: "Bebas Neue";
     font-size: var(--h2);
