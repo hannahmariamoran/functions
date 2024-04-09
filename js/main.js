@@ -83,6 +83,36 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// function to open and close lightbox with image enlgarged
+function openLightbox(imageSrc) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    lightboxImage.src = imageSrc;
+    lightbox.style.display = 'flex';
+}
+
+function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    lightbox.style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const dataList = document.getElementById('data-list');
+
+    dataList.addEventListener('click', function(event) {
+        if (event.target.tagName === 'IMG') {
+            const imageSrc = event.target.src;
+            openLightbox(imageSrc);
+        }
+    });
+
+    const lightboxCloseBtn = document.getElementById('lightbox-close-button');
+    lightboxCloseBtn.addEventListener('click', function() {
+        closeLightbox();
+    });
+});
+
+
 // Fetch gets your (local) JSON file…
 fetch('js/data.json')
     .then(response => response.json())

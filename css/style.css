@@ -253,6 +253,30 @@ li {
     border: none;
     padding: none;
 }
+/* ==== image lightbox styling ====== */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#lightbox-image {
+    max-width: 80vw;
+    max-height: 80vh;
+    object-fit: contain;
+    position: relative; 
+}
+#lightbox-close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: white;
+}
 /* ========= footer styling ========== */
 footer{
     margin: 20px;
@@ -414,6 +438,11 @@ footer{
     .code-box-text{
         max-width: 350px;
     }
+    /* ==== image lightbox styling ====== */
+    #lightbox-close-button {
+        top: 32px;
+        right: 32px;
+    }
     /* ========= footer styling ========== */
     footer{
         margin: 32px;
@@ -567,6 +596,11 @@ footer{
     }
     .code-box-text{
         max-width: 350px;
+    }
+    /* ==== image lightbox styling ====== */
+    #lightbox-close-button {
+        top: 40px;
+        right: 40px;
     }
     /* ========= footer styling ========== */
     footer{
