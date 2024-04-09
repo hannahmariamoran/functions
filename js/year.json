@@ -10,9 +10,5 @@
     {
         "Year": "2022",
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi felis, vehicula in maximus nec, condimentum id lacus. Cras at orci vitae nibh convallis vestibulum at eget lacus. Nunc in rhoncus purus. Sed rhoncus nulla urna, sit amet consectetur purus tempus id."
-    },
-    {
-        "Year": "ALL",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi felis, vehicula in maximus nec, condimentum id lacus. Cras at orci vitae nibh convallis vestibulum at eget lacus. Nunc in rhoncus purus. Sed rhoncus nulla urna, sit amet consectetur purus tempus id."
     }
 ]
