@@ -87,6 +87,7 @@ a {
     padding-left: 12px;
     padding-right: 12px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .no-a-style{
     border: none;
@@ -124,6 +125,7 @@ button {
     gap: 8px;
     border-radius: 8px;
     border: 1px solid #000;
+    cursor: pointer;
 }
 .buttons{
     display: flex;
@@ -190,6 +192,9 @@ li {
 .image-content{
     grid-column: 2 / span 3; 
 }
+img {
+    cursor: pointer;
+}
 /* ====== about button popover ======= */
 .about-box {
     position: fixed;
@@ -217,6 +222,9 @@ li {
 }
 .about-box-text{
     margin-top: 32px;
+}
+#closeBtn{
+    cursor: pointer;
 }
 /* ====== code button popover ======= */
 .code-box {
@@ -253,6 +261,9 @@ li {
     border: none;
     padding: none;
 }
+#codecloseBtn{
+    cursor: pointer;
+}
 /* ==== image lightbox styling ====== */
 .lightbox {
     position: fixed;
@@ -276,6 +287,7 @@ li {
     top: 20px;
     right: 20px;
     fill: white;
+    cursor: pointer;
 }
 /* ========= footer styling ========== */
 footer{
