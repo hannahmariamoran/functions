@@ -1,18 +1,18 @@
 [
     {
         "Year": "2024",
-        "Description": "View the momentos captured in 2024."
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi felis, vehicula in maximus nec, condimentum id lacus. Cras at orci vitae nibh convallis vestibulum at eget lacus. Nunc in rhoncus purus. Sed rhoncus nulla urna, sit amet consectetur purus tempus id."
     },
     {
         "Year": "2023",
-        "Description": "View the momentos captured in 2023."
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi felis, vehicula in maximus nec, condimentum id lacus. Cras at orci vitae nibh convallis vestibulum at eget lacus. Nunc in rhoncus purus. Sed rhoncus nulla urna, sit amet consectetur purus tempus id."
     },
     {
         "Year": "2022",
-        "Description": "View the momentos captured in 2022."
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi felis, vehicula in maximus nec, condimentum id lacus. Cras at orci vitae nibh convallis vestibulum at eget lacus. Nunc in rhoncus purus. Sed rhoncus nulla urna, sit amet consectetur purus tempus id."
     },
     {
-        "Year": "All",
-        "Description": "View all of the momentos captured."
+        "Year": "ALL",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi felis, vehicula in maximus nec, condimentum id lacus. Cras at orci vitae nibh convallis vestibulum at eget lacus. Nunc in rhoncus purus. Sed rhoncus nulla urna, sit amet consectetur purus tempus id."
     }
 ]

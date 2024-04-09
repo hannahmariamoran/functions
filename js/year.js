@@ -10,9 +10,8 @@ const renderYearItems = (data) => {
 
         // Make a template literal as we have before, inserting your data
         let yearItemHTML = `
-            <div>
+            <div class="year-header">
                 <h1 class="weight-light">${year}</h1>
-                <h5>A Year in Review</h5>
                 <p>${description}</p>
             </div>
         `;
