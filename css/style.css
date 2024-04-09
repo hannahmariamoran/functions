@@ -337,11 +337,6 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: end;
-    }
-    .horizontal-line {
-        width: 100%; 
-        height: 1px; 
-        background-color: #000; 
     }    
     /* == button, arrow + tab styling === */
     button {
@@ -500,12 +495,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: end;
-    }
-    .horizontal-line {
-        width: 100%; 
-        height: 1px; 
-        background-color: #000; 
-    }    
+    }  
     /* == button, arrow + tab styling === */
     .buttons{
         display: flex;
