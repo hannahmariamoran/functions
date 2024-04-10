@@ -26,8 +26,8 @@ html{
     --h1-line-height: 90px;
     --h2: 64px;
     --h2-line-height: 64px;
-    --h3: 32px;
-    --h3-line-height: 38px;
+    --h3: 20px;
+    --h3-line-height: 20px;
     --h4: 20px;
     --h4-line-height: 20px;
     --h5: 20px;
@@ -57,9 +57,10 @@ h2 {
     line-height: var(--h2-line-height);
 }
 h3 {
-    font-family: "Bebas Neue";
+    font-family: var(--serif-font);
     font-size: var(--h3);
     line-height: var(--h3-line-height);
+    font-weight: 500;
 }
 h4 {
     font-family: "Bebas Neue";
