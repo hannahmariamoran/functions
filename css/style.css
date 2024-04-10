@@ -461,7 +461,7 @@ footer{
         width: 100%; 
         overflow-x: auto;
         position: relative;
-        overflow-x: auto; /* Optional: add horizontal scrolling */
+        overflow-x: auto; 
     }
     .scroll-container::before {
         content: "";
@@ -472,11 +472,6 @@ footer{
         height: 1px; 
         background-color: black; 
     }
-    .scroll-container ul {
-        white-space: nowrap;
-        padding-left: 25%;
-        margin-right: 0;
-    }
     .week-layout{
         display: flex;
         flex-direction: column;
@@ -484,16 +479,15 @@ footer{
         align-items: flex-start;
     }
     ul {
+        display: flex;
         width: 100vw; 
         overflow-x: auto; 
-        white-space: nowrap; 
-        padding-left: 10%;
+        padding-left: 25%;
     }
     li {
         display: inline-block; 
         margin-top: 0; 
         margin-right: 100px;
-        width: 50%;
     }
     .content-blocks{
         gap: 40px;
@@ -509,12 +503,14 @@ footer{
     }
     .image-content{
         grid-column: none;
+        width: 35vw;
     }
     hr {
         border-left: 1px solid black; 
         height: 40px; 
         border-top: 0px; 
     }
+    
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
@@ -655,26 +651,22 @@ footer{
         width: 100%; 
         overflow-x: auto;
     }
-    .scroll-container ul {
-        white-space: nowrap;
-        padding-left: 25%;
-        margin-right: 0;
-    }
     ul {
+        display: flex;
         width: 100vw; 
         overflow-x: auto; 
-        white-space: nowrap; 
         padding-left: 25%;
         margin-right: 0;
     }
     li {
         display: inline-block; 
         margin-top: 0; 
-        width: 35%;
+        width: 55px;
         margin-right: 120px; 
     }
     .content-blocks{
         gap: 40px;
+        width: 55px;
         display: flex;
         flex-direction: column;
     }
