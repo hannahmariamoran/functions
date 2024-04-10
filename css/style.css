@@ -185,6 +185,19 @@ button {
     max-width: 90vw;
 }
 /* ==== list and content styling ==== */
+.scroll-container{
+    position: relative;
+}
+.scroll-container::before {
+    content: "";
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 1px; 
+    height: 100%; 
+    background-color: black; 
+    margin-top: 7px;
+}
 ul {
     width: 100%;
 }
@@ -200,6 +213,12 @@ li {
 .week{
     grid-column: 1 / span 1; 
 }
+.week-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
 .item-details {
     display: flex;
     flex-direction: row;
@@ -212,6 +231,10 @@ li {
 }
 .image-content{
     grid-column: 2 / span 3; 
+}
+hr {
+    border-top: 1px solid black; 
+    width: 8px; 
 }
 img {
     cursor: pointer;
@@ -437,11 +460,28 @@ footer{
     .scroll-container {
         width: 100%; 
         overflow-x: auto;
+        position: relative;
+        overflow-x: auto; /* Optional: add horizontal scrolling */
+    }
+    .scroll-container::before {
+        content: "";
+        position: absolute; 
+        top: -7px; 
+        left: 0; 
+        width: 100%; 
+        height: 1px; 
+        background-color: black; 
     }
     .scroll-container ul {
         white-space: nowrap;
         padding-left: 25%;
         margin-right: 0;
+    }
+    .week-layout{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
     }
     ul {
         width: 100vw; 
@@ -469,6 +509,11 @@ footer{
     }
     .image-content{
         grid-column: none;
+    }
+    hr {
+        border-left: 1px solid black; 
+        height: 40px; 
+        border-top: 0px; 
     }
     /* ====== about button popover ======= */
     .about-box {
@@ -642,6 +687,17 @@ footer{
     }
     .image-content{
         grid-column: none;
+    }
+    .week-layout{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    hr {
+        border-left: 1px solid black; 
+        height: 60px; 
+        border-top: 0px; 
     }
     /* ====== about button popover ======= */
     .about-box {

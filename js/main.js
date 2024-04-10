@@ -12,7 +12,10 @@ const renderItems = (data) => {
             <li class="item-${year}"> 
                 <div class="content-blocks">
                     <div class="week">
-                        <p class="week-text">${item.Week}</p>
+                        <div class="week-layout">
+                            <hr>
+                            <p class="week-text">${item.Week}</p>
+                        </div>
                     </div>
                     <div class="image-content">
                         <img src="${item.Image}">
