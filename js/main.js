@@ -34,8 +34,8 @@ const renderItems = (data) => {
     });
 
     // adding an id tag to the last ul item so when 'end' button is clicked, it scrolls to the end of the list
-    const lastUlitem = dataList.lastElementChild; 
-    lastUlitem.id = 'last-item'; 
+    const firstUlitem = dataList.firstElementChild; 
+    firstUlitem.id = 'first-item'; 
 };
 
 // Function to render your items
