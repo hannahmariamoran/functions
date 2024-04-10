@@ -9,7 +9,7 @@ const renderItems = (data) => {
 
         // Make a template literal as we have before, inserting your data
         let listItem = `
-            <li class="item-${year}"> 
+            <li class="item item-${year}"> 
                 <div class="content-blocks">
                     <div class="week">
                         <div class="week-layout">
@@ -114,6 +114,76 @@ document.addEventListener('DOMContentLoaded', function() {
         closeLightbox();
     });
 });
+
+//get year btn from html
+const btn2024 = document.getElementById('2024');
+const btn2023 = document.getElementById('2023');
+const btn2022 = document.getElementById('2022');
+const btnAll = document.getElementById('All');
+
+//get items from html
+const itemAll = document.getElementsByClassName('item');
+const items2024 = document.getElementsByClassName('item-2024');
+const items2023 = document.getElementsByClassName('item-2023');
+const items2022 = document.getElementsByClassName('item-2022')
+
+//on click
+btn2024.onclick = () => {
+    console.log("2024 btn clicked");
+
+    //hide everything
+    Array.from(itemAll).forEach(item => {
+        console.log(item);
+        item.style.display = 'none';
+    });
+    //show 2024
+    Array.from(items2024).forEach(item => {
+        item.style.display = '';
+    });
+}
+
+//on click
+btn2023.onclick = () => {
+    console.log("2023 btn clicked");
+
+    //hide everything
+    Array.from(itemAll).forEach(item => {
+        console.log(item);
+        item.style.display = 'none';
+    });
+    //show 2024
+    Array.from(items2023).forEach(item => {
+        item.style.display = '';
+    });
+
+}
+
+//on click
+btn2022.onclick = () => {
+    console.log("2022 btn clicked");
+
+    //hide everything
+    Array.from(itemAll).forEach(item => {
+        console.log(item);
+        item.style.display = 'none';
+    });
+    //show 2024
+    Array.from(items2022).forEach(item => {
+        item.style.display = '';
+    });
+
+}
+
+//on click
+btnAll.onclick = () => {
+    console.log("All btn clicked");
+
+    //show everything
+    Array.from(itemAll).forEach(item => {
+        console.log(item);
+        item.style.display = '';
+    });
+}
 
 
 // Fetch gets your (local) JSON file…
