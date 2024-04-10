@@ -140,6 +140,15 @@ btn2024.onclick = () => {
     Array.from(items2024).forEach(item => {
         item.style.display = '';
     });
+
+    //year info
+    //hide everything
+    Array.from(YearAll).forEach(year => {
+        year.style.display = 'none';
+    });
+    //show 2024
+    // Year2024.style.display = '';
+    
 }
 
 //on click
