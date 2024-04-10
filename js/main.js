@@ -154,6 +154,7 @@ const yearAll = document.getElementsByClassName('year-header');
 const year2024 = document.getElementsByClassName('year-2024');
 const year2023 = document.getElementsByClassName('year-2023');
 const year2022 = document.getElementsByClassName('year-2022');
+const year2422 = document.getElementsByClassName('year-24-22');
 
 
 //on click
@@ -239,6 +240,9 @@ btnAll.onclick = () => {
     Array.from(yearAll).forEach(item => {
         item.style.display = 'none';
     });
+    Array.from(year2422).forEach(item => {
+        item.style.display = '';
+    });
 }
 
 
@@ -266,6 +270,15 @@ fetch('js/data.json')
         .then(data => {
             // And passes the data to the function, above!
             renderYearItems(data);
+        })
+        // setting default to show 'all' header
+        .then(data =>{
+            Array.from(yearAll).forEach(item => {
+                item.style.display = 'none';
+            });
+            Array.from(year2422).forEach(item => {
+                item.style.display = '';
+            });
         })
         .catch(error => {
             console.error('Error fetching JSON data:', error);
