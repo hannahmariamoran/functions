@@ -20,26 +20,6 @@ const renderYearItems = (data) => {
     });
 };
 
-//get items from html
-const YearAll = document.querySelectorAll('.year-header');
-const Year2024 = document.getElementById('year-2024');
-const Year2023 = document.getElementById('year-2023');
-const Year2022 = document.getElementById('year-2022');
-
-//on click
-btn2024.onclick = () => {
-    console.log("2024 year btn clicked");
-
-    //hide everything
-    Array.from(YearAll).forEach(item => {
-        console.log(item);
-        item.style.display = 'none';
-    });
-
-    //show 2024
-    Year2024.style.display = 'block';
-}
-
 // Fetch gets your (local) JSON file…
 fetch('js/year.json')
     .then(response => response.json())
