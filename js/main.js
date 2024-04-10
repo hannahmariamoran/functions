@@ -38,6 +38,28 @@ const renderItems = (data) => {
     lastUlitem.id = 'last-item'; 
 };
 
+// Function to render your items
+const renderYearItems = (data) => {
+    // The `div` where the items will be inserted
+    const yearContainer = document.getElementById('year-container');
+
+    // Loop through each item in the data array
+    data.forEach((item) => {
+        let year = item.Year; 
+        let description = item.Description;
+
+        // Make a template literal as we have before, inserting your data
+        let yearItemHTML = `
+            <div class="year-header year-${year}">
+                <h1 class="weight-light">${year}</h1>
+                <p>${description}</p>
+            </div>
+        `;
+
+        yearContainer.insertAdjacentHTML('beforeend', yearItemHTML); // Add it to the `div`!
+    });
+};
+
 // function to open and close the 'about' button popover that tells users about the project
 function openAboutBox() {
     var aboutBox = document.getElementById('about-box');
@@ -127,17 +149,32 @@ const items2024 = document.getElementsByClassName('item-2024');
 const items2023 = document.getElementsByClassName('item-2023');
 const items2022 = document.getElementsByClassName('item-2022')
 
+//get items from html
+const yearAll = document.getElementsByClassName('year-header');
+const year2024 = document.getElementsByClassName('year-2024');
+const year2023 = document.getElementsByClassName('year-2023');
+const year2022 = document.getElementsByClassName('year-2022');
+
+
 //on click
 btn2024.onclick = () => {
     console.log("2024 btn clicked");
 
     //hide everything
     Array.from(itemAll).forEach(item => {
-        console.log(item);
+        // console.log(item);
         item.style.display = 'none';
     });
     //show 2024
     Array.from(items2024).forEach(item => {
+        item.style.display = '';
+    });
+
+    //year
+    Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
+    Array.from(year2024).forEach(item => {
         item.style.display = '';
     });
    
@@ -154,6 +191,13 @@ btn2023.onclick = () => {
     });
     //show 2024
     Array.from(items2023).forEach(item => {
+        item.style.display = '';
+    });
+     //year
+     Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
+    Array.from(year2023).forEach(item => {
         item.style.display = '';
     });
 
@@ -173,6 +217,13 @@ btn2022.onclick = () => {
         item.style.display = '';
     });
 
+    //year
+      Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
+    Array.from(year2022).forEach(item => {
+        item.style.display = '';
+    });
 }
 
 //on click
@@ -184,6 +235,10 @@ btnAll.onclick = () => {
         console.log(item);
         item.style.display = '';
     });
+    //year
+    Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
 }
 
 
@@ -194,17 +249,29 @@ fetch('js/data.json')
         // And passes the data to the function, above!
         renderItems(data);
     })
+    // .then(
+    //     fetchYearInfo()
+    // )
+    // .then(
+    //     renderOnclick()
+    // )
     .catch(error => {
         console.error('Error fetching JSON data:', error);
     });
 
-    // Fetch gets your (local) JSON file…
-fetch('js/data.json')
-.then(response => response.json())
-.then(data => {
-    // And passes the data to the function, above!
-    renderItems(data);
-})
-.catch(error => {
-    console.error('Error fetching JSON data:', error);
-});
+// Fetch gets your (local) JSON file…
+// function fetchYearInfo(){
+    fetch('js/year.json')
+        .then(response => response.json())
+        .then(data => {
+            // And passes the data to the function, above!
+            renderYearItems(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON data:', error);
+        });
+// }
+
+// function renderOnclick(){
+
+// }
