@@ -1,5 +1,24 @@
 [
-    
+    {
+        "Year": "2024",
+        "Week": "Week 16",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27576866/original_7902379bee9121ae955ed7207f2d92a0.jpg?1713218097?bc=0",
+        "Date": "15 Apr",
+        "Location": "New York",
+        "Title": "5th Ave Tulips",
+        "Description": "I've noticed recently that I pass an insane amount of tulip patches on my way to and from class. This patch is right on 5th Ave. ",
+        "Alt Text": "A close-up image of pink and yellow tulips surrounding a tree on the sidewalk of a busy street in New York City."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 15",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27576767/original_ce88c015f33c4c44bffd95b875540997.jpg?1713217897?bc=0",
+        "Date": "13 Apr",
+        "Location": "New York",
+        "Title": "Cold Spring",
+        "Description": "Checking out the candles in Cold Spring while hiding from the rain.",
+        "Alt Text": "A candid image of two females checking out candles from a store shelf, one female has her back turned to the camera. Both subjects are wearing warm clothing."
+    },
     {
         "Year": "2024",
         "Week": "Week 14",
