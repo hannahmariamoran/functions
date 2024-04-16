@@ -461,11 +461,11 @@ footer{
     }
     .year-header {
         flex-direction: row;
-        gap: 40px;
+        gap: 46px;
         align-items: flex-start; 
     }
     .year-header p {
-        max-width: 60vw;
+        max-width: 55vw;
         padding-top: 18px;
     }
     /* ==== list and content styling ==== */
@@ -473,6 +473,7 @@ footer{
         width: 100%; 
         overflow-x: auto;
         position: relative;
+        margin-top: 80px;
     }
     .scroll-container::before {
         content: "";
@@ -559,8 +560,8 @@ footer{
 @media (min-width: 1024px) {
     /* ========= text variables ========= */
     :root {
-        --h1: 200px;
-        --h1-line-height:170px;
+        --h1: 160px;
+        --h1-line-height:160px;
         --h2: 80px;
         --h2-line-height: 80px;
         --h3: 40px;
@@ -667,6 +668,7 @@ footer{
     .scroll-container {
         width: 100%; 
         overflow-x: auto;
+        margin-top: 140px;
     }
     .scroll-container::before {
         content: "";
