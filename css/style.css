@@ -14,8 +14,9 @@ html{
     --colour-beige: #f8f1e3;
     --colour-tag-bg: #d7e0c4;
     --colour-white: #ffffff;
-    --colour-button-hover: #9caff9;
+    --colour-button-hover: #bdc7df;
     --colour-blue: #9caff9;
+    --colour-dark-blue: #676eed;
     --colour-light-blue: #bdc7df;
     --colour-light-green: #d7e0c4;
     --colour-yellow-green: #ebf9a6;
@@ -35,8 +36,8 @@ html{
     --h2-line-height: 64px;
     --h3: 20px;
     --h3-line-height: 20px;
-    --h4: 20px;
-    --h4-line-height: 20px;
+    --h4: 16px;
+    --h4-line-height: 16px;
     --h5: 20px;
     --h5-line-height: 20px;
     --h6: 14px;
@@ -55,15 +56,23 @@ h1 {
     line-height: var(--h1-line-height);
     color: var(--colour-black);
 }
+.weight-light{
+    font-weight: 300;
+    color: var(--colour-dark-blue);
+    font-style: italic;
+}
 h2 {
     font-family: var(--display-font);
     font-size: var(--h2);
     line-height: var(--h2-line-height);
     color: var(--colour-black);
+    font-style: italic;
+    font-weight: 300;
 }
 h3 {
     font-family: var(--display-font);
     font-size: var(--h3);
+    font-weight: 600;
     line-height: var(--h3-line-height);
     color: var(--colour-black);
 }
@@ -71,7 +80,7 @@ h4 {
     font-family: var(--sans-serif-font);
     font-size: var(--h4);
     line-height: var(--h4-line-height);
-    color: var(--colour-black);
+    color: var(--colour-dark-blue);
 }
 h5 {
     font-family: var(--serif-font);
@@ -107,6 +116,7 @@ p{
     font-size: var(--p);
     line-height: var(--p-line-height);
     color: var(--colour-black);
+    font-weight: 400;
 }
 a {
     font-family:  var(--sans-serif-font);
@@ -119,7 +129,7 @@ a {
     padding-right: 12px;
     border-radius: 5px;
     cursor: pointer;
-    color: var(--colour-black);
+    color: var(--colour-dark-blue);
 }
 .no-a-style{
     border: 0px;
@@ -183,13 +193,21 @@ nav{
 button {
     display: flex;
     width: 167px;
-    padding: 8px;
+    padding: 12px;
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 8px;
-    border: 1px solid var(--colour-black);
+    border: 1px solid var(--colour-dark-blue);
     cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+button:hover {
+    background-color: var(--colour-yellow-green);
+    transform: scale(1.05);
+}
+button:active {
+    background-color: var(--colour-yellow-green);
 }
 .buttons{
     display: flex;
@@ -220,7 +238,7 @@ button {
 }
 .tabs a {
     padding: 8px 16px;
-    border: 1px solid var(--colour-black); 
+    border: 1px solid var(--colour-dark-blue); 
     border-radius: 6px;
     background-color: var(--colour-beige);
     transition: transform 0.3s ease; 
@@ -260,7 +278,7 @@ button {
     left: 0; 
     width: 1px; 
     height: 100%; 
-    background-color: var(--colour-black); 
+    background-color: var(--colour-dark-blue); 
     margin-top: 7px;
 }
 ul {
@@ -292,13 +310,13 @@ li {
     margin-bottom: 24px;
 }
 .detail-tab {
-    border: 1px solid var(--colour-black);
+    border: 1px solid var(--colour-dark-blue);
 }
 .image-content{
     grid-column: 2 / span 3; 
 }
 hr {
-    border-top: 1px solid var(--colour-black); 
+    border-top: 1px solid var(--colour-dark-blue); 
     width: 8px; 
 }
 img {
@@ -422,8 +440,8 @@ footer{
         --h2-line-height: 64px;
         --h3: 40px;
         --h3-line-height: 40px;
-        --h4: 24px;
-        --h4-line-height: 24px;
+        --h4: 16px;
+        --h4-line-height: 16px;
         --h5: 20px;
         --h5-line-height: 20px;
         --h6: 16px;
@@ -505,11 +523,11 @@ footer{
     button {
         display: flex;
         width: 206px;
-        padding: 8px;
+        padding: 12px;
         justify-content: center;
         align-items: center;
         border-radius: 8px;
-        border: 1px solid #000;
+        border: 1px solid  var(--colour-dark-blue);
     }
     .buttons{
         display: flex;
@@ -565,7 +583,7 @@ footer{
         left: 0; 
         width: 100%; 
         height: 1px; 
-        background-color: black; 
+        background-color: var(--colour-dark-blue); 
     }
     .scroll-container::-webkit-scrollbar {
         display: none;
@@ -604,7 +622,7 @@ footer{
         width: 35vw;
     }
     hr {
-        border-left: 1px solid black; 
+        border-left: 1px solid  var(--colour-dark-blue); 
         height: 40px; 
         border-top: 0px; 
     }
@@ -649,8 +667,8 @@ footer{
         --h2-line-height: 80px;
         --h3: 40px;
         --h3-line-height: 40px;
-        --h4: 24px;
-        --h4-line-height: 24px;
+        --h4: 20px;
+        --h4-line-height: 20px;
         --h5: 24px;
         --h5-line-height: 24px;
         --h6: 16px;
@@ -658,7 +676,7 @@ footer{
         --blockquote: 18px;
         --blockquote-line-height: 22px;
         --p: 16px;
-        --p-line-height: 20px;
+        --p-line-height: 24px;
         --a: 16px;
         --a-line-height: 16px;
     }
@@ -743,7 +761,7 @@ footer{
     }
     button {
         width: 210px;
-        padding: 8px;
+        padding: 12px;
     }
     .button-bar{
         border-bottom: 0px;
@@ -788,7 +806,7 @@ footer{
         left: 0; 
         width: 100%; 
         height: 1px; 
-        background-color: black; 
+        background-color: var(--colour-dark-blue); 
     }
     .scroll-container::-webkit-scrollbar {
         display: none; 
@@ -830,7 +848,7 @@ footer{
         align-items: flex-start;
     }
     hr {
-        border-left: 1px solid black; 
+        border-left: 1px solid var(--colour-dark-blue); 
         height: 60px; 
         border-top: 0px; 
     }
