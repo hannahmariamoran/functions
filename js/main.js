@@ -245,6 +245,15 @@ btnAll.onclick = () => {
     });
 }
 
+window.addEventListener('scroll', function() {
+    var button = document.getElementById('backTopButton');
+    if (window.scrollY > 500) { 
+        button.style.display = 'block'; 
+    } else {
+        button.style.display = 'none'; 
+    }
+});
+
 
 // Fetch gets your (local) JSON file…
 fetch('js/data.json')

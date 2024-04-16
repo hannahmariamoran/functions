@@ -136,6 +136,16 @@ nav{
     margin-bottom: 56px;
 }
 /* == button, arrow + tab styling === */
+.back-top-button {
+    position: fixed;
+    bottom: 16px; 
+    left: 16px; 
+    cursor: pointer;
+    z-index: 9999; 
+    border: 0px;
+    padding: 0px;
+    display: none; 
+}
 button {
     display: flex;
     width: 167px;
@@ -608,7 +618,7 @@ footer{
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 40px;
-        padding-bottom: 200px;
+        padding-bottom: 140px;
     }
     /* ========= header styling ========= */
     .title{
