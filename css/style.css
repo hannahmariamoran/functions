@@ -190,7 +190,7 @@ button {
     gap: 24px;
 }
 .year-header p {
-    max-width: 90vw;
+    max-width: 400px;
 }
 /* ==== list and content styling ==== */
 .scroll-container{
@@ -356,7 +356,7 @@ footer{
 @media (min-width: 768px) and (max-width: 1023px) {
     /* ========= text variables ========= */
     :root {
-        --h1: 120px;
+        --h1: 92px;
         --h1-line-height:106px;
         --h2: 64px;
         --h2-line-height: 64px;
@@ -462,9 +462,11 @@ footer{
     .year-header {
         flex-direction: row;
         gap: 40px;
+        align-items: flex-start; 
     }
     .year-header p {
-        max-width: 65%;
+        max-width: 60vw;
+        padding-top: 18px;
     }
     /* ==== list and content styling ==== */
     .scroll-container {
@@ -654,10 +656,12 @@ footer{
     }
     .year-header {
         flex-direction: row;
-        gap: 40px;
+        gap: 64px;
+        align-items: flex-start; 
     }
     .year-header p {
-        max-width: 35vw;
+        max-width: 520px;
+        padding-top: 20px;
     }
     /* ==== list and content styling ==== */
     .scroll-container {
