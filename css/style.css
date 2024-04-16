@@ -469,7 +469,6 @@ footer{
         width: 100%; 
         overflow-x: auto;
         position: relative;
-        overflow-x: auto; 
     }
     .scroll-container::before {
         content: "";
@@ -479,6 +478,9 @@ footer{
         width: 100%; 
         height: 1px; 
         background-color: black; 
+    }
+    .scroll-container::-webkit-scrollbar {
+        display: none;
     }
     .week-layout{
         display: flex;
@@ -667,6 +669,9 @@ footer{
         width: 100%; 
         height: 1px; 
         background-color: black; 
+    }
+    .scroll-container::-webkit-scrollbar {
+        display: none; 
     }
     ul {
         display: flex;
