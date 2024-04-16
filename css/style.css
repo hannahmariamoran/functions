@@ -22,7 +22,7 @@ html{
 }
 /* ========= text variables ========= */
 :root {
-    --h1: 110px;
+    --h1: 10px;
     --h1-line-height: 90px;
     --h2: 64px;
     --h2-line-height: 64px;
@@ -168,7 +168,7 @@ button {
 .tabs{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 16px;
     margin-top: 24px;
     margin-bottom: 104px;
 }
@@ -315,6 +315,8 @@ img {
 }
 #codecloseBtn{
     cursor: pointer;
+    display: flex;
+    align-self: flex-end;
 }
 /* ==== image lightbox styling ====== */
 .lightbox {
