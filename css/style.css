@@ -6,14 +6,15 @@
 /* ======== scroll behaviour ======== */
 html{
     scroll-behavior: smooth;
+    background-color: var(--colour-beige);
 }
 /* ======== colour variables ======== - 🚨 NEED TO CHANGE 🚨 */
 :root {
-    --colour-black:#121111;
-    --colour-blue:#539FB0;
-    --colour-beige:#F9F5EE;
-    --colour-grey: #423F3F;
-    --colour-light-bluegrey: #A4BEC2;
+    --colour-black:#171716;
+    --colour-beige: #f8f1e3;
+    --colour-beige-dark: #eddbbb;
+    --colour-white: #ffffff;
+    --colour-button-hover: red;
 }
 /* ========= font variables ========= */
 :root {
@@ -47,6 +48,7 @@ h1 {
     font-size: var(--h1);
     line-height: var(--h1-line-height);
     font-weight: 500;
+    color: var(--colour-black);
 }
 .weight-light{
     font-weight: 200;
@@ -55,17 +57,20 @@ h2 {
     font-family: "Bebas Neue";
     font-size: var(--h2);
     line-height: var(--h2-line-height);
+    color: var(--colour-black);
 }
 h3 {
     font-family: var(--serif-font);
     font-size: var(--h3);
     line-height: var(--h3-line-height);
     font-weight: 500;
+    color: var(--colour-black);
 }
 h4 {
     font-family: "Bebas Neue";
     font-size: var(--h4);
     line-height: var(--h4-line-height);
+    color: var(--colour-black);
 }
 h5 {
     font-family: var(--sans-serif-font);
@@ -73,29 +78,35 @@ h5 {
     line-height: var(--h5-line-height);
     font-weight: 500;
     margin-bottom: 16px;
+    color: var(--colour-black);
 }
 h6 {
     font-family: "Inter";
     font-size: var(--h6);
     line-height: var(--h6-line-height);
-    border: 1px solid black;
+    /* border: 1px solid var(--colour-black); */
     padding: 8px 12px;
     border-radius: 6px;
+    color: var(--colour-black);
+    background-color: var(--colour-beige-dark);
 }
 .week-text{
     font-family: "Inter";
     font-size: var(--h6);
     line-height: var(--h6-line-height);
+    color: var(--colour-black);
 }
 blockquote{
     font-family: "Inter";
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
+    color: var(--colour-black);
 }
 p{
     font-family: "Inter";
     font-size: var(--p);
     line-height: var(--p-line-height);
+    color: var(--colour-black);
 }
 a {
     font-family: "Inter";
@@ -108,6 +119,7 @@ a {
     padding-right: 12px;
     border-radius: 5px;
     cursor: pointer;
+    color: var(--colour-black);
 }
 .no-a-style{
     border: 0px;
@@ -159,6 +171,13 @@ nav{
     display: none; 
     transition: opacity 0.3s ease;
     opacity: 0;
+    transition: transform 0.3s ease; 
+}
+.back-top-button:hover{
+    transform: scale(1.1);
+}
+.back-top-button:hover rect {
+    fill: var(--colour-button-hover); 
 }
 button {
     display: flex;
@@ -168,7 +187,7 @@ button {
     align-items: center;
     gap: 8px;
     border-radius: 8px;
-    border: 1px solid #000;
+    border: 1px solid var(--colour-black);
     cursor: pointer;
 }
 .buttons{
@@ -200,9 +219,9 @@ button {
 }
 .tabs a {
     padding: 8px 16px;
-    border: 1px solid black; 
+    border: 1px solid var(--colour-black); 
     border-radius: 6px;
-    background-color: white;
+    background-color: var(--colour-white);
 }
 .tabs a:last-child {
     margin-right: 0; 
@@ -232,7 +251,7 @@ button {
     left: 0; 
     width: 1px; 
     height: 100%; 
-    background-color: black; 
+    background-color: var(--colour-black); 
     margin-top: 7px;
 }
 ul {
@@ -264,13 +283,13 @@ li {
     margin-bottom: 24px;
 }
 .detail-tab {
-    border: 1px solid black;
+    border: 1px solid var(--colour-black);
 }
 .image-content{
     grid-column: 2 / span 3; 
 }
 hr {
-    border-top: 1px solid black; 
+    border-top: 1px solid var(--colour-black); 
     width: 8px; 
 }
 img {
@@ -286,7 +305,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--colour-beige);
     display: none;
     padding: 20px;
 }
@@ -317,13 +336,13 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(23, 23, 22, 0.8);
     display: none;
     justify-content: center;
     align-items: center;
 }
 .code-box-content {
-    background-color: white;
+    background-color: var(--colour-beige);
     padding: 20px;
     border-radius: 10px;
     margin-left: 20px;
@@ -357,7 +376,7 @@ img {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(23, 23, 22, 0.8);
     display: none;
     justify-content: center;
     align-items: center;
@@ -469,6 +488,10 @@ footer{
         bottom: 32px; 
         left: 32px;  
         transform: rotate(270deg);
+        transition: transform 0.3s ease; 
+    }
+    .back-top-button:hover{
+        transform: scale(1.2) rotate(270deg);
     }
     button {
         display: flex;
@@ -695,6 +718,10 @@ footer{
         bottom: 40px; 
         left: 40px;  
         transform: rotate(270deg);
+        transition: transform 0.3s ease; 
+    }
+    .back-top-button:hover{
+        transform: scale(1.2) rotate(270deg);
     }
     .buttons{
         display: flex;
