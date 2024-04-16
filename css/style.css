@@ -635,6 +635,7 @@ footer{
         align-items: flex-start;
         margin-top: 200px;
         margin-bottom: 64px;
+        margin-right: 100px;
     }
     .blockquote-position{
         width: 500px;
