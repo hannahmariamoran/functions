@@ -12,9 +12,13 @@ html{
 :root {
     --colour-black:#171716;
     --colour-beige: #f8f1e3;
-    --colour-beige-dark: #eddbbb;
+    --colour-tag-bg: #d7e0c4;
     --colour-white: #ffffff;
-    --colour-button-hover: red;
+    --colour-button-hover: #9caff9;
+    --colour-blue: #9caff9;
+    --colour-light-blue: #bdc7df;
+    --colour-light-green: #d7e0c4;
+    --colour-yellow-green: #ebf9a6;
 }
 /* ========= font variables ========= */
 :root {
@@ -88,7 +92,7 @@ h6 {
     padding: 8px 12px;
     border-radius: 6px;
     color: var(--colour-black);
-    background-color: var(--colour-beige-dark);
+    background-color: var(--colour-tag-bg);
 }
 .week-text{
     font-family: "Inter";
@@ -133,7 +137,7 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    background-color: aqua;
+    background-image: linear-gradient(25deg, #9caff9, #bdc7df, #d7e0c4, #ebf9a6);
 }
 nav{
     display: flex;
@@ -221,7 +225,15 @@ button {
     padding: 8px 16px;
     border: 1px solid var(--colour-black); 
     border-radius: 6px;
-    background-color: var(--colour-white);
+    background-color: var(--colour-beige);
+    transition: transform 0.3s ease; 
+}
+.tabs a:hover {
+    background-color: var(--colour-button-hover);
+    transform: scale(1.1);
+}
+.tabs a:active {
+    background-color: var(--colour-button-hover);
 }
 .tabs a:last-child {
     margin-right: 0; 
