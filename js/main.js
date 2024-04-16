@@ -245,15 +245,19 @@ btnAll.onclick = () => {
     });
 }
 
+//back to top button showing at specficic sroll position
 window.addEventListener('scroll', function() {
     var button = document.getElementById('backTopButton');
-    if (window.scrollY > 500) { 
+    if (window.scrollY > 600) { 
         button.style.display = 'block'; 
+        button.style.opacity = '1'; 
     } else {
-        button.style.display = 'none'; 
+        button.style.opacity = '0'; 
+        setTimeout(function() {
+            button.style.display = 'none'; 
+        }, 300);
     }
 });
-
 
 // Fetch gets your (local) JSON file…
 fetch('js/data.json')
