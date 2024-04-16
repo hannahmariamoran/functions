@@ -683,12 +683,12 @@ footer{
     li {
         display: inline-block; 
         margin-top: 0; 
-        width: 55px;
-        margin-right: 120px; 
+        width: 380px;
+        margin-right: 120px;
     }
     .content-blocks{
         gap: 40px;
-        width: 55px;
+        width: 380px;
         display: flex;
         flex-direction: column;
     }
@@ -701,7 +701,7 @@ footer{
     }
     .image-content{
         grid-column: none;
-        width: 450px;
+        width: 380px;
     }
     .week-layout{
         display: flex;
