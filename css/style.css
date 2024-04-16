@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* DM Family*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap');
+/* Noto Family*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ======== scroll behaviour ======== */
 html{
     scroll-behavior: smooth;
     background-color: var(--colour-beige);
 }
-/* ======== colour variables ======== - 🚨 NEED TO CHANGE 🚨 */
+/* ======== colour variables ======== */
 :root {
     --colour-black:#171716;
     --colour-beige: #f8f1e3;
@@ -22,9 +22,10 @@ html{
 }
 /* ========= font variables ========= */
 :root {
-    --serif-font: "Spectral";
+    --display-font: "Noto Serif Display";
+    --serif-font: "Noto Serif";
     --sans-serif-font: "Noto Sans";
-    --mono-font: "DM Mono";
+    --mono-font: "Noto Sans Mono";
 }
 /* ========= text variables ========= */
 :root {
@@ -49,39 +50,33 @@ html{
 }
 /* ========== text styling ========== */
 h1 {
-    font-family: var(--serif-font);
+    font-family: var(--display-font);
     font-size: var(--h1);
     line-height: var(--h1-line-height);
-    font-weight: 500;
     color: var(--colour-black);
 }
-.weight-light{
-    font-weight: 200;
-}
 h2 {
-    font-family: "Bebas Neue";
+    font-family: var(--display-font);
     font-size: var(--h2);
     line-height: var(--h2-line-height);
     color: var(--colour-black);
 }
 h3 {
-    font-family: var(--serif-font);
+    font-family: var(--display-font);
     font-size: var(--h3);
     line-height: var(--h3-line-height);
-    font-weight: 500;
     color: var(--colour-black);
 }
 h4 {
-    font-family: "Bebas Neue";
+    font-family: var(--sans-serif-font);
     font-size: var(--h4);
     line-height: var(--h4-line-height);
     color: var(--colour-black);
 }
 h5 {
-    font-family: var(--sans-serif-font);
+    font-family: var(--serif-font);
     font-size: var(--h5);
     line-height: var(--h5-line-height);
-    font-weight: 500;
     margin-bottom: 16px;
     color: var(--colour-black);
 }
@@ -96,25 +91,25 @@ h6 {
     background-color: var(--colour-tag-bg);
 }
 .week-text{
-    font-family: "Inter";
+    font-family:  var(--sans-serif-font);
     font-size: var(--h6);
     line-height: var(--h6-line-height);
     color: var(--colour-black);
 }
 blockquote{
-    font-family: "Inter";
+    font-family:  var(--sans-serif-font);
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
     color: var(--colour-black);
 }
 p{
-    font-family: "Inter";
+    font-family:  var(--sans-serif-font);
     font-size: var(--p);
     line-height: var(--p-line-height);
     color: var(--colour-black);
 }
 a {
-    font-family: "Inter";
+    font-family:  var(--sans-serif-font);
     font-size: var(--a);
     line-height: var(--a-line-height);
     border: solid 1px;
