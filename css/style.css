@@ -356,6 +356,8 @@ img:hover{
 }
 .about-box-title{
     margin-top: 120px;
+    color: var(--colour-dark-blue);
+    font-weight: 400;
 }
 .about-box-text{
     margin-top: 32px;
