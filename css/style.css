@@ -657,7 +657,7 @@ footer{
     /* ========= footer styling ========== */
     footer{
         margin: 32px;
-        margin-top: 12px;
+        margin-top: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -880,6 +880,6 @@ footer{
     /* ========= footer styling ========== */
     footer{
         margin: 40px;
-        margin-top: 120px;
+        margin-top: 160px;
     }
 }
