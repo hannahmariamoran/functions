@@ -30,10 +30,10 @@ html{
 }
 /* ========= text variables ========= */
 :root {
-    --h1: 10px;
-    --h1-line-height: 90px;
-    --h2: 64px;
-    --h2-line-height: 64px;
+    --h1: 74px;
+    --h1-line-height: 74px;
+    --h2: 32px;
+    --h2-line-height: 40px;
     --h3: 24px;
     --h3-line-height: 24px;
     --h4: 16px;
@@ -104,7 +104,7 @@ h6 {
     background-color: var(--colour-tag-bg);
 }
 .week-text{
-    font-family:  var(--sans-serif-font);
+    font-family:  var(--mono-font);
     font-size: var(--h6);
     line-height: var(--h6-line-height);
     color: var(--colour-black);
@@ -147,8 +147,7 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    background-image: linear-gradient(25deg, #9caff9, #bdc7df, #d7e0c4, #ebf9a6);
-    
+    background-image: linear-gradient(25deg, #9caff9, #bdc7df, #d7e0c4, #ebf9a6)
 }
 nav{
     display: flex;
@@ -171,8 +170,6 @@ nav{
 }
 /* ========= header styling ========= */
 .title{
-    display: flex;
-    flex-direction: column;
     margin-top: 104px;
     margin-bottom: 56px;
 }
@@ -220,8 +217,8 @@ button:active {
     flex-direction: column;
     gap: 12px;
     align-items: center;
-    margin-top: 64px;
-    margin-bottom: 48px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 .down-arrow{
     display: flex;
@@ -445,18 +442,18 @@ footer{
     /* ========= text variables ========= */
     :root {
         --h1: 92px;
-        --h1-line-height:106px;
-        --h2: 64px;
-        --h2-line-height: 64px;
+        --h1-line-height:92px;
+        --h2: 40px;
+        --h2-line-height: 40px;
         --h3: 28px;
         --h3-line-height: 28px;
         --h4: 16px;
         --h4-line-height: 16px;
         --h5: 20px;
         --h5-line-height: 20px;
-        --h6: 16px;
-        --h6-line-height: 16px;
-        --blockquote: 18px;
+        --h6: 14px;
+        --h6-line-height: 14px;
+        --blockquote: 16px;
         --blockquote-line-height: 22px;
         --p: 14px;
         --p-line-height: 20px;
@@ -492,7 +489,7 @@ footer{
         padding-left: 32px;
         padding-right: 32px;
         padding-top: 32px;
-        padding-bottom: 140px;
+        padding-bottom: 80px;
     }
     .icon-buttons{
         gap: 16px;
@@ -505,15 +502,13 @@ footer{
     }
     /* ========= header styling ========= */
     .title{
-        display: flex;
-        flex-direction: row;
         gap: 8px;
         align-items: flex-start;
         margin-top: 120px;
         margin-bottom: 64px;
     }
     .blockquote-position{
-        width: 430px;
+        width: 420px;
     }
     .header-info{
         display: flex;
@@ -532,7 +527,7 @@ footer{
     }
     button {
         display: flex;
-        width: 206px;
+        width: 198px;
         padding: 12px;
         justify-content: center;
         align-items: center;
@@ -572,7 +567,7 @@ footer{
         flex-direction: row;
         gap: 46px;
         align-items: flex-start; 
-        margin-top: 64px;
+        margin-top: 40px;
         margin-bottom: 100px;
     }
     .year-header p {
@@ -673,8 +668,8 @@ footer{
     :root {
         --h1: 160px;
         --h1-line-height:160px;
-        --h2: 80px;
-        --h2-line-height: 80px;
+        --h2: 48px;
+        --h2-line-height: 48px;
         --h3: 32px;
         --h3-line-height: 32px;
         --h4: 20px;
@@ -732,12 +727,10 @@ footer{
     }
     /* ========= header styling ========= */
     .title{
-        display: flex;
-        flex-direction: row;
         gap: 20px;
-        align-items: flex-start;
+        align-items: flex-end;
         margin-top: 200px;
-        margin-bottom: 64px;
+        margin-bottom: 120px;
         margin-right: 100px;
     }
     .blockquote-position{
@@ -794,7 +787,7 @@ footer{
     }
     .year-header {
         flex-direction: row;
-        gap: 64px;
+        gap: 48px;
         align-items: flex-start; 
         margin-top: 64px;
         margin-bottom: 120px;
