@@ -669,8 +669,8 @@ footer{
 @media (min-width: 1024px) {
     /* ========= text variables ========= */
     :root {
-        --h1: 160px;
-        --h1-line-height:160px;
+        --h1: 80px;
+        --h1-line-height:80px;
         --h2: 48px;
         --h2-line-height: 48px;
         --h3: 32px;
@@ -683,8 +683,8 @@ footer{
         --h6-line-height: 16px;
         --blockquote: 18px;
         --blockquote-line-height: 22px;
-        --p: 16px;
-        --p-line-height: 24px;
+        --p: 12px;
+        --p-line-height: 18px;
         --a: 16px;
         --a-line-height: 16px;
     }
@@ -712,21 +712,21 @@ footer{
     }
     /* ========= layout styling ========= */
     main {
-        margin-left: 300px; 
+        margin-left: 280px; 
         margin-right: 0px; 
         margin-top: 40px; 
         top: 0;
         left: 0;
-        height: 100vh;
+        height: 100px;
     }
     header {
         position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
-        width: 300px;
+        width: 280px;
         color: #fff;
-        padding: 20px;
+        padding: 32px;
         box-sizing: border-box;
         z-index: 1000;
     }
@@ -820,18 +820,19 @@ footer{
         gap: 48px;
         align-items: flex-start; 
         justify-content: end;
-        /* margin-top: 64px; */
-        margin-bottom: 120px;
+        margin-top: 32px;
+        margin-right: 32px;
+        margin-bottom: 0px;
     }
     .year-header p {
-        max-width: 520px;
-        padding-top: 20px;
+        max-width: 400px;
     }
     /* ==== list and content styling ==== */
     .scroll-container {
         width: 100%; 
         overflow-x: auto;
         margin-top: 20px;
+        margin-top: 80px;
     }
     .scroll-container::before {
         content: "";
