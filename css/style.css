@@ -677,14 +677,14 @@ footer{
         --h3-line-height: 32px;
         --h4: 20px;
         --h4-line-height: 20px;
-        --h5: 24px;
-        --h5-line-height: 24px;
-        --h6: 16px;
-        --h6-line-height: 16px;
+        --h5: 20px;
+        --h5-line-height: 20px;
+        --h6: 14px;
+        --h6-line-height: 14px;
         --blockquote: 18px;
         --blockquote-line-height: 22px;
-        --p: 12px;
-        --p-line-height: 18px;
+        --p: 14px;
+        --p-line-height: 20px;
         --a: 16px;
         --a-line-height: 16px;
     }
@@ -857,13 +857,12 @@ footer{
     li {
         display: inline-block; 
         margin-top: 0; 
-        width: 380px;
+        width: 300px;
         margin-right: 120px;
     }
     .content-blocks{
         gap: 32px;
-        width: 380px;
-        height: 700px;
+        width: 300px;
         display: flex;
         flex-direction: column;
     }
@@ -876,10 +875,10 @@ footer{
     }
     .image-content{
         grid-column: none;
-        width: 380px;
+        width: 300px;
     }
     img{
-        height: 380px;
+        width: 300px;
     }
     .week-layout{
         display: flex;
