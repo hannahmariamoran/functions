@@ -823,6 +823,7 @@ footer{
         margin-top: 32px;
         margin-right: 32px;
         margin-bottom: 0px;
+        height: 100px;
     }
     .year-header p {
         max-width: 400px;
@@ -859,6 +860,9 @@ footer{
         margin-top: 0; 
         width: 300px;
         margin-right: 120px;
+    }
+    li:last-child {
+        margin-right: 40px;
     }
     .content-blocks{
         gap: 32px;
