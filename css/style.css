@@ -3,13 +3,10 @@
 /* Noto Family*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* ======== scroll behaviour ======== */
+/* ========== html styling ========== */
 html{
     scroll-behavior: smooth;
     background-color: var(--colour-beige);
-}
-section{
-    margin: 20px;
 }
 /* ======== colour variables ======== */
 :root {
@@ -43,8 +40,6 @@ section{
     --h4-line-height: 16px;
     --h5: 20px;
     --h5-line-height: 20px;
-    --h6: 14px;
-    --h6-line-height: 14px;
     --blockquote: 16px;
     --blockquote-line-height: 20px;
     --p: 12px;
@@ -58,11 +53,6 @@ h1 {
     font-size: var(--h1);
     line-height: var(--h1-line-height);
     color: var(--colour-black);
-}
-.weight-light{
-    font-weight: 300;
-    color: var(--colour-dark-blue);
-    font-style: italic;
 }
 h2 {
     font-family: var(--display-font);
@@ -78,10 +68,6 @@ h3 {
     font-weight: 600;
     line-height: var(--h3-line-height);
     color: var(--colour-black);
-    transition: transform 0.3s ease; 
-}
-h3:hover {
-    transform: scale(1.05);
 }
 h4 {
     font-family: var(--sans-serif-font);
@@ -96,27 +82,12 @@ h5 {
     margin-bottom: 16px;
     color: var(--colour-black);
 }
-h6 {
-    font-family: var(--mono-font);
-    font-size: var(--h6);
-    line-height: var(--h6-line-height);
-    /* border: 1px solid var(--colour-black); */
-    padding: 8px 12px;
-    border-radius: 6px;
-    color: var(--colour-black);
-    background-color: var(--colour-tag-bg);
-}
-.week-text{
-    font-family:  var(--mono-font);
-    font-size: var(--h6);
-    line-height: var(--h6-line-height);
-    color: var(--colour-black);
-}
 blockquote{
     font-family:  var(--sans-serif-font);
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
     color: var(--colour-black);
+    max-width: 400px;
 }
 p{
     font-family:  var(--sans-serif-font);
@@ -160,88 +131,14 @@ header{
     justify-content: space-between;
     gap: 16px;
 }
+/* ========== nav styling =========== */
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.icon-buttons{ 
-    gap: 20px;
-}
-.icon-scale {
-    transition: transform 0.3s ease; 
-    transform: scale(0.8);
-}
-.icon-scale:hover{
-    transform: scale(1.3);
-}
-/* ========= header styling ========= */
-.title{
-    margin-top: 104px;
-    margin-bottom: 56px;
-}
-/* == button, arrow + tab styling === */
-.back-top-button {
-    position: fixed;
-    bottom: 16px; 
-    left: 16px; 
-    cursor: pointer;
-    z-index: 9999; 
-    border: 0px;
-    padding: 0px;
-    display: none; 
-    transition: opacity 0.3s ease;
-    opacity: 0;
-    transition: transform 0.3s ease; 
-}
-.back-top-button:hover{
-    transform: scale(1.1);
-}
-.back-top-button:hover rect {
-    fill: var(--colour-button-hover); 
-}
-button {
-    display: flex;
-    width: 167px;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    border: 1px solid var(--colour-dark-blue);
-    cursor: pointer;
-    transition: transform 0.3s ease; 
-}
-button:hover {
-    background-color: var(--colour-yellow-green);
-    transform: scale(1.05);
-}
-button:active {
-    background-color: var(--colour-yellow-green);
-}
-.buttons{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
-.down-arrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.button-bar{
-    display: flex;
-    flex-direction: row;
-    position: sticky;
-    top: 0;
-    z-index: 1000; 
-    padding-left: 4px;
-    padding-top: 8px;
-}
+/* == button tab styling == */
 .tabs{
     display: flex;
     flex-direction: row;
@@ -261,22 +158,13 @@ button:active {
 .tabs a:active {
     background-color: var(--colour-button-hover);
 }
-.tabs a:last-child {
-    margin-right: 0; 
-}
-/* ===== year in review styling ===== */
-#year-container {
-    margin-top: 0px;
-}
+/* ====== year overview styling ===== */
 .year-header {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.year-header p {
-    max-width: 400px;
-}
-/* ==== list and content styling ==== */
+/* == timeline and content styling == */
 .scroll-container{
     position: relative;
     margin-top: 120px;
@@ -320,9 +208,6 @@ li {
     margin-top: 12px;
     margin-bottom: 24px;
 }
-.detail-tab {
-    border: 1px solid var(--colour-dark-blue);
-}
 .image-content{
     grid-column: 2 / span 3; 
 }
@@ -336,9 +221,6 @@ img {
 }
 img:hover{
     transform: scale(1.02);
-}
-#first-item {
-    margin-top: 0px;
 }
 /* ====== about button popover ======= */
 .about-box {
@@ -373,46 +255,6 @@ img:hover{
 #closeBtn{
     cursor: pointer;
 }
-/* ====== code button popover ======= */
-.code-box {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(23, 23, 22, 0.8);
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-.code-box-content {
-    background-color: var(--colour-beige);
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.code-box-title{
-    margin-top: 24px;
-}
-.code-box-text{
-    max-width: 272px;
-    margin-top: 24px;
-    margin-bottom: 32px;
-}
-.code-box-content a {
-    border: none;
-    padding: none;
-}
-#codecloseBtn{
-    cursor: pointer;
-    display: flex;
-    align-self: flex-end;
-}
 /* ==== image lightbox styling ====== */
 .lightbox {
     position: fixed;
@@ -427,7 +269,7 @@ img:hover{
     z-index: 2000;
 }
 #lightbox-image {
-    max-width: 100vw;
+    max-width: 80vw;
     max-height: 100vh;
     object-fit: contain;
     position: relative; 
@@ -439,7 +281,7 @@ img:hover{
     fill: white;
     cursor: pointer;
 }
-/* ========= footer styling ========== */
+/* ======= list-start button ========= */
 .list-start-button {
     position: fixed; 
     bottom: 16px; 
@@ -447,11 +289,22 @@ img:hover{
     z-index: 1000;
     transform: scale(0.9);
 }
+/* ========= footer styling ========== */
 .footer-icons{
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin: 20px;
+}
+.icon-buttons{ 
+    gap: 20px;
+}
+.icon-scale {
+    transition: transform 0.3s ease; 
+    transform: scale(0.8);
+}
+.icon-scale:hover{
+    transform: scale(1.3);
 }
 
 /* ================================== tablet media query ================================== */
@@ -468,8 +321,6 @@ img:hover{
         --h4-line-height: 16px;
         --h5: 20px;
         --h5-line-height: 20px;
-        --h6: 14px;
-        --h6-line-height: 14px;
         --blockquote: 16px;
         --blockquote-line-height: 22px;
         --p: 12px;
@@ -478,13 +329,6 @@ img:hover{
         --a-line-height: 16px;
     }
     /* ========== text styling ========== */
-    h5 {
-        margin-bottom: 16px;
-    }
-    .week-text{
-        font-size: var(--p);
-        line-height: var(--p-line-height);
-    }
     a {
         border: solid 1px;
         padding-top: 6px;
@@ -511,15 +355,6 @@ img:hover{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-    .icon-buttons{
-        gap: 16px;
-    }
-    .icon-scale{
-        transform: scale(1);
-    }
-    .icon-scale:hover{
-        transform: scale(1.5);
     }
     /* ========= header styling ========= */
     .title{
@@ -581,9 +416,6 @@ img:hover{
         margin-bottom: 0px;
     }
     /* ===== year in review styling ===== */
-      #year-container {
-        margin-top: 0px;
-    }
     .year-header {
         flex-direction: row;
         gap: 46px;
@@ -592,9 +424,6 @@ img:hover{
         margin-bottom: 0px;
         margin-left: 20px;
         margin-right: 20px;
-    }
-    .year-header p {
-        max-width: 40vw;
     }
     /* ==== list and content styling ==== */
     .scroll-container {
@@ -662,7 +491,6 @@ img:hover{
         height: 40px; 
         border-top: 0px; 
     }
-    
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
@@ -671,17 +499,10 @@ img:hover{
         margin-top: 40px;
         width: 80%;
     }
-    /* ====== code button popover ======= */
-    .code-box-title{
-        margin-top: 32px;
-    }
-    .code-box-text{
-        max-width: 350px;
-    }
     /* ==== image lightbox styling ====== */
     #lightbox-close-button {
-        top: 32px;
-        right: 32px;
+        top: 20px;
+        right: 20px;
     }
     #lightbox-image {
         width: 400px;
@@ -691,10 +512,7 @@ img:hover{
     #lightbox-image:hover {
         transform: none;
     }
-    /* ========= footer styling ========== */
-    footer{
-        margin: 0px;
-    }
+    /* ======= list-start button ========= */
     .list-start-button {
         position: fixed; 
         bottom: 20px; 
@@ -702,11 +520,21 @@ img:hover{
         z-index: 1000;
         transform: scale(0.9);
     }
+    /* ========= footer styling ========== */
     .footer-icons{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 20px;
+    }
+    .icon-buttons{
+        gap: 16px;
+    }
+    .icon-scale{
+        transform: scale(1);
+    }
+    .icon-scale:hover{
+        transform: scale(1.5);
     }
   }
 

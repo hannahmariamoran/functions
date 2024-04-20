@@ -14,16 +14,16 @@ const renderItems = (data) => {
                     <div class="week">
                         <div class="week-layout">
                             <hr>
-                            <p class="week-text">${item.Week}</p>
+                            <h5>${item.Week}</h5>
                         </div>
                     </div>
                     <div class="image-content">
                         <img src="${item.Image}">
                         <div class="item-details">
-                            <h6>${item.Date}</h6>
-                            <h6>${item.Location}</h6>
+                            <h4>${item.Date}</h4>
+                            <h4>${item.Location}</h4>
                         </div>
-                        <h5>${item.Title}</h5>
+                        <h3>${item.Title}</h3>
                         <p>${item.Description}</p>
                     </div>
                 </div>
@@ -51,8 +51,8 @@ const renderYearItems = (data) => {
         // Make a template literal as we have before, inserting your data
         let yearItemHTML = `
             <div class="year-header year-${year}">
-                <h1 class="weight-light">${year}</h1>
-                <p>${description}</p>
+                <h1>${year}</h1>
+                <blockquote>${description}</blockquote>
             </div>
         `;
 
