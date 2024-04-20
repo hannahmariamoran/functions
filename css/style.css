@@ -32,8 +32,8 @@ html{
 :root {
     --h1: 74px;
     --h1-line-height: 74px;
-    --h2: 32px;
-    --h2-line-height: 40px;
+    --h2: 20px;
+    --h2-line-height: 20px;
     --h3: 24px;
     --h3-line-height: 24px;
     --h4: 16px;
@@ -142,12 +142,20 @@ a {
 /* ========= layout styling ========= */
 main {
     margin: 20px; 
+    margin-top: 140px;
 }
 header{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 16px;
     background-color: var(--colour-dark-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
 }
 nav{
     display: flex;
@@ -155,11 +163,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.icon-buttons{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-self: flex-end;
+.icon-buttons{ 
+    gap: 20px;
 }
 .icon-scale {
     transition: transform 0.3s ease; 
@@ -264,7 +269,6 @@ button:active {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 80px;
 }
 .year-header p {
     max-width: 400px;
@@ -272,7 +276,8 @@ button:active {
 /* ==== list and content styling ==== */
 .scroll-container{
     position: relative;
-    margin-top: 40px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .scroll-container::before {
     content: "";
@@ -432,12 +437,18 @@ img:hover{
     cursor: pointer;
 }
 /* ========= footer styling ========== */
-footer{
-    margin: 20px;
-    margin-top: 100px;
+.list-start-button {
+    position: fixed; 
+    bottom: 16px; 
+    right: 16px; 
+    z-index: 1000;
+    transform: scale(0.9);
+}
+.footer-icons{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px;
 }
 
 /* ================================== tablet media query ================================== */
@@ -485,7 +496,7 @@ footer{
     /* ========= layout styling ========= */
     main {
         margin: 0px;
-        margin-top: 120px; 
+        margin-top: 160px; 
     }
     header {
         padding: 20px;
@@ -587,8 +598,8 @@ footer{
         width: 100%; 
         overflow-x: auto;
         position: relative;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 100px;
+        margin-bottom: 140px;
     }
     .scroll-container::before {
         content: "";
@@ -765,6 +776,7 @@ footer{
         z-index: 1000;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         gap: 60px;
     }
     .footer-icons{
@@ -775,6 +787,7 @@ footer{
         bottom: 32px;
         left: 32px;
         z-index: 1001;
+        margin: 0px;
     }
 
     .tabs {

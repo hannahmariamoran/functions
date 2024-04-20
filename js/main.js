@@ -60,53 +60,53 @@ const renderYearItems = (data) => {
     });
 };
 
-// function to open and close the 'about' button popover that tells users about the project
-function openAboutBox() {
-    var aboutBox = document.getElementById('about-box');
-    aboutBox.style.display = 'flex';
-}
+// // function to open and close the 'about' button popover that tells users about the project
+// function openAboutBox() {
+//     var aboutBox = document.getElementById('about-box');
+//     aboutBox.style.display = 'flex';
+// }
 
-function closeAboutBox() {
-    var aboutBox = document.getElementById('about-box');
-    aboutBox.style.display = 'none';
-}
+// function closeAboutBox() {
+//     var aboutBox = document.getElementById('about-box');
+//     aboutBox.style.display = 'none';
+// }
 
-document.addEventListener('DOMContentLoaded', function() {
-    var aboutButton = document.querySelector('.buttons button:nth-of-type(1)'); 
-    var closeButton = document.getElementById('closeBtn'); 
+// document.addEventListener('DOMContentLoaded', function() {
+//     var aboutButton = document.querySelector('.buttons button:nth-of-type(1)'); 
+//     var closeButton = document.getElementById('closeBtn'); 
 
-    aboutButton.addEventListener('click', function() {
-        openAboutBox();
-    });
+//     aboutButton.addEventListener('click', function() {
+//         openAboutBox();
+//     });
 
-    closeButton.addEventListener('click', function() {
-        closeAboutBox();
-    });
-});
+//     closeButton.addEventListener('click', function() {
+//         closeAboutBox();
+//     });
+// });
 
-// function to open and close 'code' button pop over that leads users to github
-function openCodeBox() {
-    var codeBox = document.getElementById('code-box');
-    codeBox.style.display = 'flex';
-}
+// // function to open and close 'code' button pop over that leads users to github
+// function openCodeBox() {
+//     var codeBox = document.getElementById('code-box');
+//     codeBox.style.display = 'flex';
+// }
 
-function closeCodeBox() {
-    var codeBox = document.getElementById('code-box');
-    codeBox.style.display = 'none';
-}
+// function closeCodeBox() {
+//     var codeBox = document.getElementById('code-box');
+//     codeBox.style.display = 'none';
+// }
 
-document.addEventListener('DOMContentLoaded', function() {
-    var codeButton = document.querySelector('.buttons button:nth-of-type(2)'); 
-    var closeButton = document.getElementById('codecloseBtn');
+// document.addEventListener('DOMContentLoaded', function() {
+//     var codeButton = document.querySelector('.buttons button:nth-of-type(2)'); 
+//     var closeButton = document.getElementById('codecloseBtn');
 
-    codeButton.addEventListener('click', function() {
-        openCodeBox();
-    });
+//     codeButton.addEventListener('click', function() {
+//         openCodeBox();
+//     });
 
-    closeButton.addEventListener('click', function() {
-        closeCodeBox();
-    });
-});
+//     closeButton.addEventListener('click', function() {
+//         closeCodeBox();
+//     });
+// });
 
 // function to open and close lightbox with image enlgarged
 function openLightbox(imageSrc) {
