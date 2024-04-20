@@ -245,19 +245,19 @@ btnAll.onclick = () => {
     });
 }
 
-//back to top button showing at specficic sroll position
-window.addEventListener('scroll', function() {
-    var button = document.getElementById('backTopButton');
-    if (window.scrollY > 600) { 
-        button.style.display = 'block'; 
-        button.style.opacity = '1'; 
-    } else {
-        button.style.opacity = '0'; 
-        setTimeout(function() {
-            button.style.display = 'none'; 
-        }, 300);
-    }
-});
+// //back to top button showing at specficic sroll position
+// window.addEventListener('scroll', function() {
+//     var button = document.getElementById('backTopButton');
+//     if (window.scrollY > 600) { 
+//         button.style.display = 'block'; 
+//         button.style.opacity = '1'; 
+//     } else {
+//         button.style.opacity = '0'; 
+//         setTimeout(function() {
+//             button.style.display = 'none'; 
+//         }, 300);
+//     }
+// });
 
 // Fetch gets your (local) JSON file…
 fetch('js/data.json')
@@ -276,7 +276,6 @@ fetch('js/data.json')
         console.error('Error fetching JSON data:', error);
     });
 
-// Fetch gets your (local) JSON file…
 // function fetchYearInfo(){
     fetch('js/year.json')
         .then(response => response.json())
