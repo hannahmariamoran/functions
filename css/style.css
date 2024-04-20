@@ -8,6 +8,9 @@ html{
     scroll-behavior: smooth;
     background-color: var(--colour-beige);
 }
+section{
+    margin: 20px;
+}
 /* ======== colour variables ======== */
 :root {
     --colour-black:#171716;
