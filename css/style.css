@@ -446,8 +446,8 @@ footer{
     :root {
         --h1: 92px;
         --h1-line-height:92px;
-        --h2: 40px;
-        --h2-line-height: 40px;
+        --h2: 24px;
+        --h2-line-height: 24px;
         --h3: 28px;
         --h3-line-height: 28px;
         --h4: 16px;
@@ -458,8 +458,8 @@ footer{
         --h6-line-height: 14px;
         --blockquote: 16px;
         --blockquote-line-height: 22px;
-        --p: 14px;
-        --p-line-height: 20px;
+        --p: 12px;
+        --p-line-height: 18px;
         --a: 16px;
         --a-line-height: 16px;
     }
@@ -484,15 +484,19 @@ footer{
     }
     /* ========= layout styling ========= */
     main {
-        margin-left: 32px; 
-        margin-right: 32px; 
-        margin-top: 20px; 
+        margin: 0px;
+        margin-top: 120px; 
     }
-    header{
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-top: 32px;
-        padding-bottom: 80px;
+    header {
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 1000; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .icon-buttons{
         gap: 16px;
@@ -570,19 +574,21 @@ footer{
         flex-direction: row;
         gap: 46px;
         align-items: flex-start; 
-        margin-top: 40px;
-        margin-bottom: 100px;
+        justify-content: flex-end;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .year-header p {
-        max-width: 55vw;
-        padding-top: 18px;
+        max-width: 40vw;
     }
     /* ==== list and content styling ==== */
     .scroll-container {
         width: 100%; 
         overflow-x: auto;
         position: relative;
-        margin-top: 20px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
     .scroll-container::before {
         content: "";
@@ -611,11 +617,16 @@ footer{
     li {
         display: inline-block; 
         margin-top: 0; 
+        width: 280px;
         margin-right: 100px;
     }
+    li:last-child {
+        margin-right: 32px;
+    }
     .content-blocks{
-        gap: 40px;
+        gap: 32px;
         display: flex;
+        width: 280px;
         flex-direction: column;
     }
     .item-details {
@@ -627,7 +638,10 @@ footer{
     }
     .image-content{
         grid-column: none;
-        width: 35vw;
+        width: 280px;
+    }
+    img{
+        width: 280px;
     }
     hr {
         border-left: 1px solid  var(--colour-dark-blue); 
@@ -655,15 +669,30 @@ footer{
         top: 32px;
         right: 32px;
     }
+    #lightbox-image {
+        width: 400px;
+        object-fit: contain;
+        position: relative;
+    }
+    #lightbox-image:hover {
+        transform: none;
+    }
     /* ========= footer styling ========== */
     footer{
         margin: 0px;
     }
     .list-start-button {
         position: fixed; 
-        bottom: 32px; 
-        right: 32px; 
+        bottom: 20px; 
+        right: 20px; 
         z-index: 1000;
+        transform: scale(0.9);
+    }
+    .footer-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
     }
   }
 
@@ -934,7 +963,6 @@ footer{
     }
     #lightbox-image {
         width: 400px;
-        /* max-height: 600px; */
         object-fit: contain;
         position: relative;
     }
