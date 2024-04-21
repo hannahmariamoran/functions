@@ -1,12 +1,18 @@
-/* DM Family*/
+/* DM Family */
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap');
-/* Noto Family*/
+/* Noto Family */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* Space Family */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Familjen Family */
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* ========== html styling ========== */
 html{
     scroll-behavior: smooth;
-    background-color: var(--colour-beige);
+    background-color: white;
+    color: black;
 }
 /* ======== colour variables ======== */
 :root {
@@ -23,24 +29,23 @@ html{
 }
 /* ========= font variables ========= */
 :root {
-    --display-font: "Noto Serif Display";
-    --serif-font: "Noto Serif";
-    --sans-serif-font: "Noto Sans";
-    --mono-font: "Noto Sans Mono";
+    --display-font: "Space Grotesk";
+    --sans-font: "Space Grotesk";
+    --mono-font: "Space Mono";
 }
 /* ========= text variables ========= */
 :root {
-    --h1: 74px;
-    --h1-line-height: 74px;
-    --h2: 20px;
-    --h2-line-height: 20px;
-    --h3: 24px;
-    --h3-line-height: 24px;
-    --h4: 16px;
-    --h4-line-height: 16px;
-    --h5: 20px;
-    --h5-line-height: 20px;
-    --blockquote: 16px;
+    --h1: 72px;
+    --h1-line-height: 72px;
+    --h2: 24px;
+    --h2-line-height: 24px;
+    --h3: 20px;
+    --h3-line-height: 20px;
+    --h4: 12px;
+    --h4-line-height: 12px;
+    --h5: 12px;
+    --h5-line-height: 12px;
+    --blockquote: 14px;
     --blockquote-line-height: 20px;
     --p: 12px;
     --p-line-height: 16px;
@@ -52,62 +57,50 @@ h1 {
     font-family: var(--display-font);
     font-size: var(--h1);
     line-height: var(--h1-line-height);
-    color: var(--colour-black);
 }
 h2 {
     font-family: var(--display-font);
     font-size: var(--h2);
     line-height: var(--h2-line-height);
-    color: var(--colour-black);
-    font-style: italic;
-    font-weight: 300;
 }
 h3 {
     font-family: var(--display-font);
     font-size: var(--h3);
-    font-weight: 600;
     line-height: var(--h3-line-height);
-    color: var(--colour-black);
+    margin-bottom: 12px;
 }
 h4 {
-    font-family: var(--sans-serif-font);
+    font-family: var(--mono-font);
     font-size: var(--h4);
     line-height: var(--h4-line-height);
-    color: var(--colour-dark-blue);
+    background-color: lightslategray;
+    padding: 6px 12px;
+    border-radius: 5px;
 }
 h5 {
-    font-family: var(--serif-font);
+    font-family: var(--mono-font);
     font-size: var(--h5);
     line-height: var(--h5-line-height);
-    margin-bottom: 16px;
-    color: var(--colour-black);
 }
 blockquote{
-    font-family:  var(--sans-serif-font);
+    font-family:  var(--sans-font);
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
-    color: var(--colour-black);
     max-width: 400px;
 }
 p{
-    font-family:  var(--sans-serif-font);
+    font-family:  var(--sans-font);
     font-size: var(--p);
     line-height: var(--p-line-height);
-    color: var(--colour-black);
-    font-weight: 400;
 }
 a {
-    font-family:  var(--sans-serif-font);
+    font-family:  var(--mono-font);
     font-size: var(--a);
     line-height: var(--a-line-height);
     border: solid 1px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 5px;
+    padding: 6px 12px;
     cursor: pointer;
-    color: var(--colour-dark-blue);
+    border-radius: 5px;
 }
 .no-a-style{
     border: 0px;
@@ -119,8 +112,8 @@ main {
     margin-top: 140px;
 }
 header{
-    padding: 16px;
-    background-color: var(--colour-dark-blue);
+    padding: 16px 20px;
+    background-color: rgba(203, 200, 200, 0.8);
     position: fixed;
     top: 0;
     left: 0;
@@ -130,6 +123,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    backdrop-filter: blur(20px); 
 }
 /* ========== nav styling =========== */
 nav{
@@ -142,21 +136,7 @@ nav{
 .tabs{
     display: flex;
     flex-direction: row;
-    gap: 16px;
-}
-.tabs a {
-    padding: 8px 16px;
-    border: 1px solid var(--colour-dark-blue); 
-    border-radius: 6px;
-    background-color: var(--colour-beige);
-    transition: transform 0.3s ease; 
-}
-.tabs a:hover {
-    background-color: var(--colour-button-hover);
-    transform: scale(1.1);
-}
-.tabs a:active {
-    background-color: var(--colour-button-hover);
+    gap: 20px;
 }
 /* ====== year overview styling ===== */
 .year-header {
@@ -167,7 +147,7 @@ nav{
 /* == timeline and content styling == */
 .scroll-container{
     position: relative;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 120px;
 }
 .scroll-container::before {
@@ -177,8 +157,8 @@ nav{
     left: 0; 
     width: 1px; 
     height: 100%; 
-    background-color: var(--colour-dark-blue); 
-    margin-top: 7px;
+    background-color: black; 
+    margin-top: 6px;
 }
 ul {
     width: 100%;
@@ -206,13 +186,13 @@ li {
     flex-direction: row;
     gap: 12px;
     margin-top: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .image-content{
     grid-column: 2 / span 3; 
 }
 hr {
-    border-top: 1px solid var(--colour-dark-blue); 
+    border-top: 1px solid black; 
     width: 8px; 
 }
 img {
@@ -284,24 +264,25 @@ img:hover{
 /* ======= list-start button ========= */
 .list-start-button {
     position: fixed; 
-    bottom: 16px; 
-    right: 16px; 
+    bottom: 15px; 
+    right: 15px; 
     z-index: 1000;
-    transform: scale(0.9);
+    transform: scale(0.8) rotate(90deg);
 }
 /* ========= footer styling ========== */
-.footer-icons{
+footer{
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin: 20px;
 }
 .icon-buttons{ 
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
 .icon-scale {
     transition: transform 0.3s ease; 
-    transform: scale(0.8);
 }
 .icon-scale:hover{
     transform: scale(1.3);
@@ -311,34 +292,26 @@ img:hover{
 @media (min-width: 768px) and (max-width: 1023px) {
     /* ========= text variables ========= */
     :root {
-        --h1: 92px;
-        --h1-line-height:92px;
+        --h1: 72px;
+        --h1-line-height:60px;
         --h2: 24px;
         --h2-line-height: 24px;
-        --h3: 28px;
-        --h3-line-height: 28px;
-        --h4: 16px;
-        --h4-line-height: 16px;
-        --h5: 20px;
-        --h5-line-height: 20px;
-        --blockquote: 16px;
-        --blockquote-line-height: 22px;
-        --p: 12px;
-        --p-line-height: 18px;
-        --a: 16px;
-        --a-line-height: 16px;
+        --h3: 24px;
+        --h3-line-height: 24px;
+        --h4: 14px;
+        --h4-line-height: 14px;
+        --h5: 14px;
+        --h5-line-height: 14px;
+        --blockquote: 14px;
+        --blockquote-line-height: 20px;
+        --p: 14px;
+        --p-line-height: 20px;
+        --a: 14px;
+        --a-line-height: 14px;
     }
     /* ========== text styling ========== */
-    a {
-        border: solid 1px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    .no-a-style{
-        border: 0px;
-        padding: 0px;
+    blockquote{
+        max-width: 380px;
     }
     /* ========= layout styling ========= */
     main {
@@ -355,6 +328,7 @@ img:hover{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     /* ========= header styling ========= */
     .title{
@@ -406,9 +380,6 @@ img:hover{
         padding-left: 0px;
         padding-top: 0px;
     }
-    .down-arrow{
-        display: none;
-    }
     .tabs{
         display: flex;
         flex-direction: row;
@@ -418,7 +389,7 @@ img:hover{
     /* ===== year in review styling ===== */
     .year-header {
         flex-direction: row;
-        gap: 46px;
+        gap: 32px;
         align-items: flex-start; 
         justify-content: flex-end;
         margin-bottom: 0px;
@@ -436,11 +407,10 @@ img:hover{
     .scroll-container::before {
         content: "";
         position: absolute; 
-        top: -7px; 
+        top: -6px; 
         left: 0; 
         width: 100%; 
         height: 1px; 
-        background-color: var(--colour-dark-blue); 
     }
     .scroll-container::-webkit-scrollbar {
         display: none;
@@ -487,8 +457,8 @@ img:hover{
         width: 280px;
     }
     hr {
-        border-left: 1px solid  var(--colour-dark-blue); 
-        height: 40px; 
+        border-left: 1px solid black; 
+        height: 32px; 
         border-top: 0px; 
     }
     /* ====== about button popover ======= */
@@ -521,11 +491,12 @@ img:hover{
         transform: scale(0.9);
     }
     /* ========= footer styling ========== */
-    .footer-icons{
+    footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 20px;
+        align-items: center;
     }
     .icon-buttons{
         gap: 16px;
@@ -534,7 +505,7 @@ img:hover{
         transform: scale(1);
     }
     .icon-scale:hover{
-        transform: scale(1.5);
+        transform: scale(1.3);
     }
   }
 
@@ -542,105 +513,62 @@ img:hover{
 @media (min-width: 1024px) {
     /* ========= text variables ========= */
     :root {
-        --h1: 80px;
+        --h1: 72px;
         --h1-line-height:64px;
         --h2: 40px;
         --h2-line-height: 40px;
-        --h3: 32px;
-        --h3-line-height: 32px;
-        --h4: 20px;
-        --h4-line-height: 20px;
-        --h5: 20px;
-        --h5-line-height: 20px;
+        --h3: 24px;
+        --h3-line-height: 24px;
+        --h4: 14px;
+        --h4-line-height: 14px;
+        --h5: 14px;
+        --h5-line-height: 14px;
         --h6: 14px;
         --h6-line-height: 14px;
-        --blockquote: 18px;
-        --blockquote-line-height: 22px;
+        --blockquote: 14px;
+        --blockquote-line-height: 20px;
         --p: 14px;
-        --p-line-height: 20px;
+        --p-line-height: 18px;
         --a: 16px;
         --a-line-height: 16px;
     }
     /* ========== text styling ========== */
-    h2 {
-        text-align: center;
+    blockquote{
+        max-width: 380px;
     }
-    h5 {
-        margin-bottom: 24px;
-    }
-    .week-text{
-        font-size: var(--p);
-        line-height: var(--p-line-height);
+    h3 {
+        margin-bottom: 20px;
     }
     a {
-        border: solid 1px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 12px;
-        padding-right: 12px;
+        text-align: center;
     }
-    .year-header p {
-        padding-top: 0px;
-    }
-    .no-a-style{
-        border: 0px;
-        padding: 0px;
+    h2 {
+        text-align: left;
     }
     /* ========= layout styling ========= */
     main {
-        margin-left: 280px; 
+        margin-left: 260px; 
         margin-right: 0px; 
         margin-top: 40px; 
+        margin-bottom: 120px; 
         top: 0;
         left: 0;
-        height: 100px;
     }
     header {
         position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
-        width: 280px;
-        color: #fff;
+        width: 260px;
         padding: 32px;
         box-sizing: border-box;
         z-index: 1000;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 60px;
-    }
-    .footer-icons{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: fixed;
-        bottom: 32px;
-        left: 32px;
-        z-index: 1001;
-        margin: 0px;
-    }
-
-    .tabs {
-        margin-top: 20px;
-    }
-
-    .tabs a {
-        display: block;
-        color: #fff;
-        text-decoration: none;
-        padding: 10px;
-        margin-bottom: 5px;
-    }
-    .icon-buttons{
-        gap: 20px;
-        align-self: flex-start;
-    }
-    .icon-scale{
-        transform: scale(1.1);
-    }
-    .icon-scale:hover{
-        transform: scale(1.5);
+        gap: 190px;
+        backdrop-filter: blur(20px); 
+        background-color: rgba(203, 200, 200, 0.8);
     }
     /* ========= header styling ========= */
     .title{
@@ -693,9 +621,6 @@ img:hover{
         padding-left: 0px;
         padding-top: 0px;
     }
-    .down-arrow{
-        display: none;
-    }
     .tabs{
         gap: 16px;
         display: flex;
@@ -722,17 +647,16 @@ img:hover{
     .scroll-container {
         width: 100%; 
         overflow-x: auto;
-        margin-top: 20px;
-        margin-top: 80px;
+        margin-top: 120px;
     }
     .scroll-container::before {
         content: "";
         position: absolute; 
-        top: -7px; 
+        top: -6px; 
         left: 0; 
         width: 100%; 
         height: 1px; 
-        background-color: var(--colour-dark-blue); 
+        background-color: black; 
     }
     .scroll-container::-webkit-scrollbar {
         display: none; 
@@ -781,8 +705,8 @@ img:hover{
         align-items: flex-start;
     }
     hr {
-        border-left: 1px solid var(--colour-dark-blue); 
-        height: 20px; 
+        border-left: 1px solid black; 
+        height: 32px; 
         border-top: 0px; 
     }
     /* ====== about button popover ======= */
@@ -813,20 +737,38 @@ img:hover{
     #lightbox-image:hover {
         transform: none;
     }
+    /* ======= list-start button ========= */
+    .list-start-button {
+        position: fixed; 
+        bottom: 40px; 
+        right: 40px; 
+        z-index: 1000;
+        transform: scale(0.9);
+    }
     /* ========= footer styling ========== */
     footer{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: fixed;
+        bottom: 32px;
+        left: 32px;
+        z-index: 1001;
         margin: 0px;
-        display: inline-block;
     }
     .footer-icons{
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    .list-start-button {
-        position: fixed; 
-        bottom: 40px; 
-        right: 40px; 
-        z-index: 1000;
+    .icon-buttons{
+        gap: 20px;
+        align-self: flex-start;
+    }
+    .icon-scale{
+        transform: scale(1.1);
+    }
+    .icon-scale:hover{
+        transform: scale(1.3);
     }
 }
