@@ -72,7 +72,7 @@ function closeAboutBox() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var aboutButton = document.querySelector('.buttons button:nth-of-type(1)'); 
+    var aboutButton = document.querySelector('.about-button'); 
     var closeButton = document.getElementById('closeBtn'); 
 
     aboutButton.addEventListener('click', function() {
