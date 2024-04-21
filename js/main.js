@@ -132,10 +132,23 @@ const year2023 = document.getElementsByClassName('year-2023');
 const year2022 = document.getElementsByClassName('year-2022');
 const year2422 = document.getElementsByClassName('year-24-22');
 
+// Function to reset background color of all buttons
+function resetButtonColors() {
+    btn2024.style.backgroundColor = '';
+    btn2023.style.backgroundColor = '';
+    btn2022.style.backgroundColor = '';
+    btnAll.style.backgroundColor = '';
+}
 
 //on click
 btn2024.onclick = () => {
     console.log("2024 btn clicked");
+
+    // Reset background color of all buttons
+    resetButtonColors();
+
+    // Change background color of the clicked button
+    btn2024.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--year2024');
 
     //hide everything
     Array.from(itemAll).forEach(item => {
@@ -161,6 +174,12 @@ btn2024.onclick = () => {
 btn2023.onclick = () => {
     console.log("2023 btn clicked");
 
+     // Reset background color of all buttons
+     resetButtonColors();
+
+    // Change background color of the clicked button
+    btn2023.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--year2023');
+
     //hide everything
     Array.from(itemAll).forEach(item => {
         console.log(item);
@@ -184,6 +203,12 @@ btn2023.onclick = () => {
 btn2022.onclick = () => {
     console.log("2022 btn clicked");
 
+    // Reset background color of all buttons
+    resetButtonColors();
+
+    // Change background color of the clicked button
+    btn2022.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--year2022');
+
     //hide everything
     Array.from(itemAll).forEach(item => {
         console.log(item);
@@ -206,6 +231,12 @@ btn2022.onclick = () => {
 //on click
 btnAll.onclick = () => {
     console.log("All btn clicked");
+
+    // Reset background color of all buttons
+    resetButtonColors();
+
+    // Change background color of the clicked button
+    btnAll.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--yearAll');
 
     //show everything
     Array.from(itemAll).forEach(item => {

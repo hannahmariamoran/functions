@@ -4,9 +4,24 @@
 /* ========== html styling ========== */
 html{
     scroll-behavior: smooth;
+    background-color: var(--background);
 }
 /* ======== colour variables ======== */
 :root {
+    --background: #F6F7F8;
+    --tabs: #DADCE3;
+    --header: #DADCE3;
+    --button-default: #EAEBEF;
+    --black: #31313A;
+    --darkgrey: #4C4D5C;
+    --yearAll: #FFCBF0;
+    --year2024: #E4B8F8;
+    --year2023: #92DFF7;
+    --year2022: #A8F5A8;
+    --yearAlldark: #FF66CD;
+    --year2024dark: #C362EA;
+    --year2023dark: #19B2DE;
+    --year2022dark: #4ADE4C;
 }
 /* ========= font variables ========= */
 :root {
@@ -38,41 +53,48 @@ h1 {
     font-family: var(--display-font);
     font-size: var(--h1);
     line-height: var(--h1-line-height);
+    color: var(--black);
 }
 h2 {
     font-family: var(--display-font);
     font-size: var(--h2);
     line-height: var(--h2-line-height);
+    color: var(--black);
 }
 h3 {
     font-family: var(--display-font);
     font-size: var(--h3);
     line-height: var(--h3-line-height);
     margin-bottom: 12px;
+    color: var(--black);
 }
 h4 {
     font-family: var(--mono-font);
     font-size: var(--h4);
     line-height: var(--h4-line-height);
-    background-color: lightslategray;
+    background-color: var(--tabs);
     padding: 6px 12px;
     border-radius: 5px;
+    color: var(--black);
 }
 h5 {
     font-family: var(--mono-font);
     font-size: var(--h5);
     line-height: var(--h5-line-height);
+    color: var(--black);
 }
 blockquote{
     font-family:  var(--sans-font);
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
     max-width: 400px;
+    color: var(--black);
 }
 p{
     font-family:  var(--sans-font);
     font-size: var(--p);
     line-height: var(--p-line-height);
+    color: var(--black);
 }
 a {
     font-family:  var(--mono-font);
@@ -83,6 +105,7 @@ a {
     cursor: pointer;
     border-radius: 5px;
     transition: transform 0.3s ease; 
+    color: var(--black);
 }
 a:hover {
     transform: scale(1.03);
@@ -98,7 +121,7 @@ main {
 }
 header{
     padding: 16px 20px;
-    background-color: rgba(203, 200, 200, 0.8);
+    background-color: rgba(218, 220, 227, 0.8);
     position: fixed;
     top: 0;
     left: 0;
@@ -124,7 +147,19 @@ nav{
     gap: 20px;
 }
 .tabs a {
-    background-color: white;
+    background-color: var(--button-default);
+}
+.btn-all:hover{
+    background-color: var(--yearAll);
+}
+.btn-2024:hover{
+    background-color: var(--year2024);
+}
+.btn-2023:hover{
+    background-color: var(--year2023);
+}
+.btn-2022:hover{
+    background-color: var(--year2022);
 }
 /* ====== year overview styling ===== */
 .year-header {
@@ -145,7 +180,7 @@ nav{
     left: 0; 
     width: 1px; 
     height: 100%; 
-    background-color: black; 
+    background-color: var(--darkgrey); 
     margin-top: 6px;
 }
 ul {
@@ -180,7 +215,7 @@ li {
     grid-column: 2 / span 3; 
 }
 hr {
-    border-top: 1px solid black; 
+    border-top: 1px solid var(--darkgrey); 
     width: 8px; 
 }
 img {
@@ -260,6 +295,14 @@ img:hover{
 }
 .list-start-button:hover {
     transform: scale(0.9) rotate(90deg);
+}
+#backTopButton:hover svg rect {
+    fill: var(--black); 
+    stroke: var(--background);
+}
+#backTopButton:hover svg path {
+    fill: var(--background); 
+    stroke: var(--background);
 }
 /* ========= footer styling ========== */
 footer{
@@ -346,15 +389,6 @@ footer{
     }
     .back-top-button:hover{
         transform: scale(1.2) rotate(270deg);
-    }
-    button {
-        display: flex;
-        width: 198px;
-        padding: 12px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 8px;
-        border: 1px solid  var(--colour-dark-blue);
     }
     .buttons{
         display: flex;
@@ -449,7 +483,7 @@ footer{
         width: 280px;
     }
     hr {
-        border-left: 1px solid black; 
+        border-left: 1px solid var(--darkgrey); 
         height: 32px; 
         border-top: 0px; 
     }
@@ -537,6 +571,7 @@ footer{
     }
     a {
         text-align: center;
+        padding: 8px 12px;
     }
     h2 {
         text-align: left;
@@ -650,7 +685,7 @@ footer{
         left: 0; 
         width: 100%; 
         height: 1px; 
-        background-color: black; 
+        background-color: var(--darkgrey); 
     }
     .scroll-container::-webkit-scrollbar {
         display: none; 
@@ -699,7 +734,7 @@ footer{
         align-items: flex-start;
     }
     hr {
-        border-left: 1px solid black; 
+        border-left: 1px solid var(--darkgrey); 
         height: 32px; 
         border-top: 0px; 
     }
