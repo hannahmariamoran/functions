@@ -41,6 +41,8 @@ html{
     --h4-line-height: 12px;
     --h5: 12px;
     --h5-line-height: 12px;
+    --h6: 28px;
+    --h6-line-height: 32px;
     --blockquote: 14px;
     --blockquote-line-height: 20px;
     --p: 12px;
@@ -88,6 +90,13 @@ h5 {
     line-height: var(--h5-line-height);
     color: var(--black);
 }
+h6 {
+    font-family: var(--mono-font);
+    font-size: var(--h6);
+    line-height: var(--h6-line-height);
+    color: var(--black);
+    margin-bottom: 24px;
+}
 blockquote{
     font-family:  var(--sans-font);
     font-size: var(--blockquote);
@@ -126,7 +135,7 @@ main {
 }
 header{
     padding: 16px 20px;
-    background-color: rgba(218, 220, 227, 0.8);
+    background-color: rgba(218, 220, 227, 0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -135,7 +144,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 16px;
+    gap: 20px;
     backdrop-filter: blur(20px); 
 }
 /* ========== nav styling =========== */
@@ -253,16 +262,26 @@ img:hover{
     flex-direction: row;
     justify-content: end;
 }
-.about-box-title{
-    margin-top: 120px;
-    color: var(--colour-dark-blue);
-    font-weight: 400;
-}
-.about-box-text{
-    margin-top: 32px;
-}
 #closeBtn{
     cursor: pointer;
+}
+section {
+    background-color: var(--button-default);
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section a {
+    text-align: center;
+    padding: 8px 12px;
+    background-color: var(--background);
+}
+section a:hover {
+    background-color: var(--black);
+    color: var(--background);
+    transform: scale(1.01);
 }
 /* ==== image lightbox styling ====== */
 .lightbox {
@@ -497,9 +516,36 @@ footer{
     .about-box {
         padding: 32px;
     }
-    .about-box-text{
-        margin-top: 40px;
-        width: 80%;
+    .about-info{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+    section {
+        background-color: var(--button-default);
+        border-radius: 6px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    section p {
+        width: 300px;
+    }
+    section a {
+        text-align: center; 
+        justify-content: center; 
+        display: flex; 
+        align-items: center; 
+        padding: 8px 12px;
+        background-color: var(--background);
+        width: 300px;
+    }
+    section a:hover {
+        background-color: var(--black);
+        color: var(--background);
+        transform: scale(1.01);
     }
     /* ==== image lightbox styling ====== */
     #lightbox-close-button {
@@ -559,8 +605,6 @@ footer{
         --h4-line-height: 14px;
         --h5: 14px;
         --h5-line-height: 14px;
-        --h6: 14px;
-        --h6-line-height: 14px;
         --blockquote: 14px;
         --blockquote-line-height: 20px;
         --p: 14px;
@@ -581,6 +625,9 @@ footer{
     }
     h2 {
         text-align: left;
+    }
+    h6 {
+        margin-bottom: 0px;
     }
     /* ========= layout styling ========= */
     main {
@@ -744,21 +791,52 @@ footer{
     .about-box {
         padding: 32px;
     }
-    .about-box-text{
-        margin-top: 40px;
-        width: 50%;
+    .about-box {
+        padding: 32px;
     }
-    /* ====== code button popover ======= */
-    .code-box-title{
-        margin-top: 32px;
+    .about-info{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
     }
-    .code-box-text{
-        max-width: 350px;
+    .about-info p{
+        width: 600px;
+    }
+    section {
+        background-color: var(--button-default);
+        border-radius: 6px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        width: 860px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    section p {
+        width: 300px;
+    }
+    section a {
+        text-align: center; 
+        justify-content: center; 
+        display: flex; 
+        align-items: center; 
+        padding: 8px 12px;
+        background-color: var(--background);
+        width: 300px;
+    }
+    section a:hover {
+        background-color: var(--black);
+        color: var(--background);
+        transform: scale(1.01);
     }
     /* ==== image lightbox styling ====== */
     #lightbox-close-button {
-        top: 40px;
-        right: 40px;
+        top: 32px;
+        right: 32px;
     }
     #lightbox-image {
         width: 400px;
