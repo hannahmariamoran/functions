@@ -7,16 +7,6 @@ html{
 }
 /* ======== colour variables ======== */
 :root {
-    --colour-black:#171716;
-    --colour-beige: #f8f1e3;
-    --colour-tag-bg: #d7e0c4;
-    --colour-white: #ffffff;
-    --colour-button-hover: #bdc7df;
-    --colour-blue: #9caff9;
-    --colour-dark-blue: #676eed;
-    --colour-light-blue: #bdc7df;
-    --colour-light-green: #d7e0c4;
-    --colour-yellow-green: #ebf9a6;
 }
 /* ========= font variables ========= */
 :root {
@@ -92,6 +82,10 @@ a {
     padding: 6px 12px;
     cursor: pointer;
     border-radius: 5px;
+    transition: transform 0.3s ease; 
+}
+a:hover {
+    transform: scale(1.03);
 }
 .no-a-style{
     border: 0px;
@@ -128,6 +122,9 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.tabs a {
+    background-color: white;
 }
 /* ====== year overview styling ===== */
 .year-header {
@@ -259,6 +256,10 @@ img:hover{
     right: 15px; 
     z-index: 1000;
     transform: scale(0.8) rotate(90deg);
+    transition: transform 0.3s ease; 
+}
+.list-start-button:hover {
+    transform: scale(0.9) rotate(90deg);
 }
 /* ========= footer styling ========== */
 footer{
@@ -480,6 +481,10 @@ footer{
         right: 20px; 
         z-index: 1000;
         transform: scale(0.9);
+        transition: transform 0.3s ease; 
+    }
+    .list-start-button:hover {
+        transform: scale(1);
     }
     /* ========= footer styling ========== */
     footer{
@@ -558,8 +563,6 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
         gap: 190px;
-        backdrop-filter: blur(20px); 
-        background-color: rgba(203, 200, 200, 0.8);
     }
     /* ========= header styling ========= */
     .title{
@@ -731,10 +734,14 @@ footer{
     /* ======= list-start button ========= */
     .list-start-button {
         position: fixed; 
-        bottom: 40px; 
-        right: 40px; 
+        bottom: 32px; 
+        right: 32px; 
         z-index: 1000;
-        transform: scale(0.9);
+        transform: scale(1);
+        transition: transform 0.3s ease; 
+    }
+    .list-start-button:hover {
+        transform: scale(1.1);
     }
     /* ========= footer styling ========== */
     footer{
