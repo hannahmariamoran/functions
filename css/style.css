@@ -245,7 +245,7 @@ img:hover{
     left: 0;
     width: 100%;
     background-color: var(--background);
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 20px;
     z-index: 4000;
