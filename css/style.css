@@ -534,7 +534,7 @@ footer{
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
-        display: flex;
+        display: none;
         flex-direction: column;
     }
     .about-box-content {
@@ -820,7 +820,7 @@ footer{
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
-        display: flex;
+        display: none;
         flex-direction: column;
     }
     .about-box-content {
