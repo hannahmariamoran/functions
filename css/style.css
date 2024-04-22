@@ -41,8 +41,8 @@ html{
     --h4-line-height: 12px;
     --h5: 12px;
     --h5-line-height: 12px;
-    --h6: 28px;
-    --h6-line-height: 32px;
+    --h6: 24px;
+    --h6-line-height: 24px;
     --blockquote: 14px;
     --blockquote-line-height: 20px;
     --p: 12px;
@@ -95,7 +95,6 @@ h6 {
     font-size: var(--h6);
     line-height: var(--h6-line-height);
     color: var(--black);
-    margin-bottom: 24px;
 }
 blockquote{
     font-family:  var(--sans-font);
@@ -245,37 +244,51 @@ img:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     background-color: var(--background);
-    display: none;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     z-index: 4000;
 }
 .about-box-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
+    gap: 40px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    max-width: 400px;
 }
 .about-box-header{
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
+.about-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
 #closeBtn{
     cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+#closeBtn:hover{
+    transform: scale(1.2);
 }
 section {
     background-color: var(--button-default);
     border-radius: 6px;
-    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 12px;
 }
 section a {
     text-align: center;
-    padding: 8px 12px;
+    padding: 6px 12px;
     background-color: var(--background);
 }
 section a:hover {
@@ -308,6 +321,10 @@ section a:hover {
     right: 20px;
     fill: white;
     cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+#lightbox-close-button:hover {
+    transform: scale(1.2);
 }
 /* ======= list-start button ========= */
 .list-start-button {
@@ -362,6 +379,8 @@ footer{
         --h4-line-height: 14px;
         --h5: 14px;
         --h5-line-height: 14px;
+        --h6: 26px;
+        --h6-line-height: 26px;
         --blockquote: 14px;
         --blockquote-line-height: 20px;
         --p: 14px;
@@ -515,32 +534,43 @@ footer{
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-box-content {
+        gap: 40px;
+        max-width: 550px;
+        display: flex;
+        min-height: 100vh;
+        margin: 0;
+        justify-content: flex-end;
+        padding-bottom: 100px;
     }
     .about-info{
         display: flex;
-        flex-direction: row;
-        gap: 100px;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
     }
     section {
         background-color: var(--button-default);
         border-radius: 6px;
         padding: 16px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
-        gap: 20px;
-    }
-    section p {
-        width: 300px;
+        align-items: center;
+        gap: 24px;
     }
     section a {
         text-align: center; 
         justify-content: center; 
         display: flex; 
         align-items: center; 
-        padding: 8px 12px;
+        padding: 10px 16px;
         background-color: var(--background);
         width: 300px;
+        font-size: 16PX;
     }
     section a:hover {
         background-color: var(--black);
@@ -605,6 +635,8 @@ footer{
         --h4-line-height: 14px;
         --h5: 14px;
         --h5-line-height: 14px;
+        --h6: 28px;
+        --h6-line-height: 28px;
         --blockquote: 14px;
         --blockquote-line-height: 20px;
         --p: 14px;
@@ -626,12 +658,9 @@ footer{
     h2 {
         text-align: left;
     }
-    h6 {
-        margin-bottom: 0px;
-    }
     /* ========= layout styling ========= */
     main {
-        margin-left: 260px; 
+        /* margin-left: 260px;  */
         margin-right: 0px; 
         margin-top: 40px; 
         margin-bottom: 120px; 
@@ -643,7 +672,8 @@ footer{
         top: 0;
         left: 0;
         height: 100vh;
-        width: 260px;
+        /* width: 260px; */
+        width: 20vw;
         padding: 32px;
         box-sizing: border-box;
         z-index: 1000;
@@ -790,41 +820,48 @@ footer{
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
+        display: flex;
+        flex-direction: column;
     }
-    .about-box {
-        padding: 32px;
+    .about-box-content {
+        gap: 40px;
+        max-width: 600px;
+        display: flex;
+        min-height: 100vh;
+        margin: 0;
+        justify-content: flex-end;
+        padding-bottom: 100px;
     }
     .about-info{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 40px;
         justify-content: center;
     }
     .about-info p{
-        width: 600px;
+        font-size: 16px;
+        line-height: 22px;
     }
     section {
         background-color: var(--button-default);
         border-radius: 6px;
         padding: 16px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
-        gap: 20px;
-        width: 860px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 80px;
+        align-items: center;
+        gap: 24px;
     }
     section p {
-        width: 300px;
+        font-size: 16px;
+        line-height: 22px;
     }
     section a {
         text-align: center; 
         justify-content: center; 
         display: flex; 
         align-items: center; 
-        padding: 8px 12px;
+        padding: 10px 16px;
         background-color: var(--background);
         width: 300px;
     }
