@@ -249,42 +249,41 @@ img:hover{
     flex-direction: column;
     padding: 20px;
     z-index: 4000;
-}
-.about-box-content{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    display: flex;
     min-height: 100vh;
-    justify-content: flex-end;
-    padding-bottom: 80px;
-    max-width: 400px;
 }
 .about-box-header{
     display: flex;
     flex-direction: row;
     justify-content: end;
+    margin-bottom: 24px;
 }
 .about-info{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 24px;
     justify-content: center;
 }
-#closeBtn{
-    cursor: pointer;
-    transition: transform 0.3s ease; 
+.about-info p{
+    font-size: 14px;
+    line-height: 20px;
 }
-#closeBtn:hover{
-    transform: scale(1.2);
-}
-section {
-    background-color: var(--button-default);
+.info-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(218, 220, 227, 0.5);
+    backdrop-filter: blur(20px); 
     border-radius: 6px;
+    width: 300px;
+    padding: 20px;
+}
+section{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 12px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
 }
 section a {
     text-align: center;
@@ -295,6 +294,13 @@ section a:hover {
     background-color: var(--black);
     color: var(--background);
     transform: scale(1.01);
+}
+#closeBtn{
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+#closeBtn:hover{
+    transform: scale(1.2);
 }
 /* ==== image lightbox styling ====== */
 .lightbox {
@@ -534,8 +540,9 @@ footer{
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
-        display: none;
-        flex-direction: column;
+    }
+    .about-box-header{
+        margin-bottom: 20px;
     }
     .about-box-content {
         gap: 40px;
@@ -547,20 +554,20 @@ footer{
         padding-bottom: 100px;
     }
     .about-info{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        justify-content: center;
+        gap: 32px;
+    }
+    .about-info p{
+        font-size: 14px;
+        line-height: 20px;
     }
     section {
         background-color: var(--button-default);
         border-radius: 6px;
-        padding: 16px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        gap: 24px;
+        gap: 40px;
     }
     section a {
         text-align: center; 
@@ -569,13 +576,32 @@ footer{
         align-items: center; 
         padding: 10px 16px;
         background-color: var(--background);
-        width: 300px;
+        /* width: 300px; */
         font-size: 16PX;
     }
     section a:hover {
         background-color: var(--black);
         color: var(--background);
         transform: scale(1.01);
+    }
+    /* ====== about button popover ======= */
+    .info-content{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(218, 220, 227, 0.5);
+        backdrop-filter: blur(20px); 
+        border-radius: 6px;
+        width: 600px;
+        padding: 20px;
+    }
+    #closeBtn{
+        cursor: pointer;
+        transition: transform 0.3s ease; 
+    }
+    #closeBtn:hover{
+        transform: scale(1.2);
     }
     /* ==== image lightbox styling ====== */
     #lightbox-close-button {
