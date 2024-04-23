@@ -1,6 +1,10 @@
-// Function to render your items
+// 🚨 User Instructions 🚨 //
+
+// JS INTRUCTIONS === Only make changes to code where you see the '🚨' emoji //
+
+// Function to render timeline items
 const renderItems = (data) => {
-    // The `ul` where the items will be inserted
+    // The `ul` where the timeline items will be inserted
     const dataList = document.getElementById('data-list');
 
     // Loop through each item in the data array
@@ -30,17 +34,17 @@ const renderItems = (data) => {
             </li>
         `;
 
-        dataList.insertAdjacentHTML('beforeend', listItem); // Add it to the `ul`!
+        dataList.insertAdjacentHTML('beforeend', listItem); // Add it to the timeline `ul`!
     });
 
-    // adding an id tag to the last ul item so when 'end' button is clicked, it scrolls to the end of the list
+    // Adding an id tag to the last ul item so when 'end' button is clicked, it scrolls to the end of the list
     const firstUlitem = dataList.firstElementChild; 
     firstUlitem.id = 'first-item'; 
 };
 
-// Function to render your items
+// Function to render year descriptions
 const renderYearItems = (data) => {
-    // The `div` where the items will be inserted
+    // The `div` where the year descriptions will be inserted
     const yearContainer = document.getElementById('year-container');
 
     // Loop through each item in the data array
@@ -56,11 +60,12 @@ const renderYearItems = (data) => {
             </div>
         `;
 
-        yearContainer.insertAdjacentHTML('beforeend', yearItemHTML); // Add it to the `div`!
+        yearContainer.insertAdjacentHTML('beforeend', yearItemHTML); // Add it to the year description `div`!
     });
 };
 
-// function to open and close the 'about' button popover that tells users about the project
+
+// Function to open and close the 'about' popover that tells users about the project
 function openAboutBox() {
     var aboutBox = document.getElementById('about-box');
     aboutBox.style.display = 'flex';
@@ -84,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// function to open and close lightbox with image enlgarged
+// Dunction to open and close the image lightbox with the image enlgarged
 function openLightbox(imageSrc) {
     const lightbox = document.getElementById('lightbox');
     const lightboxImage = document.getElementById('lightbox-image');
@@ -113,19 +118,37 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-//get year btn from html
+// This is the codee for the year filters, so when user clicks on button, it only shows content from that year in the timeline //
+
+// Get the year btn from html
+
+// 🚨 If you are adding another year, add it as a const shown below, for exmaple if you are adding a filter for 2021, add the following:
+    // const btn2021 = document,getElementById('2021');
+// 🚨
+
 const btn2024 = document.getElementById('2024');
 const btn2023 = document.getElementById('2023');
 const btn2022 = document.getElementById('2022');
 const btnAll = document.getElementById('All');
 
-//get items from html
+// Get items from html
+
+// 🚨 Again, if you are adding another year, add it as a const shown below, for exmaple if you are adding a filter for 2021, add the following:
+    // const items2021 = document,getElementByClassName('item-2021');
+// 🚨
+
 const itemAll = document.getElementsByClassName('item');
 const items2024 = document.getElementsByClassName('item-2024');
 const items2023 = document.getElementsByClassName('item-2023');
 const items2022 = document.getElementsByClassName('item-2022')
 
-//get items from html
+// Get items from html
+
+// 🚨 Add a new year descripton as a const shown below, for exmaple if you are adding content for 2021, add the following:
+    // const year2021 = document,getElementByClassName('year-2021');
+    // Than change the const 'year2422' accordingly to 'year2421'
+// 🚨
+
 const yearAll = document.getElementsByClassName('year-header');
 const year2024 = document.getElementsByClassName('year-2024');
 const year2023 = document.getElementsByClassName('year-2023');
@@ -133,6 +156,11 @@ const year2022 = document.getElementsByClassName('year-2022');
 const year2422 = document.getElementsByClassName('year-24-22');
 
 // Function to reset background color of all buttons
+
+// 🚨 Add your new year button here too, for example"
+    // btn2021.style.backgroundColor = '';
+// 🚨
+
 function resetButtonColors() {
     btn2024.style.backgroundColor = '';
     btn2023.style.backgroundColor = '';
@@ -140,7 +168,7 @@ function resetButtonColors() {
     btnAll.style.backgroundColor = '';
 }
 
-//on click
+// Function to render 2024 items
 btn2024.onclick = () => {
     console.log("2024 btn clicked");
 
@@ -170,7 +198,7 @@ btn2024.onclick = () => {
    
 }
 
-//on click
+// Function to render 2023 items
 btn2023.onclick = () => {
     console.log("2023 btn clicked");
 
@@ -199,7 +227,7 @@ btn2023.onclick = () => {
 
 }
 
-//on click
+// Function to render 2022 items
 btn2022.onclick = () => {
     console.log("2022 btn clicked");
 
@@ -228,7 +256,10 @@ btn2022.onclick = () => {
     });
 }
 
-//on click
+// 🚨 If you are adding content from another year, copy and paste the function 'render 2024 items', replacing 2024 for the corresponding year in all places 🚨//
+
+
+// Function to render all items
 btnAll.onclick = () => {
     console.log("All btn clicked");
 
@@ -247,6 +278,10 @@ btnAll.onclick = () => {
     Array.from(yearAll).forEach(item => {
         item.style.display = 'none';
     });
+    // 🚨 if you have added content from another year - change the Array here, for example if you added content from 2021, change the following Array to:
+    // Array.from(year2421).forEach(item => {
+    //     item.style.display = '';
+    // }); 🚨
     Array.from(year2422).forEach(item => {
         item.style.display = '';
     });
@@ -282,6 +317,10 @@ fetch('js/data.json')
             Array.from(yearAll).forEach(item => {
                 item.style.display = 'none';
             });
+            // 🚨 if you have added content from another year - change the Array here, for example if you added content from 2021, change the following Array to:
+            // Array.from(year2421).forEach(item => {
+            //     item.style.display = '';
+            // }); 🚨
             Array.from(year2422).forEach(item => {
                 item.style.display = '';
             });
