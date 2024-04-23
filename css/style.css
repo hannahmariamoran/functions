@@ -1,6 +1,11 @@
-/* Space Family */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 🚨 User Instructions 🚨
 
+CSS STYLING === Do not make changes to code on this page 
+
+*/
+
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* ========== html styling ========== */
 html{
     scroll-behavior: smooth;
