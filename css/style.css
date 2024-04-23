@@ -1,5 +1,7 @@
 /* 🚨 User Instructions 🚨
-CSS STYLING === Do not make changes to code on this page 
+
+CSS YEAR BUTTON STYLING === Only make changes to add another 'year' button in the menu
+
 */
 
 /* Font Family */
@@ -21,6 +23,10 @@ html{
     --year2024: #E4B8F8;
     --year2023: #92DFF7;
     --year2022: #A8F5A8;
+    /* 🚨 
+    If you wish to add another year button - define the colour here, for example:
+    --year2021: #ABABAB; 
+    🚨  */
 }
 /* ============== font variables ============== */
 :root {
@@ -175,6 +181,12 @@ header{
 .btn-2022:hover{
     background-color: var(--year2022);
 }
+/* 🚨 
+If you are adding another year button, add it below as per the folliwng example: 
+.btn-2021:hover{
+    background-color: var(--year2021);
+}
+🚨 */
 /* =========== year overview styling ========== */
 .year-header {
     display: flex;
