@@ -239,6 +239,50 @@ img:hover{
     transform: scale(1.02);
 }
 /* ====== about button popover ======= */
+.image-background{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 16px;
+    padding: 12px;
+    position: relative; 
+    overflow: hidden;
+    height: 100vh;
+}
+.image-background img{
+    filter: blur(0.6px);
+    opacity: 0.8; 
+}
+.image-background img:hover{
+    transform: none;
+    opacity: 1;
+    cursor: auto;
+    filter: blur(0px);
+}
+.image-background img:nth-child(1) {
+    grid-column: 1 / span 1; 
+    grid-row: 1;
+}
+.image-background img:nth-child(2) {
+    grid-column: 4 / span 1;
+    grid-row: 2;
+}
+.image-background img:nth-child(3) {
+    grid-column: 2 / span 1; 
+    grid-row: 3;
+}
+.image-background img:nth-child(4) {
+    grid-column: 1 / span 1; 
+    grid-row: 4;
+}
+.image-background img:nth-child(5) {
+    grid-column: 4 / span 1;
+    grid-row: 5;
+}
+.image-background img:nth-child(6) {
+    grid-column: 2 / span 1; 
+    grid-row: 6;
+}
 .about-box {
     position: fixed;
     top: 0;
@@ -247,15 +291,15 @@ img:hover{
     background-color: var(--background);
     display: none;
     flex-direction: column;
-    padding: 20px;
-    z-index: 4000;
+    padding: 16px;
+    z-index: 1000;
     min-height: 100vh;
 }
 .about-box-header{
     display: flex;
     flex-direction: row;
     justify-content: end;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 .about-info{
     display: flex;
@@ -277,17 +321,18 @@ img:hover{
     border-radius: 6px;
     width: 300px;
     padding: 20px;
+    z-index: 2000;
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 section a {
     text-align: center;
-    padding: 6px 12px;
+    padding: 8px 12px;
     background-color: var(--background);
 }
 section a:hover {
@@ -538,6 +583,44 @@ footer{
         border-top: 0px; 
     }
     /* ====== about button popover ======= */
+    .image-background{
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 32px;
+        padding: 20px;
+        position: relative; 
+        overflow: hidden;
+        height: 100vh;
+    }
+    .image-background img:nth-child(1) {
+        grid-column: 1 / span 2; 
+        grid-row: 1;
+    }
+    
+    .image-background img:nth-child(2) {
+        grid-column: 4 / span 2;
+        grid-row: 2;
+    }
+    
+    .image-background img:nth-child(3) {
+        grid-column: 7 / span 2; 
+        grid-row: 3;
+    }
+    
+    .image-background img:nth-child(4) {
+        grid-column: 2 / span 2; 
+        grid-row: 1;
+    }
+    
+    .image-background img:nth-child(5) {
+        grid-column: 3 / span 2;
+        grid-row: 2;
+    }
+    
+    .image-background img:nth-child(6) {
+        grid-column: 5 / span 2; 
+        grid-row: 3;
+    }
     .about-box {
         padding: 32px;
     }
@@ -554,20 +637,19 @@ footer{
         padding-bottom: 100px;
     }
     .about-info{
-        gap: 32px;
+        gap: 24px;
     }
     .about-info p{
         font-size: 14px;
         line-height: 20px;
     }
     section {
-        background-color: var(--button-default);
         border-radius: 6px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        gap: 40px;
+        gap: 32px;
     }
     section a {
         text-align: center; 
@@ -579,12 +661,6 @@ footer{
         /* width: 300px; */
         font-size: 16PX;
     }
-    section a:hover {
-        background-color: var(--black);
-        color: var(--background);
-        transform: scale(1.01);
-    }
-    /* ====== about button popover ======= */
     .info-content{
         position: fixed;
         top: 50%;
@@ -661,8 +737,8 @@ footer{
         --h4-line-height: 14px;
         --h5: 14px;
         --h5-line-height: 14px;
-        --h6: 28px;
-        --h6-line-height: 28px;
+        --h6: 26px;
+        --h6-line-height: 26px;
         --blockquote: 14px;
         --blockquote-line-height: 20px;
         --p: 14px;
@@ -846,8 +922,10 @@ footer{
     /* ====== about button popover ======= */
     .about-box {
         padding: 32px;
-        display: none;
-        flex-direction: column;
+        z-index: 1003;
+    }
+    .about-box-header{
+        margin-bottom: 20px;
     }
     .about-box-content {
         gap: 40px;
@@ -859,28 +937,22 @@ footer{
         padding-bottom: 100px;
     }
     .about-info{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        justify-content: center;
+        gap: 24px;
     }
     .about-info p{
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 20px;
     }
+    .info-content{
+        width: 600px;
+    } 
     section {
-        background-color: var(--button-default);
         border-radius: 6px;
-        padding: 16px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        gap: 24px;
-    }
-    section p {
-        font-size: 16px;
-        line-height: 22px;
+        gap: 32px;
     }
     section a {
         text-align: center; 
@@ -889,12 +961,6 @@ footer{
         align-items: center; 
         padding: 10px 16px;
         background-color: var(--background);
-        width: 300px;
-    }
-    section a:hover {
-        background-color: var(--black);
-        color: var(--background);
-        transform: scale(1.01);
     }
     /* ==== image lightbox styling ====== */
     #lightbox-close-button {
