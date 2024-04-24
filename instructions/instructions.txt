@@ -1,0 +1,117 @@
+Hi there, welcome to MOMENTO!
+
+To create you own MOMENTO timeline follow the instructions below. 
+
+To change code in the:
+    
+     - index.html
+     - style.css
+     - main.js
+
+Look out for the '🚨' emoji.
+
+🧑‍💻 –––––––––– STEP 1 = COLLATE YOUR IMAGES –––––––––––––––––
+
+1. Source and collate your images that you would like to put in your timeline. Make sure you select one image per week.
+2. Name the images 'WeekXX_YYYY', for example 'Week12_2024', to match the corresponding year and week.
+
+🧑‍💻 –––––––––– STEP 2 = TURN YOUR IMAGES INTO URLS ––––––––––
+
+1. Turn your images into URLS. There is multiple ways you can do this. I suggest uploading them to a platform like Are.na where you can later get the source url after uploading them.
+
+🧑‍💻 –––––––––– STEP 3 = COLLATE IMAGE INFO ––––––––––––––––––
+
+1. Create a google drive and begin collating the metadata for your image collection.
+2. Create columns for the following categories: 'Year' , 'Week' , 'Image', 'Date', 'Location', 'Title', 'Description', 'Alt Text'
+3. Paste the image url in the 'Image' category.
+
+🧑‍💻 –––––––––– STEP 4 = EDIT 'data.json' FILE –––––––––––––––
+
+1. Using the image information you collated, edit the 'data.json' file.
+2. Populate each parentheses set for each images as follows:
+
+    {
+        "Year": "YYYY",
+        "Week": "Week XX",
+        "Image": "your image url,
+        "Date": "DD MM",
+        "Location": "Location of Image",
+        "Title": "Image title",
+        "Description": "Image description",
+        "Alt Text": "Image Alt Text"
+    },
+
+🧑‍💻 –––––––––– STEP 5 = EDIT 'year.json' FILE –––––––––––––––
+
+1. Edit the 'year.json' file for each year you have content for in the following format:
+
+    {
+        "Year": "YYYY",
+        "Description": "Write a brief description about the year and paste it here."
+    },
+
+🧑‍💻 –––––––––– STEP 6 = ADD images to 'assets' folder ––––––
+
+1. Pick your fvourite '8 images' and add them as PNGs to the 'assets' folder, deleting the exisitng images.
+
+🧑‍💻 –––––––––– STEP 7 = ADD favicon to 'assets' folder –––––
+
+1. Add your favicon as a SVG to the 'assets' folder, deleting the exisitng favicon.
+
+🧑‍💻 –––––––––– STEP 8 = EDIT THE 'index.html' FILE ––––––––––
+
+1. At line '11' change the name from Hannah to your own name.
+2. At line '15' change the favicon to the one you added to the 'assets' folder.
+3. At line '69' change the url and svg to a website you want to link.
+4. At line '75' change the url to your own GitHub repo page.
+5. At line '82' change the url to your own personal link.
+6. At lines '106' to '113', change the images to the ones you added to the 'assets' folder.
+
+🧑‍💻 –––––––––– STEP 9 = EDIT THE 'style.html' FILE –––––––––– = only complete this step if you add content outside of the years listed
+
+1. At line '30', add a colour variable for your added year.
+2. At line '188', add in a button for your added year, with the corresponding colour variable.
+
+🧑‍💻 –––––––––– STEP 10 = EDIT THE 'main.js' FILE ––––––––––– = only complete this step if you add content outside of the years listed
+
+1. At line '133' add a const for your added 'btnYYYY' button.
+2. At line '145' add a const for your added 'itemsYYYY' item.
+3. At lines '160' add a const for your added 'yearYYYY' item.
+4. At line '161' change the const to include your add year.
+5. At line '174' add your new button backgroud colour.
+
+6. If you are adding content from a new year not define as 2022, 2023 or 2024 add the following function:
+
+    Where ever you see '20YY' change it for the year you added
+
+    // Function to render 20YY items
+    btn20YY.onclick = () => {
+    console.log("20YY btn clicked");
+
+    // Reset background color of all buttons
+    resetButtonColors();
+
+    // Change background color of the clicked button
+    btn20YY.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--year20YY');
+
+    //hide everything
+    Array.from(itemAll).forEach(item => {
+        console.log(item);
+        item.style.display = 'none';
+    });
+    //show 20YY
+    Array.from(items20YY).forEach(item => {
+        item.style.display = '';
+    });
+
+    //year
+      Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
+    Array.from(year20YY).forEach(item => {
+        item.style.display = '';
+    });
+}
+
+7. At line '291' change 'year2422' to include your added year 'year24YY'.
+8. At line '333' change 'year2422' to include your added year 'year24YY'.

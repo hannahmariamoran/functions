@@ -130,6 +130,7 @@ const btn2024 = document.getElementById('2024');
 const btn2023 = document.getElementById('2023');
 const btn2022 = document.getElementById('2022');
 const btnAll = document.getElementById('All');
+// const btn2021 = document,getElementById('2021');
 
 // Get items from html
 
@@ -140,12 +141,14 @@ const btnAll = document.getElementById('All');
 const itemAll = document.getElementsByClassName('item');
 const items2024 = document.getElementsByClassName('item-2024');
 const items2023 = document.getElementsByClassName('item-2023');
-const items2022 = document.getElementsByClassName('item-2022')
+const items2022 = document.getElementsByClassName('item-2022');
+// const items2021 = document,getElementByClassName('item-2021');s
+
 
 // Get items from html
 
 // 🚨 Add a new year descripton as a const shown below, for exmaple if you are adding content for 2021, add the following:
-    // const year2021 = document,getElementByClassName('year-2021');
+    // const year2021 = document.getElementByClassName('year-2021');
     // Than change the const 'year2422' accordingly to 'year2421'
 // 🚨
 
@@ -154,6 +157,8 @@ const year2024 = document.getElementsByClassName('year-2024');
 const year2023 = document.getElementsByClassName('year-2023');
 const year2022 = document.getElementsByClassName('year-2022');
 const year2422 = document.getElementsByClassName('year-24-22');
+// const year2021 = document.getElementByClassName('year-2021');
+// const year24XX = document.getElementsByClassName('year-24-XX');
 
 // Function to reset background color of all buttons
 
@@ -166,6 +171,7 @@ function resetButtonColors() {
     btn2023.style.backgroundColor = '';
     btn2022.style.backgroundColor = '';
     btnAll.style.backgroundColor = '';
+    // btn2021.style.backgroundColor = '';
 }
 
 // Function to render 2024 items
@@ -213,7 +219,7 @@ btn2023.onclick = () => {
         console.log(item);
         item.style.display = 'none';
     });
-    //show 2024
+    //show 2023
     Array.from(items2023).forEach(item => {
         item.style.display = '';
     });
@@ -242,7 +248,7 @@ btn2022.onclick = () => {
         console.log(item);
         item.style.display = 'none';
     });
-    //show 2024
+    //show 2022
     Array.from(items2022).forEach(item => {
         item.style.display = '';
     });
