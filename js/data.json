@@ -1,6 +1,56 @@
 [
     {
         "Year": "2024",
+        "Week": "Week 21",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/28286585/original_b85702183897ba75d1ed9ab0390a2cbd.jpg?1716650360?bc=0",
+        "Date": "24 May",
+        "Location": "Ohio",
+        "Title": "Cleveland Guardians",
+        "Description": "While travelling around the US, I got to take a tour of the Guardian's baseball stadium in Cleveland, Oiho.",
+        "Alt Text": "A baseball field with home base, and large scoreboard in the background."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 20",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/28286583/original_355bfde5a55325440666b2a8e6343bc4.jpg?1716650358?bc=0",
+        "Date": "15 May",
+        "Location": "New York",
+        "Title": "Parsons Graduation",
+        "Description": "The day had finally come, graduating with my Master's degree from my dream university, Parsons School of Design.",
+        "Alt Text": "A girl wearing graduation robes and a hat, poses on a bridge in Central Park with the Plaza Hotel in the background."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 19",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/28286582/original_598c573465d13b1d41f1456ac057a0d1.jpg?1716650358?bc=0",
+        "Date": "11 May",
+        "Location": "New York",
+        "Title": "Brooklyn Botanical Gardens",
+        "Description": "Finally got to visit the Brooklyn Botanical Gardens, after having it on my list for the longest time.",
+        "Alt Text": "A girl wearing a long white skirt and navy cardigan poses "
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 18",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/28286581/original_a531d018778eceebc6e02bd1ecb40770.jpg?1716650358?bc=0",
+        "Date": "04 May",
+        "Location": "New York",
+        "Title": "Rowing with Siofra",
+        "Description": "Siofra was in town with her fam so we went for lunch and then grabbed rowing boats in Cnetral Park.",
+        "Alt Text": "A girl wearing a navy sweater and white skirt, with dark hair, poses in a rowing boat with a park behind her in the background."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 17",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/28286586/original_8d02fa12b066b0e84373d4216ab15434.jpg?1716650361?bc=0",
+        "Date": "27 Apr",
+        "Location": "New York",
+        "Title": "Annita Gelato",
+        "Description": "After Hotpot at Sabrina's she took us to get gelato on the Upper East Side at Annita Gelato. Life changing!",
+        "Alt Text": "An ice-cream store freezer display with different flavours of gelato in different colours, piled high in tubs."
+    },
+    {
+        "Year": "2024",
         "Week": "Week 16",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27576866/original_7902379bee9121ae955ed7207f2d92a0.jpg?1713218097?bc=0",
         "Date": "15 Apr",
