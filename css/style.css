@@ -15,7 +15,7 @@ html{
 }
 /* ============= colour variables ============= */
 :root {
-    --background: #F6F7F8;
+    --background: #f6f7f8;
     --tabs: #DADCE3;
     --header: #DADCE3;
     --button-default: #EAEBEF;
