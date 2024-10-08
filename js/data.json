@@ -1,6 +1,66 @@
 [
     {
         "Year": "2024",
+        "Week": "Week 40",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267804/original_b07a4e1a0906992f99d0805dd9f5ad73.jpg?1728416230?bc=0",
+        "Date": "5 Oct",
+        "Location": "Dublin",
+        "Title": "Coffee Shop",
+        "Description": "X",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 39",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267799/original_53b2505a4336b2a4b7e69780f33ebb1d.jpg?1728416223?bc=0",
+        "Date": "28 Sept",
+        "Location": "Dublin",
+        "Title": "Vibin",
+        "Description": "X",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 38",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267803/original_dda614f275777b582477155ea16720ae.jpg?1728416230?bc=0",
+        "Date": "20 Sept",
+        "Location": "Dublin",
+        "Title": "Gallery Drawing",
+        "Description": "X",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 37",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267800/original_d9a38c96faeb8106a09ff730586baf7a.jpg?1728416226?bc=0",
+        "Date": "15 Sept",
+        "Location": "Dublin",
+        "Title": "Yellow",
+        "Description": "X",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 36",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267805/original_a649ce7289cf1a31dfe8945eb5fd10fa.jpg?1728416231?bc=0",
+        "Date": "6 Sept",
+        "Location": "Dublin",
+        "Title": "Hannah Squared",
+        "Description": "X",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 35",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267801/original_42782eef1b808038fd87709a0e080eee.jpg?1728416228?bc=0",
+        "Date": "30 Aug",
+        "Location": "Dublin",
+        "Title": "Bambino",
+        "Description": "X",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2024",
         "Week": "Week 34",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/30242583/original_de55ca5a4888540ede8e93bc24dca0ed.jpg?1724700093?bc=0",
         "Date": "23 Aug",
