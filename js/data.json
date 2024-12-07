@@ -1,6 +1,96 @@
 [
     {
         "Year": "2024",
+        "Week": "Week 49",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822168/original_3c2194c24e2b230f73724e8349c7f7eb.jpg?1733610132?bc=0",
+        "Date": "7 Dec",
+        "Location": "Kenmare",
+        "Title": "Chatting Bench",
+        "Description": "Noticed a chatting bench in Kenmare town. A bench to sit and have a chat at.",
+        "Alt Text": "A yellow sign on a bench that reads, sit here if you are happy to have someone chat to you."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 48",
+        "Image": "",
+        "Date": "Date Month",
+        "Location": "Location",
+        "Title": "Title",
+        "Description": "Description.",
+        "Alt Text": "Alt Text."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 47",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822162/original_34305fa29645fc7a7f6bbbf1fad46b4f.jpg?1733610120?bc=0",
+        "Date": "22 Nov",
+        "Location": "Dublin",
+        "Title": "Gladiator at the Stella",
+        "Description": "Going to see Gladiator II at the Stella..",
+        "Alt Text": "A dark cinema screen with red velvet curtains."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 46",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822166/original_030d994bee0069caeeb4f3eed534d1ac.jpg?1733610129?bc=0",
+        "Date": "13 Nov",
+        "Location": "Dublin",
+        "Title": "Bombay Bowl",
+        "Description": "My go to lunch at Sprout. Bombay bowl or nothing.",
+        "Alt Text": "A salad bowl with pickled onion, crispy potatoes and rice."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 45",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822161/original_49f49b374cf4004f19f815d7aab29361.jpg?1733610118?bc=0",
+        "Date": "10 Nov",
+        "Location": "Dublin",
+        "Title": "Flea Market",
+        "Description": "Visiting the Phibsborough flea market with Eszter..",
+        "Alt Text": "A girl looking at a table of knick knacks wearing a brown tartan coat and black shoulder bag."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 44",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822160/original_5c9db069ee3003422569760dfa0ec4ae.jpg?1733610116?bc=0",
+        "Date": "1 Nov",
+        "Location": "Dublin",
+        "Title": "Blending",
+        "Description": "Mom on her way out, blending into Baloo with her fur coat.",
+        "Alt Text": "A woman wearing a grey fur coat, hugging a grey cat on a cat tower."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 43",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822164/original_226c5671fbdeb7bdb978b1ad1836865d.jpg?1733610123?bc=0",
+        "Date": "25 Oct",
+        "Location": "Dublin",
+        "Title": "Kodiak Bathroom",
+        "Description": "Admiring the aesthetics of the bathroom in Kodiak.",
+        "Alt Text": "A tiled bathroom corner with a graphic print on the wall, a midcentury dresser and plants."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 42",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822163/original_af395ff93b1548f0ccff2c9096a7e533.jpg?1733610123?bc=0",
+        "Date": "14 Oct",
+        "Location": "Dublin",
+        "Title": "Cracked Concrete",
+        "Description": "Piece of art at an auction exhibition showing concrete and the Japanese technique of Kintsugi.",
+        "Alt Text": "A large concrete block on a wall, broken into pieces and the cracks filled with gold."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 41",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822076/original_38a32d68f5d4b8dadf0e15e549dd2bef.jpg?1733609883?bc=0",
+        "Date": "10 Oct",
+        "Location": "Dublin",
+        "Title": "Pumpkin Season",
+        "Description": "Carving pumpkins at Rachel's. Spent way too long on this...",
+        "Alt Text": "5 pumpkins carved with different patterns lit up in the dark ."
+    },
+    {
+        "Year": "2024",
         "Week": "Week 40",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/31267804/original_b07a4e1a0906992f99d0805dd9f5ad73.jpg?1728416230?bc=0",
         "Date": "5 Oct",
