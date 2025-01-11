@@ -1,5 +1,55 @@
 [
     {
+        "Year": "2025",
+        "Week": "Week 02",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/33602139/original_b4c143bf8139e65070d77da5d9ef4d1a.jpg?1736634536?bc=0",
+        "Date": "10 Jan",
+        "Location": "Dublin",
+        "Title": "Basil Pepper Marg",
+        "Description": "Starting the new year off strong with Basil Black Pepper margs at Fidelity.",
+        "Alt Text": "A close up of a green margarita drink with a dehydrated lime and a dinner menu."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 01",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/33602137/original_663226937cd3f3a71681c452b512d4d8.jpg?1736634536?bc=0",
+        "Date": "31 Dec",
+        "Location": "Dublin",
+        "Title": "NYE Margs",
+        "Description": "Finishing the year off strong with Elsa's spicy margs.",
+        "Alt Text": "Multiple spicy margatitas on a table with chili lime spice on the rim of the glasses."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 52",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/33602138/original_ecb807c4e89798638f6e7cd327892fd3.jpg?1736634536?bc=0",
+        "Date": "28 Dec",
+        "Location": "Stockholm",
+        "Title": "Fika",
+        "Description": "Fika and catching up with family in Stockholm over the holidays.",
+        "Alt Text": "A close up of a golden cardamom bun."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 51",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/33602140/original_fd426f6e2e6a59a5f059f276c29d56ea.jpg?1736634536?bc=0",
+        "Date": "22 Dec",
+        "Location": "Dublin",
+        "Title": "12 Pubs",
+        "Description": "Classic Christmas tradition which isn't complete without a stop at the Gingerman.",
+        "Alt Text": "The outside of a pub in the dark decorted with light and Christmas decorations."
+    },
+    {
+        "Year": "2024",
+        "Week": "Week 50",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/33602142/original_85c86405e3bfdc5ebb356068fae3fff5.jpg?1736634536?bc=0",
+        "Date": "15 Dec",
+        "Location": "Dublin",
+        "Title": "Xmas at Dublin Castle",
+        "Description": "Spending a cold Sunday at the Dublin Castle Xmas with friends from college.",
+        "Alt Text": "A large Christmas tree with yellow lights stands in the middle of a large hall with ornate decorations."
+    },
+    {
         "Year": "2024",
         "Week": "Week 49",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/32822168/original_3c2194c24e2b230f73724e8349c7f7eb.jpg?1733610132?bc=0",

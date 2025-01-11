@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // 🚨 If you are adding another year, add it as a const shown below, for exmaple if you are adding a filter for 2021, add the following:
     // const btn2021 = document,getElementById('2021');
 // 🚨
-
+const btn2025 = document.getElementById('2025');
 const btn2024 = document.getElementById('2024');
 const btn2023 = document.getElementById('2023');
 const btn2022 = document.getElementById('2022');
@@ -139,6 +139,7 @@ const btnAll = document.getElementById('All');
 // 🚨
 
 const itemAll = document.getElementsByClassName('item');
+const items2025 = document.getElementsByClassName('item-2025');
 const items2024 = document.getElementsByClassName('item-2024');
 const items2023 = document.getElementsByClassName('item-2023');
 const items2022 = document.getElementsByClassName('item-2022');
@@ -153,10 +154,12 @@ const items2022 = document.getElementsByClassName('item-2022');
 // 🚨
 
 const yearAll = document.getElementsByClassName('year-header');
+const year2025 = document.getElementsByClassName('year-2025');
 const year2024 = document.getElementsByClassName('year-2024');
 const year2023 = document.getElementsByClassName('year-2023');
 const year2022 = document.getElementsByClassName('year-2022');
-const year2422 = document.getElementsByClassName('year-24-22');
+const year2522 = document.getElementsByClassName('year-22-22');
+
 // const year2021 = document.getElementByClassName('year-2021');
 // const year24XX = document.getElementsByClassName('year-24-XX');
 
@@ -167,11 +170,42 @@ const year2422 = document.getElementsByClassName('year-24-22');
 // 🚨
 
 function resetButtonColors() {
+    btn2025.style.backgroundColor = '';
     btn2024.style.backgroundColor = '';
     btn2023.style.backgroundColor = '';
     btn2022.style.backgroundColor = '';
     btnAll.style.backgroundColor = '';
     // btn2021.style.backgroundColor = '';
+}
+
+// Function to render 2025 items
+btn2025.onclick = () => {
+    console.log("2025 btn clicked");
+
+    // Reset background color of all buttons
+    resetButtonColors();
+
+    // Change background color of the clicked button
+    btn2025.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--year2025');
+
+    //hide everything
+    Array.from(itemAll).forEach(item => {
+        // console.log(item);
+        item.style.display = 'none';
+    });
+    //show 2025
+    Array.from(items2025).forEach(item => {
+        item.style.display = '';
+    });
+
+    //year
+    Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
+    Array.from(year2025).forEach(item => {
+        item.style.display = '';
+    });
+   
 }
 
 // Function to render 2024 items
@@ -288,7 +322,7 @@ btnAll.onclick = () => {
     // Array.from(year2421).forEach(item => {
     //     item.style.display = '';
     // }); 🚨
-    Array.from(year2422).forEach(item => {
+    Array.from(year2522).forEach(item => {
         item.style.display = '';
     });
 }
@@ -327,7 +361,7 @@ fetch('js/data.json')
             // Array.from(year2421).forEach(item => {
             //     item.style.display = '';
             // }); 🚨
-            Array.from(year2422).forEach(item => {
+            Array.from(year2522).forEach(item => {
                 item.style.display = '';
             });
         })

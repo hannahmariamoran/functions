@@ -21,7 +21,8 @@ html{
     --button-default: #EAEBEF;
     --black: #31313A;
     --darkgrey: #4C4D5C;
-    --yearAll: #FFCBF0;
+    --yearAll: #fee68f;
+    --year2025: #FFCBF0;
     --year2024: #E4B8F8;
     --year2023: #92DFF7;
     --year2022: #A8F5A8;
@@ -173,6 +174,9 @@ header{
 }
 .btn-all:hover{
     background-color: var(--yearAll);
+}
+.btn-2025:hover{
+    background-color: var(--year2025);
 }
 .btn-2024:hover{
     background-color: var(--year2024);
