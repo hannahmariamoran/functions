@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// This is the codee for the year filters, so when user clicks on button, it only shows content from that year in the timeline //
+// This is the code for the year filters, so when user clicks on button, it only shows content from that year in the timeline //
 
 // Get the year btn from html
 
@@ -158,7 +158,7 @@ const year2025 = document.getElementsByClassName('year-2025');
 const year2024 = document.getElementsByClassName('year-2024');
 const year2023 = document.getElementsByClassName('year-2023');
 const year2022 = document.getElementsByClassName('year-2022');
-const year2522 = document.getElementsByClassName('year-22-22');
+const year2522 = document.getElementsByClassName('year-22-25');
 
 // const year2021 = document.getElementByClassName('year-2021');
 // const year24XX = document.getElementsByClassName('year-24-XX');
