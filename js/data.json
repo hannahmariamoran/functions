@@ -1,13 +1,53 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 06",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/34399754/original_0c266fe7e935975f9cd11b6e81764f86.jpg?1739136963?bc=0",
+        "Date": "8 Feb",
+        "Location": "Dublin",
+        "Title": "Midnight Pizza",
+        "Description": "Mandatory stop at Bambinos after a few drinks. Hot honey a must.",
+        "Alt Text": "Two large slices of pepperoni on paper plates with jalapenos and hot honey."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 05",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/34399752/original_709373125c923309409f58bb69ba4a35.jpg?1739136960?bc=0",
+        "Date": "2 Feb",
+        "Location": "London",
+        "Title": "ABBA Voyage",
+        "Description": "Dancing (Queen) all night long to ABBA's hits",
+        "Alt Text": "The outside of an arena lit up with the word 'ABBA' in rainbow colours."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 04",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/34399753/original_a5efe3ae0682169c895ea25395374f82.jpg?1739136962?bc=0",
+        "Date": "25 Jan",
+        "Location": "Amsterdam",
+        "Title": "Tulip Market",
+        "Description": "Surprise trip to the birth city for mom's birthday.",
+        "Alt Text": "Colourful bunches of tulips in different buckets at a flower market stand."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 03",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/34399755/original_14cb82d8c460cf1c5b072576fb37e727.jpg?1739136964?bc=0",
+        "Date": "18 Jan",
+        "Location": "Wicklow",
+        "Title": "King of the Hill",
+        "Description": "Deer are definitely drawn to Siofra's winegums.",
+        "Alt Text": "A stag with large antlers on top of a hill in the mountains with a grey sky in the background."
+    },
+    {
+        "Year": "2025",
         "Week": "Week 02",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/33679652/original_b6f360869dfa9b1ba4fc58fd6be4f509.jpg?1736887862?bc=0",
         "Date": "12 Jan",
         "Location": "Wicklow",
         "Title": "Snow Shoes",
         "Description": "First hike of the year in snowy Wicklow mountains.",
-        "Alt Text": "A hiking boot on someone's foot in the snow on a mountain"
+        "Alt Text": "A hiking boot on someone's foot in the snow on a mountain."
     },
     {
         "Year": "2025",
