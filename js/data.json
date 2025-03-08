@@ -1,6 +1,36 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 09",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35071647/original_dc7f2b8a3feec8928154ae3e41d6a7f6.jpg?1741435534?bc=0",
+        "Date": "2 Mar",
+        "Location": "Dublin",
+        "Title": "Seals in Howth",
+        "Description": "The seals in Howth Harbour fishing for food at the Guiness Oyster Festival.",
+        "Alt Text": "4 seal heads bobbing in the water looking up at people on a pier. Blue water and grey pier."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 08",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35071649/original_e09ccebc6fe39315fc10d4a748af112f.jpg?1741435535?bc=0",
+        "Date": "21 Feb",
+        "Location": "Dublin",
+        "Title": "Kicky's",
+        "Description": "Birthday dinner at Kicky's with the fam. Best beef tartare and basque cheesecake!",
+        "Alt Text": "Two dishes on a table in a restraunt, one beef tartare with greens and one pasta dish with cheese."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 07",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35071648/original_7ff9812412eefb45d960a077a40c4185.jpg?1741435535?bc=0",
+        "Date": "14 Feb",
+        "Location": "Dublin",
+        "Title": "Pasta Party",
+        "Description": "Hosting a pasta party for Valentine's Day.",
+        "Alt Text": "A dinner party table set-up decorated with roses and hearts. Pasta and wine on the table too."
+    },
+    {
+        "Year": "2025",
         "Week": "Week 06",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/34399754/original_0c266fe7e935975f9cd11b6e81764f86.jpg?1739136963?bc=0",
         "Date": "8 Feb",
@@ -16,7 +46,7 @@
         "Date": "2 Feb",
         "Location": "London",
         "Title": "ABBA Voyage",
-        "Description": "Dancing (Queen) all night long to ABBA's hits",
+        "Description": "Dancing (Queen) all night long to ABBA's greatest hits.",
         "Alt Text": "The outside of an arena lit up with the word 'ABBA' in rainbow colours."
     },
     {
