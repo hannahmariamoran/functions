@@ -1,6 +1,46 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 13",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35800564/original_6222b7500dedfec33f1feaa00f32d744.jpg?1743970599?bc=0",
+        "Date": "6 Apr",
+        "Location": "Wicklow",
+        "Title": "Maulin Head",
+        "Description": "Best weather ever for views as far as Howth from Maulin Head.",
+        "Alt Text": "A view from a mountain top looking out on other mountains and a sea with blue skies."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 12",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35800561/original_c9c3d42a583d7c148143e4a471b3a4bf.jpg?1743970597?bc=0",
+        "Date": "28 Mar",
+        "Location": "Limerick",
+        "Title": "GASP!",
+        "Description": "Fun weekend in Limerick getting to attend GASP! Design Conference.",
+        "Alt Text": "Three people holding name tags at a conference with their names on red lanyards."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 11",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35800628/original_98fdb60f1fb78a33f78ce70297a9ef24.png?1743970932?bc=0",
+        "Date": "22 Mar",
+        "Location": "Wexford",
+        "Title": "Creative Grounds",
+        "Description": "Down in Wexford to see Grace's Higgle exhibit.",
+        "Alt Text": "Three girls sit around a table in a coffee shop with mugs chatting."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 10",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35800626/original_98aa6add518abb76eb4876c36488512f.png?1743970930?bc=0",
+        "Date": "16 Mar",
+        "Location": "Dublin",
+        "Title": "Festive for St Patrick",
+        "Description": "Nails and green glitter for the weekend that's in it.",
+        "Alt Text": "Green nails on a hand rested against a green glitter skirt."
+    },
+    {
+        "Year": "2025",
         "Week": "Week 09",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/35071647/original_dc7f2b8a3feec8928154ae3e41d6a7f6.jpg?1741435534?bc=0",
         "Date": "2 Mar",
