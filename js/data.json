@@ -1,6 +1,56 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 19",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/36752703/original_7e45d0f26da4835b1512b7abcfe6079a.jpg?1747412321?bc=0",
+        "Date": "12 May",
+        "Location": "Lima",
+        "Title": "Exploring Barranco",
+        "Description": "By far my favourite area in lima, full of cafés, cute shops and street art.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 18",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/36752705/original_c24b996028a99bcddac7dd60a5808e5f.jpg?1747412324?bc=0",
+        "Date": "06 May",
+        "Location": "Andes",
+        "Title": "Machu Picchu",
+        "Description": "After hiking and camping for four days, finally made it to the postcard view.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 17",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/36752700/original_6b8fe8fb6d7464ad9e598afdeb91f7bc.jpg?1747412315?bc=0",
+        "Date": "30 Apr",
+        "Location": "Amazon",
+        "Title": "Piranha Fishing",
+        "Description": "Having little success fishing for Piranhas in the Peruvian Amazon.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 16",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/36752702/original_f4d0b0c333a989fb4918c4e9ee0a41f2.jpg?1747412320?bc=0",
+        "Date": "27 Apr",
+        "Location": "Lima",
+        "Title": "Arriving in Lima",
+        "Description": "First day exploring Lima's historical district and colonial architecture.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 15",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/36752704/original_8c24c145ade59922aece8c01a30ea6ee.jpg?1747412322?bc=0",
+        "Date": "20 Apr",
+        "Location": "Belfast",
+       "Title": "Record",
+        "Description": "Short trip up to Belfast with the girls for the bank holiday weekend.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2025",
         "Week": "Week 14",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/36018076/original_95a8e7bd55ab5a07ea4c0003ce9b139b.jpg?1744746228?bc=0",
         "Date": "10 Apr",
@@ -136,7 +186,7 @@
         "Date": "31 Dec",
         "Location": "Dublin",
         "Title": "NYE Margs",
-        "Description": "Finishing the year off strong with Elsa's spicy margs.",
+        "Description": "Finishing (or starting!) the year off strong with Elsa's spicy margs.",
         "Alt Text": "Multiple spicy margatitas on a table with chili lime spice on the rim of the glasses."
     },
     {
