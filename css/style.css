@@ -167,8 +167,17 @@ header{
 .tabs{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.65rem;
+    -webkit-overflow-scrolling: touch; 
+    scrollbar-width: none; 
+    margin: 0 -1rem;
+    padding: 0 1rem;
 }
+.tabs::-webkit-scrollbar {
+    display: none; 
+  }
 .tabs a {
     background-color: var(--button-default);
 }
