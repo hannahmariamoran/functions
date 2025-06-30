@@ -1,6 +1,26 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 25",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/37777416/original_71101a6715e153df38260f89889b2fa9.jpg?1751309376?bc=0",
+        "Date": "27 June",
+        "Location": "Lake Como",
+        "Title": "Varenna Views",
+        "Description": "Day trip to Lake Como while in Milan for a wedding.",
+        "Alt Text": "A view from the lake of a small Italian lakeside village set in front of a mountain."
+    },
+    {
+        "Year": "2025",
+        "Week": "Week 24",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/37777415/original_1fd5d714ac3d2be78c9726b28d898b79.jpg?1751309370?bc=0",
+        "Date": "22 June",
+        "Location": "London",
+        "Title": "London Trip",
+        "Description": "Quick weekend trip to London with Luke to visit Eoin.",
+        "Alt Text": "The backs of two males walking across a bridge with the London skyline."
+    },
+    {
+        "Year": "2025",
         "Week": "Week 23",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/37452391/original_4c074f72412a71b3372500393cfae04a.jpg?1750020380?bc=0",
         "Date": "14 June",
