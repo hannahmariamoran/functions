@@ -1,12 +1,22 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 27",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/38078058/original_8f6977841feec161a752abdf03adbfaa.jpg?1752421823?bc=0",
+        "Date": "12 July",
+        "Location": "Dublin",
+        "Title": "A Kerry win",
+        "Description": "Saturday spent at Croke Park watching Kerry make it to the final.",
+        "Alt Text": "GAA football players playing a match on a sunny afternoon in a stadium."
+    },
+    {
+        "Year": "2025",
         "Week": "Week 26",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/37891139/original_96748182be9e5bee40ef4b404669cb03.jpg?1751743017?bc=0",
         "Date": "3 July",
         "Location": "Dublin",
         "Title": "Cartoon Bonnie",
-        "Description": "A cartoon drawing of Bonnie on the Dart.",
+        "Description": "A cartoon drawing of Bonnie on the Dart done by Keith.",
         "Alt Text": "A cartoon drawing of a white Westhighland Terrier on a train seat."
     },
     {
