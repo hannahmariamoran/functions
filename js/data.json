@@ -1,6 +1,26 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 40",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/40260135/original_b7e92f3ddcbc512bab1732ffbeef60ac.jpg?1760266939?bc=0",
+        "Date": "11 Oct",
+        "Location": "Dublin",
+        "Title": "Palestinian Cola",
+        "Description": "A quick snack at Mani with some Palestinian cola.",
+        "Alt Text": "A hand holding a white and black drink can."
+    }, 
+    {
+        "Year": "2025",
+        "Week": "Week 39",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/40260134/original_73977846267ca06dda3985fded8ca7f9.jpg?1760266939?bc=0",
+        "Date": "05 Oct",
+        "Location": "Dublin",
+        "Title": "Yoga and Acai",
+        "Description": "Acai and coffee with Rosie and Elsa after our yoga class.",
+        "Alt Text": "Three girls sat on a bench in a park by the sea with coffees and acai bowls."
+    }, 
+    {
+        "Year": "2025",
         "Week": "Week 38",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/39945488/original_3ddd72994802dea348f0ed27107d87a4.jpg?1759172832?bc=0",
         "Date": "27 Sep",
