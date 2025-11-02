@@ -125,6 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // 🚨 If you are adding another year, add it as a const shown below, for exmaple if you are adding a filter for 2021, add the following:
     // const btn2021 = document,getElementById('2021');
 // 🚨
+const btn2026 = document.getElementById('2026');
 const btn2025 = document.getElementById('2025');
 const btn2024 = document.getElementById('2024');
 const btn2023 = document.getElementById('2023');
@@ -139,6 +140,7 @@ const btnAll = document.getElementById('All');
 // 🚨
 
 const itemAll = document.getElementsByClassName('item');
+const items2026 = document.getElementsByClassName('item-2026');
 const items2025 = document.getElementsByClassName('item-2025');
 const items2024 = document.getElementsByClassName('item-2024');
 const items2023 = document.getElementsByClassName('item-2023');
@@ -154,14 +156,15 @@ const items2022 = document.getElementsByClassName('item-2022');
 // 🚨
 
 const yearAll = document.getElementsByClassName('year-header');
+const year2026 = document.getElementsByClassName('year-2026');
 const year2025 = document.getElementsByClassName('year-2025');
 const year2024 = document.getElementsByClassName('year-2024');
 const year2023 = document.getElementsByClassName('year-2023');
 const year2022 = document.getElementsByClassName('year-2022');
-const year2522 = document.getElementsByClassName('year-22-25');
+const year2622 = document.getElementsByClassName('year-22-26');
 
 // const year2021 = document.getElementByClassName('year-2021');
-// const year24XX = document.getElementsByClassName('year-24-XX');
+// const year25XX = document.getElementsByClassName('year-24-XX');
 
 // Function to reset background color of all buttons
 
@@ -170,12 +173,43 @@ const year2522 = document.getElementsByClassName('year-22-25');
 // 🚨
 
 function resetButtonColors() {
+    btn2026.style.backgroundColor = '';
     btn2025.style.backgroundColor = '';
     btn2024.style.backgroundColor = '';
     btn2023.style.backgroundColor = '';
     btn2022.style.backgroundColor = '';
     btnAll.style.backgroundColor = '';
     // btn2021.style.backgroundColor = '';
+}
+
+// Function to render 2026 items
+btn2026.onclick = () => {
+    console.log("2026 btn clicked");
+
+    // Reset background color of all buttons
+    resetButtonColors();
+
+    // Change background color of the clicked button
+    btn2026.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--year2026');
+
+    //hide everything
+    Array.from(itemAll).forEach(item => {
+        // console.log(item);
+        item.style.display = 'none';
+    });
+    //show 2026
+    Array.from(items2026).forEach(item => {
+        item.style.display = '';
+    });
+
+    //year
+    Array.from(yearAll).forEach(item => {
+        item.style.display = 'none';
+    });
+    Array.from(year2026).forEach(item => {
+        item.style.display = '';
+    });
+   
 }
 
 // Function to render 2025 items
@@ -322,7 +356,7 @@ btnAll.onclick = () => {
     // Array.from(year2421).forEach(item => {
     //     item.style.display = '';
     // }); 🚨
-    Array.from(year2522).forEach(item => {
+    Array.from(year2622).forEach(item => {
         item.style.display = '';
     });
 }
@@ -361,7 +395,7 @@ fetch('js/data.json')
             // Array.from(year2421).forEach(item => {
             //     item.style.display = '';
             // }); 🚨
-            Array.from(year2522).forEach(item => {
+            Array.from(year2622).forEach(item => {
                 item.style.display = '';
             });
         })
