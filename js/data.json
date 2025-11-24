@@ -1,6 +1,36 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 46",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/41351607/original_82609d27a8062831a6f6ad31e81a839b.jpg?1764016708?bc=0",
+        "Date": "22 Nov",
+        "Location": "London",
+        "Title": "Royel Otis",
+        "Description": "Quick trip over to London to see Royel Otis at the O2 Brixton.",
+        "Alt Text": "A view of a band on stage with a colour full typographic display behind them."
+    }, 
+    {
+        "Year": "2025",
+        "Week": "Week 45",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/41351605/original_038c16330f9e3d42055b019e45244f80.jpg?1764016707?bc=0",
+        "Date": "10 Nov",
+        "Location": "Dublin",
+        "Title": "DEFUSE",
+        "Description": "Conquering stage fright and getting up to speak in front of 400 people.",
+        "Alt Text": "A girl dressed in a brown blazer and jeans on stage with a slideshow behind her featuring a slide of a robotic hand touching a human hand."
+    }, 
+    {
+        "Year": "2025",
+        "Week": "Week 44",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/41351606/original_e7e975db6b6e789d44f711205cb7eb6b.jpg?1764016707?bc=0",
+        "Date": "07 Nov",
+        "Location": "Dublin",
+        "Title": "Amy Austin",
+        "Description": "Cute mexican-inspired dinner at Amy Austin next to Drury Street carpark.",
+        "Alt Text": "A bird's eye view of a table top in a restaraunt featuring cocktails, bread, cutlery and a small dish."
+    }, 
+    {
+        "Year": "2025",
         "Week": "Week 43",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/40786299/original_19883dd62b2f7ce328c7c590cdf86517.jpg?1762093973?bc=0",
         "Date": "01 Nov",
