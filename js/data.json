@@ -1,12 +1,22 @@
 [
     {
         "Year": "2025",
+        "Week": "Week 50",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/42009885/original_700833eaff1bad93c975a60683a281ab.jpg?1766515096?bc=0",
+        "Date": "20 Dec",
+        "Location": "Dublin",
+        "Title": "12 Pubs",
+        "Description": "Found a burger on 12 Pubs that followed us around the night.",
+        "Alt Text": "A girl wearing a blue hood and leather jacket holding a small foam burger,"
+    },
+    {
+        "Year": "2025",
         "Week": "Week 49",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/41794899/original_206b2d66be3468111f83e0bcc7ad223a.jpg?1765721835?bc=0",
         "Date": "13 Dec",
         "Location": "Dublin",
         "Title": "Cookie Tradition",
-        "Description": "Keeping up the annual traidition of baking gingerbread cookies.",
+        "Description": "Keeping up the annual tradition of baking gingerbread cookies.",
         "Alt Text": "Gingerbread cookies on a wooden board decorated with white icing."
     },
     {
@@ -1538,16 +1548,6 @@
         "Title": "Teddy on the table",
         "Description": "Teddy sunbathing on the garden table.",
         "Alt Text": "A white Tibetan Terrier lying on a garden table."
-    },
-    {
-        "Year": "2022",
-        "Week": "Week 24",
-        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/27417979/original_25dfbc805ec1cbcd83865d1b86e020d1.jpg?1712442976?bc=0",
-        "Date": "18 Jun",
-        "Location": "Dublin",
-        "Title": "Painting",
-        "Description": "Some afternoon painting with Tom and Sonny.",
-        "Alt Text": "Two small boys sitting at a kitchen table with easels painting on a canvad."
     },
     {
         "Year": "2022",
