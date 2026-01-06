@@ -1,5 +1,15 @@
 [
     {
+        "Year": "2026",
+        "Week": "Week 01",
+        "Image": "",
+        "Date": "00 Jan",
+        "Location": "Dublin",
+        "Title": "Week 1",
+        "Description": "Description",
+        "Alt Text": "Alt text."
+    }, 
+    {
         "Year": "2025",
         "Week": "Week 52",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/42221650/original_b7592dbe771a062c69801c2a535b6e72.jpg?1767186073?bc=0",
