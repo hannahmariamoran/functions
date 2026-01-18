@@ -1,6 +1,16 @@
 [
     {
         "Year": "2026",
+        "Week": "Week 02",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/42758583/original_bd3ecf5c52d1fbef8a9cb328fe42e6ec.jpg?1768756094?bc=0",
+        "Date": "16 Jan",
+        "Location": "Dublin",
+        "Title": "Rosie's 25th",
+        "Description": "Celebrating Rosie's quarter life crisis, aka 25th birthday!",
+        "Alt Text": "Three girls wearing party outfits stand together in a kitchen."
+    }, 
+    {
+        "Year": "2026",
         "Week": "Week 01",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/42558735/original_a037c0529c82868b66fc1399cfba138a.jpg?1768158062?bc=0",
         "Date": "11 Jan",
