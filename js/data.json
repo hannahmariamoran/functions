@@ -1,6 +1,36 @@
 [
     {
         "Year": "2026",
+        "Week": "Week 05",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/43302307/original_e591295be3baf2aa94680e093c947a9a.jpg?1770215722?bc=0",
+        "Date": "03 Feb",
+        "Location": "Dublin",
+        "Title": "Arancini & Meatballs",
+        "Description": "Celebratory dinner at Reggies in Rathmines. ",
+        "Alt Text": "A close up image of arancini balls and meatballs in marinara sauce with sourdough bread on the side."
+    }, 
+    {
+        "Year": "2026",
+        "Week": "Week 04",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/43302306/original_9ef567704e4414389cf76750ee3d7a9d.jpg?1770215721?bc=0",
+        "Date": "31 Jan",
+        "Location": "Stockholm",
+        "Title": "Swedish Snow",
+        "Description": "Snow capped roofs on colourful buildings in Stockholm.",
+        "Alt Text": "A close up image of the orange roof of a green building covered in snow under a blue sky."
+    }, 
+    {
+        "Year": "2026",
+        "Week": "Week 03",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/43302309/original_237078acbdb4fad746862f95d943a880.jpg?1770215728?bc=0",
+        "Date": "23 Jan",
+        "Location": "Dublin",
+        "Title": "Work from Home",
+        "Description": "Baloo trying to distract me from work.",
+        "Alt Text": "A grey british shorthair with orange eye sitting behind a laptop corner staring into the camera."
+    }, 
+    {
+        "Year": "2026",
         "Week": "Week 02",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/42758583/original_bd3ecf5c52d1fbef8a9cb328fe42e6ec.jpg?1768756094?bc=0",
         "Date": "16 Jan",
