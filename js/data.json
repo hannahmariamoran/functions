@@ -1,6 +1,56 @@
 [
     {
         "Year": "2026",
+        "Week": "Week 10",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/44328171/original_8615d0154fce3510a5c6f0091ff04835.jpg?1773231720?bc=0",
+        "Date": "09 Mar",
+        "Location": "Marrakesh",
+        "Title": "Balooning",
+        "Description": "Trying out the hot air baloons in Marrakesh at 6am.",
+        "Alt Text": "A girl stands in front of deflated hot air baloons."
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 09",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/44328172/original_dcbc6a9511d0dae5061f0512dafd034a.jpg?1773231722?bc=0",
+        "Date": "05 Mar",
+        "Location": "Marrakesh",
+        "Title": "Moroccan Tiling",
+        "Description": "The courtyard of our Riad, how beautiful.",
+        "Alt Text": "An ornate titled fountain over a small plunge pool surrounded by greenery."
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 08",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/44328169/original_71bd423360cc2d77f569f3c1af3e7540.jpg?1773231720?bc=0",
+        "Date": "25 Feb",
+        "Location": "Dublin",
+        "Title": "Side Eye",
+        "Description": "Baloo giving me the side eye while I work from home.",
+        "Alt Text": "A blue british short hair lying down on her back on a a cream carpet."
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 07",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/44328173/original_da306f54410b29b0c7c1aae823cb4db1.jpg?1773231723?bc=0",
+        "Date": "22 Feb",
+        "Location": "Dublin",
+        "Title": "Omakase",
+        "Description": "Birthday celebrations at an omakase experience.",
+        "Alt Text": "A close up image of a sushi chef cutting raw fish."
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 06",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/44328170/original_e3c8179351dacf41fef4591b5e3ef3dd.jpg?1773231722?bc=0",
+        "Date": "15 Feb",
+        "Location": "Dublin",
+        "Title": "Pottery Painting",
+        "Description": "Painting a whale with Hannah and Alexa.",
+        "Alt Text": "A deglazed mug with a painting of a blue whale on it."
+    },
+    {
+        "Year": "2026",
         "Week": "Week 05",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/43302307/original_e591295be3baf2aa94680e093c947a9a.jpg?1770215722?bc=0",
         "Date": "03 Feb",
@@ -224,7 +274,7 @@
         "Week": "Week 35",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/39367994/original_fd538496593b96c45a0bf7b448f4f973.jpg?1757277713?bc=0",
         "Date": "6 Sep",
-        "Location": "Dunmore East",
+        "Location": "Waterford",
         "Title": "Running from waves",
         "Description": "Tryng not to get splashed by the freezing cold water.",
         "Alt Text": "Three girls standing by stones on the beach running from waves."
