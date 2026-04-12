@@ -1,6 +1,46 @@
 [
     {
         "Year": "2026",
+        "Week": "Week 14",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/45225536/original_7cd837ac9bcad3ab313ca5d911b6216b.jpg?1776013382?bc=0",
+        "Date": "12 Apr",
+        "Location": "Dublin",
+        "Title": "Flea Market",
+        "Description": "Checking out the new local flea market.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 13",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/45225490/original_41fed4ae6cd922d71f577670bc27c952.jpg?1776013244?bc=0",
+        "Date": "02 Apr",
+        "Location": "Dublin",
+        "Title": "Flight Club",
+        "Description": "Playing darts with some post-work drinks.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 12",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/45225489/original_27fca1fa25ec2dd60252b3b693b60b07.jpg?1776013244?bc=0",
+        "Date": "29 Mar",
+        "Location": "Paris",
+        "Title": "Lonely Baguette",
+        "Description": "A fallen baguette alone on a Parisian street.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2026",
+        "Week": "Week 11",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/45225488/original_7a531553805b05a831ab7347714b5ac5.jpg?1776013243?bc=0",
+        "Date": "14 Mar",
+        "Location": "Dublin",
+        "Title": "Mystery Megan",
+        "Description": "Sherlock Holmes tasting menu at Six By Nico.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2026",
         "Week": "Week 10",
         "Image": "https://d2w9rnfcy7mm78.cloudfront.net/44328171/original_8615d0154fce3510a5c6f0091ff04835.jpg?1773231720?bc=0",
         "Date": "09 Mar",
