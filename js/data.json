@@ -1,8 +1,18 @@
 [
     {
         "Year": "2026",
+        "Week": "Week 19",
+        "Image": "images/Week_19.jpg",
+        "Date": "15 May",
+        "Location": "Dublin",
+        "Title": "New Top",
+        "Description": "Ask Elsa, I'm always buying tops this colour.",
+        "Alt Text": "X"
+    },
+    {
+        "Year": "2026",
         "Week": "Week 18",
-        "Image": "",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/46252677/original_92de57e7065e4d68d30c991ecccc4b35.jpeg?1779012426?bc=0",
         "Date": "09 May",
         "Location": "London",
         "Title": "Eoin's Birthday",
@@ -12,27 +22,27 @@
     {
         "Year": "2026",
         "Week": "Week 17",
-        "Image": "",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/46252676/original_e2a0955cd220a3243801e59c6ddaabff.jpeg?1779012422?bc=0",
         "Date": "02 May",
         "Location": "Lisbon",
-        "Title": "City views",
+        "Title": "City Views",
         "Description": "Spending the bank holiday weekend exploring Lisbon.",
         "Alt Text": "X"
     },
     {
         "Year": "2026",
         "Week": "Week 16",
-        "Image": "",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/46252679/original_8df9ebc472efbb5d58110186b7ae51ec.jpeg?1779012430?bc=0",
         "Date": "23 April",
         "Location": "Dublin",
-        "Title": "Under the tree",
+        "Title": "Under the Tree",
         "Description": "Swans having a rest, but I actually think protecting a nest.",
         "Alt Text": "X"
     },
     {
         "Year": "2026",
         "Week": "Week 15",
-        "Image": "",
+        "Image": "https://d2w9rnfcy7mm78.cloudfront.net/46252678/original_80bb1b4e900259dade10943a8b644d48.jpeg?1779012428?bc=0",
         "Date": "19 April",
         "Location": "Dublin",
         "Title": "Backyard BBQ",
